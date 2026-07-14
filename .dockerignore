@@ -1,0 +1,14 @@
+node_modules
+npm-debug.log
+logs/
+src/database/jokes.db
+src/database/jokes_test.db
+.env
+tests/
+Dockerfile
+.dockerignore
+.git
+.github
+.agents
+project-info.txt
+README.md

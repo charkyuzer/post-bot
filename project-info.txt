@@ -1,0 +1,587 @@
+Product Requirements Document (PRD)
+Project Name
+
+AutoJokeX – Autonomous Twitter (X) Joke Posting Bot
+
+1. Project Overview
+Objective
+
+Build a fully automated bot that posts one funny joke on X (Twitter) every hour without any human intervention.
+
+The bot should:
+
+Run 24×7.
+Automatically publish jokes every hour.
+Never post the same joke twice until all jokes are exhausted.
+Maintain complete logs.
+Recover automatically from crashes.
+Be production-ready.
+Use no paid AI APIs.
+Use a local joke database instead of AI-generated content.
+
+The system should be designed in a modular way so future upgrades (AI joke generation, image memes, multiple accounts, analytics, etc.) can be added without major code changes.
+
+2. Goals
+Primary Goals
+Automatic hourly posting
+Zero manual work after deployment
+Reliable scheduling
+Duplicate prevention
+Easy deployment
+Maintainable codebase
+Secondary Goals
+Analytics
+Category support
+Multiple Twitter accounts
+Dashboard
+Docker support
+CI/CD
+3. Scope
+Included
+Twitter posting
+Joke management
+Scheduling
+Database
+Logging
+Error handling
+Retry system
+Deployment
+Excluded (Version 1)
+AI-generated jokes
+Meme generation
+Web dashboard
+User authentication
+Mobile app
+4. Functional Requirements
+FR-1 Joke Repository
+
+The system shall maintain a repository of jokes.
+
+Fields
+ID
+
+Category
+
+Joke
+
+Status
+
+Created At
+
+Posted At
+
+Example
+
+ID: 21
+
+Category:
+Programming
+
+Joke:
+Why do Java developers wear glasses?
+Because they don't C#.
+
+Status:
+Pending
+
+Posted At:
+NULL
+FR-2 Joke Categories
+
+Supported categories:
+
+Programming
+
+Dad Jokes
+
+Office
+
+College
+
+Engineering
+
+Technology
+
+Relationship
+
+Animals
+
+Puns
+
+Random
+
+Future categories can be added without changing the application logic.
+
+FR-3 Scheduler
+
+Scheduler runs every hour.
+
+Example
+
+00:00
+
+↓
+
+01:00
+
+↓
+
+02:00
+
+↓
+
+03:00
+
+...
+
+The scheduler should trigger automatically after server startup.
+
+FR-4 Joke Selection
+
+When scheduler starts:
+
+Find first pending joke
+
+↓
+
+Return joke
+
+↓
+
+Lock joke temporarily
+
+↓
+
+Send to Twitter
+
+↓
+
+If success
+
+↓
+
+Mark as posted
+
+↓
+
+Unlock
+FR-5 Duplicate Prevention
+
+A joke already marked as posted shall never be selected again.
+
+When all jokes become posted:
+
+System configuration decides:
+
+Option A
+
+Reset all jokes
+
+↓
+
+Start again
+
+Option B
+
+Stop posting
+
+↓
+
+Notify admin
+FR-6 Twitter Posting
+
+The system shall publish:
+
+Plain text jokes
+
+OR
+
+Joke + Hashtags
+
+OR
+
+Emoji + Joke
+
+Maximum tweet length must always remain under X's character limit.
+
+FR-7 Retry Mechanism
+
+If Twitter API fails
+
+Retry 1
+
+↓
+
+Retry 2
+
+↓
+
+Retry 3
+
+↓
+
+Fail
+
+↓
+
+Log error
+FR-8 Logging
+
+Every event should be logged.
+
+Example
+
+Server Started
+
+Cron Triggered
+
+Selected Joke
+
+Tweet Posted
+
+Tweet Failed
+
+Retry
+
+Database Updated
+
+Shutdown
+FR-9 Crash Recovery
+
+If server crashes
+
+Restart
+
+↓
+
+Continue from last joke
+
+↓
+
+Never lose progress
+FR-10 Configuration
+
+Everything configurable through environment variables.
+
+Example
+
+Posting Interval
+
+Twitter Keys
+
+Database Path
+
+Log Level
+
+Retry Count
+5. Non Functional Requirements
+Performance
+
+Selecting joke
+
+<50ms
+
+Posting
+
+<5 seconds
+
+Memory
+
+<200MB
+
+CPU
+
+Very Low
+
+Availability
+
+24×7
+6. Tech Stack
+
+Backend
+
+Node.js
+
+Framework
+
+Express.js
+
+Scheduler
+
+node-cron
+
+Twitter API
+
+twitter-api-v2
+
+Database
+
+SQLite
+
+Logging
+
+Winston
+
+Environment
+
+dotenv
+
+Deployment
+
+Docker
+
+Railway
+
+Render
+
+VPS
+7. Folder Structure
+twitter-bot/
+
+│
+
+├── src/
+
+│   ├── config/
+
+│   │      db.js
+
+│   │      twitter.js
+
+│   │
+
+│   ├── controllers/
+
+│   │
+
+│   ├── routes/
+
+│   │
+
+│   ├── services/
+
+│   │      jokeService.js
+
+│   │      twitterService.js
+
+│   │      schedulerService.js
+
+│   │      loggerService.js
+
+│   │
+
+│   ├── repository/
+
+│   │      jokeRepository.js
+
+│   │
+
+│   ├── models/
+
+│   │      Joke.js
+
+│   │
+
+│   ├── utils/
+
+│   │      logger.js
+
+│   │
+
+│   ├── database/
+
+│   │      jokes.db
+
+│   │
+
+│   ├── jobs/
+
+│   │      hourlyJob.js
+
+│   │
+
+│   └── app.js
+
+│
+
+├── logs/
+
+├── docker/
+
+├── tests/
+
+├── .env
+
+├── package.json
+
+└── README.md
+8. Database Design
+Table: jokes
+Column	Type
+id	INTEGER
+category	TEXT
+joke	TEXT
+status	TEXT
+posted_at	DATETIME
+created_at	DATETIME
+Table: tweet_logs
+Column	Type
+id	INTEGER
+joke_id	INTEGER
+tweet_id	TEXT
+success	BOOLEAN
+response	TEXT
+created_at	DATETIME
+9. Application Flow
+Application Starts
+
+↓
+
+Load Environment Variables
+
+↓
+
+Connect Database
+
+↓
+
+Load Scheduler
+
+↓
+
+Wait Until Next Hour
+
+↓
+
+Scheduler Triggered
+
+↓
+
+Fetch Pending Joke
+
+↓
+
+Post to Twitter
+
+↓
+
+Success?
+
+↓
+
+Yes
+
+↓
+
+Update Database
+
+↓
+
+Write Log
+
+↓
+
+Sleep
+
+↓
+
+Repeat
+10. Error Flow
+Twitter API Error
+
+↓
+
+Retry
+
+↓
+
+Still Failed
+
+↓
+
+Log
+
+↓
+
+Keep Joke Pending
+
+↓
+
+Try Next Schedule
+11. Deployment Architecture
+GitHub
+
+↓
+
+Railway / Render / VPS
+
+↓
+
+Node Server
+
+↓
+
+Cron Scheduler
+
+↓
+
+SQLite
+
+↓
+
+Twitter API
+
+↓
+
+Twitter Timeline
+12. Environment Variables
+PORT=
+
+NODE_ENV=
+
+DATABASE_PATH=
+
+TWITTER_API_KEY=
+
+TWITTER_API_SECRET=
+
+TWITTER_ACCESS_TOKEN=
+
+TWITTER_ACCESS_SECRET=
+
+BEARER_TOKEN=
+
+POST_INTERVAL=0 * * * *
+
+MAX_RETRY=3
+
+LOG_LEVEL=info
+13. Future Roadmap (v2)
+Admin Dashboard (React)
+Upload jokes via CSV/Excel
+Bulk joke import
+Category scheduling (e.g., Programming Monday, Dad Joke Friday)
+Multi-language support (English/Hindi)
+Multiple X accounts
+Analytics (likes, reposts, replies, impressions)
+Auto-reply to comments
+AI-generated jokes using local LLMs (Ollama/Llama.cpp)
+Meme image generation
+REST API for joke management
+Docker Compose deployment
+Redis + BullMQ queue for scalable job processing
+GitHub Actions CI/CD
+Email/Telegram alerts on failures
+14. Suggested Development Milestones
+Phase	Deliverable
+Phase 1	Project setup, folder structure, environment configuration
+Phase 2	SQLite database and joke import script
+Phase 3	Repository and service layer for joke selection
+Phase 4	Twitter/X API integration and posting
+Phase 5	Cron scheduler and retry mechanism
+Phase 6	Logging, error handling, and crash recovery
+Phase 7	Dockerization and deployment
+Phase 8	Monitoring, testing, and production hardening
+Recommended Architecture Pattern
+
+Is project ke liye Layered Architecture (Controller → Service → Repository → Database) best rahegi. Isse code modular rahega aur future me dashboard, APIs, AI-based joke generation ya multiple X accounts add karna bahut aasaan hoga. SQLite ko initial database ke roop me use karo; agar project bahut grow kare to PostgreSQL me migrate karna straightforward rahega.

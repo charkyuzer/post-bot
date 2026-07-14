@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "category": "Programming",
+    "joke": "Developer: Yaar, mera code local pe bilkul mast chal raha hai!\nSenior: Toh ek kaam kar, client ko tera computer hi gift kar dete hain.",
+    "posted": false
+  },
+  {
+    "id": 2,
+    "category": "Programming",
+    "joke": "Programming seekhne ke stages:\n1. Print('Hello World') - I am GOD!\n2. Syntax Error - Huh, easy fixing.\n3. Logic Error - Hmm...\n4. Seg Fault - *Starts looking for new career*",
+    "posted": false
+  },
+  {
+    "id": 3,
+    "category": "Programming",
+    "joke": "CSS seekhna aasan hai, bas subah 5 baje uth ke ek button ko center karne ki koshish karo, sab normal ho jayega.",
+    "posted": false
+  },
+  {
+    "id": 4,
+    "category": "Programming",
+    "joke": "Beta: Papa, log shaadi kyun karte hain?\nDeveloper Papa: Kyunki jab team badhti hai, tabhi toh bugs (problems) handle hote hain!",
+    "posted": false
+  },
+  {
+    "id": 5,
+    "category": "Programming",
+    "joke": "Code likhte waqt 90% time sirf ye sochne me nikal jata hai ki is variable ka naam kya rakhu taaki doosra coder mujhe gaali na de.",
+    "posted": false
+  },
+  {
+    "id": 6,
+    "category": "Programming",
+    "joke": "Artificial Intelligence: Ek din main pure world pe control karunga.\nWindows Update: Pehle mera system restart hone de, phir sochio.",
+    "posted": false
+  },
+  {
+    "id": 7,
+    "category": "Programming",
+    "joke": "Database Administrator: Mujhe ek naya ghar chahiye.\nAgent: SQL format me chahiye ya NoSQL?\nDBA: SQL! Partitioning to automatic honi chahiye.",
+    "posted": false
+  },
+  {
+    "id": 8,
+    "category": "Programming",
+    "joke": "Aache coders wo nahi hote jo code jaldi likhte hain. Aache coders wo hote hain jo stackoverflow pe bina post kiye solution dhoond lete hain.",
+    "posted": false
+  },
+  {
+    "id": 9,
+    "category": "Programming",
+    "joke": "Senior Coder: Ye kisne likha hai ganda code?\nJunior: Maine, 6 mahine pehle sir.\nSenior: Oh, actually structure bahut solid lag raha hai, smart logic!",
+    "posted": false
+  },
+  {
+    "id": 10,
+    "category": "Programming",
+    "joke": "Programmer's Diet:\nBreakFast: Coffee + Bugs\nLunch: Cold Coffee + More Bugs\nDinner: Code Refactoring\nSnacks: Tears and regret.",
+    "posted": false
+  },
+  {
+    "id": 11,
+    "category": "Programming",
+    "joke": "Python: Mujhe seekhna bahut aasan hai.\nC++: Mujhe seekh ke dikhao toh maane.\nHTML: Guyz, main bhi ek language hoon na? 🥺\nJava/C++: Tum chup raho aur tag close karo.",
+    "posted": false
+  },
+  {
+    "id": 12,
+    "category": "Programming",
+    "joke": "Git commit messages over time:\n1. 'Initial commit'\n2. 'Added some features'\n3. 'Fixing bugs'\n4. 'Minor changes'\n5. 'Pls work'\n6. 'I hate my life'",
+    "posted": false
+  },
+  {
+    "id": 13,
+    "category": "Programming",
+    "joke": "Senior: Code test kar liya?\nJunior: Haan sir, compile ho gaya, matlab chal hi jayega.\nCompiler: *Laughs in runtime exception*",
+    "posted": false
+  },
+  {
+    "id": 14,
+    "category": "Programming",
+    "joke": "Baki sab thik hai par ye hardware engineers ko kya lagta hai ki software hardware ko automatically control kar lega bina drivers ke?",
+    "posted": false
+  },
+  {
+    "id": 15,
+    "category": "Programming",
+    "joke": "Internet Explorer: Guys, 2026 me hum viral ho rahe hain na?\nChrome: Bro, tumhara update kab ka band ho gaya hai.",
+    "posted": false
+  },
+  {
+    "id": 16,
+    "category": "Programming",
+    "joke": "Ek programmer ne doosre se poocha: Tumhaari girlfriend kaisi hai?\nDoosra: Null pointer exception, access nahi kar paa raha.",
+    "posted": false
+  },
+  {
+    "id": 17,
+    "category": "Programming",
+    "joke": "Client: Mujhe simple app chahiye, bas WhatsApp jaisa interface ho aur Amazon jaisa checkout.\nDeveloper: Budget?\nClient: Rs 5000 + ek achi rating.",
+    "posted": false
+  },
+  {
+    "id": 18,
+    "category": "Programming",
+    "joke": "Developer 1: Chal chai peete hain.\nDeveloper 2: Ruko yaar, bas code deploy ho raha hai.\n*Never seen Developer 2 again*",
+    "posted": false
+  },
+  {
+    "id": 19,
+    "category": "Programming",
+    "joke": "AI will replace coders. Haan bilkul! Kyunki client ko requirements explain karna khud ek logical process hai jo unhe kabhi nahi aayega.",
+    "posted": false
+  },
+  {
+    "id": 20,
+    "category": "Programming",
+    "joke": "When the code runs on the first try:\nDeveloper: Mujhe thoda darr lag raha hai... isme koi chupa hua bug zaroor hai.",
+    "posted": false
+  },
+  {
+    "id": 21,
+    "category": "Office",
+    "joke": "Boss: Aaj office late kyun aaye?\nEmployee: Sir, aapne hi toh kaha tha office ko apna ghar samjho. Toh thoda aaram se utha.",
+    "posted": false
+  },
+  {
+    "id": 22,
+    "category": "Office",
+    "joke": "HR: Aapke resume me likha hai ki aap pressure handle kar sakte hain. Ek example dijiye?\nCandidate: Sir, maine pure group project me akela kaam kiya tha.",
+    "posted": false
+  },
+  {
+    "id": 23,
+    "category": "Office",
+    "joke": "Monday ko office jana is like: 'Chalo, dekh hi lete hain aaj kya naya kalesh hone wala hai.'",
+    "posted": false
+  },
+  {
+    "id": 24,
+    "category": "Office",
+    "joke": "Boss: Mujhe ye report kal subah tak chahiye.\nMe: Sir, main ek insaan hoon, machine nahi.\nBoss: Acha, toh salary cash me chahiye ya machine-made bank transfer se?\nMe: Report typing started sir.",
+    "posted": false
+  },
+  {
+    "id": 25,
+    "category": "Office",
+    "joke": "Appraisal meeting ke baad:\nManager: Tumhara performance average raha.\nEmployee: Aur meri salary growth?\nManager: Wo toh bilkul non-existent rahi, standard format.",
+    "posted": false
+  },
+  {
+    "id": 26,
+    "category": "Office",
+    "joke": "Office email rules:\n'As per my last email' = Tum anpadh ho kya?\n'Thanks in advance' = Tumhe ye karna hi padega, option nahi hai.",
+    "posted": false
+  },
+  {
+    "id": 27,
+    "category": "Office",
+    "joke": "WFH ke dauran:\nMeeting in progress:\nManager: Screen share karo.\nMe: *Panics and closes 50 non-work tabs of shopping and memes*",
+    "posted": false
+  },
+  {
+    "id": 28,
+    "category": "Office",
+    "joke": "Boss: Teamwork se bada kuch nahi hota.\nAlso Boss: Individual bonuses for the top performer only!",
+    "posted": false
+  },
+  {
+    "id": 29,
+    "category": "Office",
+    "joke": "Work-life balance kya hota hai? Subah office ki tension, raat ko office ki dreams. Bas yahi hai balance.",
+    "posted": false
+  },
+  {
+    "id": 30,
+    "category": "Office",
+    "joke": "HR: What is your salary expectation?\nCandidate: I want enough to pay rent, eat 3 meals, and buy 1 cup of gourmet coffee without crying.",
+    "posted": false
+  },
+  {
+    "id": 31,
+    "category": "Office",
+    "joke": "Corporate life: Jahan log Friday raat ko party karte hain aur Saturday-Sunday sirf ye sochte hain ki kal Monday hai.",
+    "posted": false
+  },
+  {
+    "id": 32,
+    "category": "Office",
+    "joke": "Boss: Hum ek family hain.\nEmployee: Sir, fir mujhe monthly allowance do pocket money ke roop me aur kaam mat karao.",
+    "posted": false
+  },
+  {
+    "id": 33,
+    "category": "Office",
+    "joke": "Me: Sir, main beemar hoon, aaj leave chahiye.\nManager: Acha, meeting me bol paoge?\nMe: *Coughs dramatically* Sir, type kar paunga bas.",
+    "posted": false
+  },
+  {
+    "id": 34,
+    "category": "Office",
+    "joke": "Office me jab lunch break hota hai, tab sab log aise khush hote hain jaise unhe jail se 1 ghante ki parole mili ho.",
+    "posted": false
+  },
+  {
+    "id": 35,
+    "category": "Office",
+    "joke": "Boss to Intern: Beta, tumhare paas growth ke bahut options hain.\nIntern: Sir, pehle stipend badha do, growth main khud dekh lungi.",
+    "posted": false
+  },
+  {
+    "id": 36,
+    "category": "Office",
+    "joke": "Meeting that could have been an email: Day 485 of wondering why I am sitting in a room looking at a PowerPoint presentation on 'Strategic synergy'.",
+    "posted": false
+  },
+  {
+    "id": 37,
+    "category": "Office",
+    "joke": "Corporate standard line: 'Let's take this offline.' = Abhi mere paas is faltu baat ka koi jawab nahi hai.",
+    "posted": false
+  },
+  {
+    "id": 38,
+    "category": "Office",
+    "joke": "Desk job worker: Mera back pain badh gaya hai.\nDoctor: Gym jao.\nDesk job worker: Main gym me bhi baithne wali cycle chala sakta hoon kya?",
+    "posted": false
+  },
+  {
+    "id": 39,
+    "category": "Office",
+    "joke": "Manager: Is project ke complete hone pe hum party karenge.\n*Project completes in 2028*",
+    "posted": false
+  },
+  {
+    "id": 40,
+    "category": "Office",
+    "joke": "Appraisal cycle is like: HR wants you to show innovation, Manager wants you to show compliance, and you just want to show up on time.",
+    "posted": false
+  },
+  {
+    "id": 41,
+    "category": "College",
+    "joke": "College Rules:\n1. Subah 8 baje ki class me koi nahi jata.\n2. Exam se ek din pehle sab padhte hain.\n3. Viva me jo confidence se jhoot bolta hai, wahi pass hota hai.",
+    "posted": false
+  },
+  {
+    "id": 42,
+    "category": "College",
+    "joke": "Professor: Tumne copy kiya hai?\nStudent: Nahi sir, wo hum dono ke brain me wireless connection chal raha tha exam hall me.",
+    "posted": false
+  },
+  {
+    "id": 43,
+    "category": "College",
+    "joke": "Syllabus for the exam:\nChapter 1 to 10.\nWhat I read: Chapter 1 (page 1 only).\nWhat came in exam: Chapter 11 (Out of syllabus).",
+    "posted": false
+  },
+  {
+    "id": 44,
+    "category": "College",
+    "joke": "College group projects:\n1 insaan kaam karta hai.\n2 insaan sirf dekhne aate hain.\n1 insaan bas PPT me apna naam check karta hai.\n1 insaan toh gayab hi rehta hai.",
+    "posted": false
+  },
+  {
+    "id": 45,
+    "category": "College",
+    "joke": "Engineering student life:\nFirst Year: Main NASA jaunga!\nSecond Year: IT company to pakki hai.\nThird Year: Kisi tarah backlog clear ho jaye.\nFinal Year: TCS ka mass recruitment kab hai?",
+    "posted": false
+  },
+  {
+    "id": 46,
+    "category": "College",
+    "joke": "Exam Hall me dost ke ishaare:\n1 ungli = Question 1 ka answer bata de.\nSir hilana = Bhai kuch nahi aata, paper khaali chord raha hoon.",
+    "posted": false
+  },
+  {
+    "id": 47,
+    "category": "College",
+    "joke": "Professor: Viva me minimum passing marks mil jayenge agar sahi answer diya.\nStudent: Sir, option A ya B me se kuch ho sakta hai kya?",
+    "posted": false
+  },
+  {
+    "id": 48,
+    "category": "College",
+    "joke": "College life is that magical time when you are broke, tired, stressed, and somehow having the best time of your life.",
+    "posted": false
+  },
+  {
+    "id": 49,
+    "category": "College",
+    "joke": "Hostel Warden: Raat ko 10 baje ke baad koi bahar nahi dikhna chahiye.\nStudents: Hum toh vaise bhi subah 4 baje tak jaagte hain sir.",
+    "posted": false
+  },
+  {
+    "id": 50,
+    "category": "College",
+    "joke": "Teacher: Paper bahut easy tha.\nStudents: Haan ma'am, aapse answer sheet check karwani thi na, isliye easy laga.",
+    "posted": false
+  },
+  {
+    "id": 51,
+    "category": "College",
+    "joke": "Exam time calculation: 3 ghante ka paper, 2.5 ghante window ke bahar dekhna, aur 30 mins me speed-of-light se likhna.",
+    "posted": false
+  },
+  {
+    "id": 52,
+    "category": "College",
+    "joke": "College library: Ek aisi shaant jagah jahan log padhne nahi, sirf free AC aur phone scroll karne aate hain.",
+    "posted": false
+  },
+  {
+    "id": 53,
+    "category": "College",
+    "joke": "Backlog students be like: Hum har semester me double fees dete hain college ko, building humare dum pe hi toh khadi hai.",
+    "posted": false
+  },
+  {
+    "id": 54,
+    "category": "College",
+    "joke": "Student: Papa college trip pe 5000 Rs mang rahe hain.\nPapa: Acha? Aur padhai ke liye jo fees di thi uske results kahan hain?",
+    "posted": false
+  },
+  {
+    "id": 55,
+    "category": "College",
+    "joke": "Placement Officer: Aapki key skills kya hain?\nStudent: Main bina soye 24 ghante series dekh sakta hoon aur group assignments copy kar sakta hoon.",
+    "posted": false
+  },
+  {
+    "id": 56,
+    "category": "College",
+    "joke": "Assignments writing logic: Copy first line from Wikipedia, change the second line slightly, and copy paste the rest directly.",
+    "posted": false
+  },
+  {
+    "id": 57,
+    "category": "College",
+    "joke": "Morning lecture at 8:00 AM:\nAttendance: 5 students.\n9:00 AM when lecture is ending: 60 students show up for proxy.",
+    "posted": false
+  },
+  {
+    "id": 58,
+    "category": "College",
+    "joke": "College canteen ka khana is like a mystery box. Har din pasta ka taste badal jata hai, aur paneer humesha hard rehta hai.",
+    "posted": false
+  },
+  {
+    "id": 59,
+    "category": "College",
+    "joke": "Semester exams be like: Hum jo book padh ke gaye the wo local autowala padh raha tha, humare questions to aakash-ganga se aaye the.",
+    "posted": false
+  },
+  {
+    "id": 60,
+    "category": "College",
+    "joke": "Exam rules for backbenchers: Answer sheet ke peeche 'Jai Mata Di' likhna aur pass hone ki dua karna.",
+    "posted": false
+  },
+  {
+    "id": 61,
+    "category": "Relationship",
+    "joke": "Boyfriend: Tumne kya kaha? Dobara bolna.\nGirlfriend: Maine kuch nahi kaha.\nBoyfriend: Acha, fir thik hai, mujhe laga meri galti ho gayi.",
+    "posted": false
+  },
+  {
+    "id": 62,
+    "category": "Relationship",
+    "joke": "Single life ke fayde: Aapko kisi ko 'Khana khaya?' baar baar nahi poochhna padta. Bas khud khao aur so jao.",
+    "posted": false
+  },
+  {
+    "id": 63,
+    "category": "Relationship",
+    "joke": "Girlfriend: Tumhe mere naye haircut ke baare me kya lagta hai?\nBoyfriend: Bahut sundar hai.\nGirlfriend: Tumhe kaise pata? Maine toh abhi tak cut karwaya hi nahi!",
+    "posted": false
+  },
+  {
+    "id": 64,
+    "category": "Relationship",
+    "joke": "A true relationship is when you can look at each other and laugh because you both know how crazy you are.",
+    "posted": false
+  },
+  {
+    "id": 65,
+    "category": "Relationship",
+    "joke": "Husband: Aaj khane me kya hai?\nWife: Zeher!\nHusband: Thik hai, tum khao, main bahar se paneer tikka manga leta hoon.",
+    "posted": false
+  },
+  {
+    "id": 66,
+    "category": "Relationship",
+    "joke": "Boyfriend: Hum ghoomne chalein?\nGirlfriend: Haan, par main taiyar hone me 5 minute lungi.\n*3 hours later* ...",
+    "posted": false
+  },
+  {
+    "id": 67,
+    "category": "Relationship",
+    "joke": "Single log Valentine's Day pe: Aaj toh Bajrang Dal join kar ke park me ghoomne ka sahi time hai.",
+    "posted": false
+  },
+  {
+    "id": 68,
+    "category": "Relationship",
+    "joke": "Girlfriend: Agar main kho gayi toh kya karoge?\nBoyfriend: Main seedha police station jaunga aur unhe bataunga ki shanti mil gayi.",
+    "posted": false
+  },
+  {
+    "id": 69,
+    "category": "Relationship",
+    "joke": "Relationship status:\n[ ] Single\n[ ] In a relationship\n[x] Busy explaining that I am not looking for anyone right now.",
+    "posted": false
+  },
+  {
+    "id": 70,
+    "category": "Relationship",
+    "joke": "Wife: Shaadi se pehle tum mujhe kitne gift dete the, ab kyun nahi dete?\nHusband: Beta, kabhi kisi ne machli pakadne ke baad chara dala hai?",
+    "posted": false
+  },
+  {
+    "id": 71,
+    "category": "Relationship",
+    "joke": "Boyfriend: Baby, main tumhare bina jee nahi paunga.\nGirlfriend: Thik hai, toh hum kal subah 5 baje jogging pe chalein?\nBoyfriend: Maine thoda exaggerate kiya tha vaise.",
+    "posted": false
+  },
+  {
+    "id": 72,
+    "category": "Relationship",
+    "joke": "Single life is like: You want a relationship but when you see couples fighting over 'Tumne reply 2 mins late kyun kiya', you feel like a free bird.",
+    "posted": false
+  },
+  {
+    "id": 73,
+    "category": "Relationship",
+    "joke": "Wife: Tumhe yaad hai aaj kya hai?\nHusband: *Panics* Haan, bilkul... Humari anniversary?\nWife: Nahi, aaj trash throw karne ka day hai.",
+    "posted": false
+  },
+  {
+    "id": 74,
+    "category": "Relationship",
+    "joke": "Boyfriend: Tum mere dil ki dhadkan ho.\nGirlfriend: Toh mujhe apna credit card password do.\nBoyfriend: Dhadkan ruk gayi hai baby.",
+    "posted": false
+  },
+  {
+    "id": 75,
+    "category": "Relationship",
+    "joke": "Husband: Main ghar ka raja hoon.\nWife: Haan, aur main is kingdom ki supreme commander. Command follow karo raja ji.",
+    "posted": false
+  },
+  {
+    "id": 76,
+    "category": "Relationship",
+    "joke": "Single: Mera birthday aane wala hai, kya gift chahiye?\nInner Me: Ek toffee kharid lo aur khud ko bol do - Happy Birthday bro.",
+    "posted": false
+  },
+  {
+    "id": 77,
+    "category": "Relationship",
+    "joke": "Girlfriend: Tum mere liye tare tod sakte ho?\nBoyfriend: Pehle tum terrace pe aana seekh lo bina seedhiyo ke, fir sochte hain.",
+    "posted": false
+  },
+  {
+    "id": 78,
+    "category": "Relationship",
+    "joke": "Wife: Main thik lag rahi hoon?\nHusband: Haan, bahut achi.\nWife: Tumne dhang se dekha bhi nahi!\nHusband: *Looks for 10 seconds* Haan, ab thik hai.",
+    "posted": false
+  },
+  {
+    "id": 79,
+    "category": "Relationship",
+    "joke": "Boyfriend: Tumhe mujhme kya sabse accha lagta hai?\nGirlfriend: Tumhari ye galat-fehmiyan paalne ki aadat.",
+    "posted": false
+  },
+  {
+    "id": 80,
+    "category": "Relationship",
+    "joke": "Single log jab couple ko public me dekhte hain: 'Inhe ghar wale dhoond rahe honge, main report kar deta hoon.'",
+    "posted": false
+  },
+  {
+    "id": 81,
+    "category": "Dad Jokes",
+    "joke": "Me: Papa, main doctor banna chahta hoon.\nPapa: Beta, pehle apna room saaf kar, tab tera patient zinda bachega.",
+    "posted": false
+  },
+  {
+    "id": 82,
+    "category": "Dad Jokes",
+    "joke": "Sharma ji ka beta is like the final boss of Indian parenting. Aap kuch bhi karo, usne pehle hi usse double score kar rakha hai.",
+    "posted": false
+  },
+  {
+    "id": 83,
+    "category": "Dad Jokes",
+    "joke": "Mummy: Khana khao.\nMe: Mujhe bhookh nahi hai.\nMummy: Toh thoda chawal khao aur side me sabzi bhi, bhookh apne aap lag jayegi.",
+    "posted": false
+  },
+  {
+    "id": 84,
+    "category": "Dad Jokes",
+    "joke": "Papa: Beta, mobile chalao aur chalate raho, din bhar scroll karo.\nMe: *Suspicious* Papa, real me bol rahe ho?\nPapa: Haan, aankhein kharab ho jayengi toh repair main nahi karaunga na.",
+    "posted": false
+  },
+  {
+    "id": 85,
+    "category": "Dad Jokes",
+    "joke": "Why did the tomato turn red? Kyunki usne dekha ki baaki saari veggies fridge me aaram se baithi hain aur wo salat me ja raha hai.",
+    "posted": false
+  },
+  {
+    "id": 86,
+    "category": "Dad Jokes",
+    "joke": "Desi Parents: Humare zamane me hum 10 km paidal chal ke school jaate the.\nMe: Aur hum school bus chhootne pe direct chhutti le lete hain.",
+    "posted": false
+  },
+  {
+    "id": 87,
+    "category": "Dad Jokes",
+    "joke": "Mummy: Ye glass kisne toda?\nMe: Hawa se toot gaya mumma.\nMummy: Hawa ka naam batao, abhi usko batati hoon chappal se.",
+    "posted": false
+  },
+  {
+    "id": 88,
+    "category": "Dad Jokes",
+    "joke": "Sharma Ji: Beta engineering ke baad kya plan hai?\nMe: Sir, wahi jo engineers karte hain - MBA ya government job ki taiyari.",
+    "posted": false
+  },
+  {
+    "id": 89,
+    "category": "Dad Jokes",
+    "joke": "Why do we say 'Chai peeyo aur chill karo'? Kyunki garmi me garam chai peene se temperature balance ho jata hai, desi science!",
+    "posted": false
+  },
+  {
+    "id": 90,
+    "category": "Dad Jokes",
+    "joke": "Papa: Aaj kal ke bacche bahut sensitive hain.\nMe: Papa, aapne hi toh bola tha ki daantne se darr lagna chahiye.",
+    "posted": false
+  },
+  {
+    "id": 91,
+    "category": "Dad Jokes",
+    "joke": "What do you call a sleeping fit person? Gym-nastic-nap.",
+    "posted": false
+  },
+  {
+    "id": 92,
+    "category": "Dad Jokes",
+    "joke": "Indian Relatives: Beta placements ho gayi? Package kitna hai?\nMe: Sir, package toh thik hai, par privacy thoda kam hai.",
+    "posted": false
+  },
+  {
+    "id": 93,
+    "category": "Dad Jokes",
+    "joke": "Mummy: Beta, kitchen se zara dhaniya le aana.\nMe: *Brings Pudina*\nMummy: Aaj se tumhara khana band.",
+    "posted": false
+  },
+  {
+    "id": 94,
+    "category": "Dad Jokes",
+    "joke": "Why do Indian fathers love newspapers? Kyunki unhe screen-time limits se bachna hota hai aur gyan baki sab ko dena hota hai.",
+    "posted": false
+  },
+  {
+    "id": 95,
+    "category": "Dad Jokes",
+    "joke": "Papa: Humare time me hum aam ki guthli se khelte the.\nMe: Papa, tabhi toh aapne hume mobile dilaya, tarakki!",
+    "posted": false
+  },
+  {
+    "id": 96,
+    "category": "Dad Jokes",
+    "joke": "Guest: Beta kya kar rahe ho?\nMe: Sir, engineering kar raha hoon.\nGuest: Acha, fir toh ghar ke pankhe theek kar lete hoge?",
+    "posted": false
+  },
+  {
+    "id": 97,
+    "category": "Dad Jokes",
+    "joke": "Mummy: Shaadi kab karoge?\nMe: Jab koi milegi.\nMummy: Hum dhoondenge toh 100% milegi. Tum bas haan bolna seekh lo.",
+    "posted": false
+  },
+  {
+    "id": 98,
+    "category": "Dad Jokes",
+    "joke": "Why do autowalas always say 'No'? Kyunki unka real passion rejected status check karna hai passenger ka face dekh kar.",
+    "posted": false
+  },
+  {
+    "id": 99,
+    "category": "Dad Jokes",
+    "joke": "Papa: Humare zamane me hum 10 Rs me poora mahina chalate the.\nMe: Papa, tab petrol 2 Rs litre tha na, balance sheet thik karo.",
+    "posted": false
+  },
+  {
+    "id": 100,
+    "category": "Dad Jokes",
+    "joke": "What is the favorite game of a desi dad? 'Turn off the lights in the empty room' - Level 99 master.",
+    "posted": false
+  },
+  {
+    "id": 101,
+    "category": "Daily Life",
+    "joke": "Subah ka alarm bajte hi ek hi thought aata hai: 'Kya sach me padhai ya job itni zaroori hai? Kya main sanyas nahi le sakta?'",
+    "posted": false
+  },
+  {
+    "id": 102,
+    "category": "Daily Life",
+    "joke": "Indian roads ka golden rule: Agar signal green hai toh thoda sambhal ke chalo, red waale abhi bhi speed badha rahe hote hain.",
+    "posted": false
+  },
+  {
+    "id": 103,
+    "category": "Daily Life",
+    "joke": "Ghar me jab guest aate hain, toh unhe dry fruits milte hain. Aur unke jaane ke baad hume milta hai unka leftover kaju-katli.",
+    "posted": false
+  },
+  {
+    "id": 104,
+    "category": "Daily Life",
+    "joke": "Gym join karne ke 3 stages:\nDay 1: Aaj se diet shuru, workout extreme.\nDay 2: Body pain extreme, protein shake search.\nDay 3: Pizza and chill, gym next month pakka.",
+    "posted": false
+  },
+  {
+    "id": 105,
+    "category": "Daily Life",
+    "joke": "Online shopping logic: Rs 2000 ka item cart me add kar liya. Par Rs 40 delivery fee dekh ke order cancel kar diya.",
+    "posted": false
+  },
+  {
+    "id": 106,
+    "category": "Daily Life",
+    "joke": "Ghar me purani plastic ki bottle ka real destiny: Fridge me thanda paani store karna tab tak jab tak wo toot na jaye.",
+    "posted": false
+  },
+  {
+    "id": 107,
+    "category": "Daily Life",
+    "joke": "Indian traffic me horn bajana is like sending a warning message: 'Main aa raha hoon, tum hato ya na hato, meri car nahi rukegi.'",
+    "posted": false
+  },
+  {
+    "id": 108,
+    "category": "Daily Life",
+    "joke": "Haircut ke baad barbour se dialogue: 'Bhaiya thoda zyaada chota kar diya.'\nBarbour: 'Nahi bhaiya, 4 din me set ho jayega.'",
+    "posted": false
+  },
+  {
+    "id": 109,
+    "category": "Daily Life",
+    "joke": "Group trip planning: 10 dost haan bolenge, 5 dost budget puchenge, 2 dost cancel karenge, aur end me bas 2 log local tea stall pe milenge.",
+    "posted": false
+  },
+  {
+    "id": 110,
+    "category": "Daily Life",
+    "joke": "Dieting: Ek aisi activity jahan aap salad khate hain aur din bhar pizza ke photos scroll karte hain.",
+    "posted": false
+  },
+  {
+    "id": 111,
+    "category": "Daily Life",
+    "joke": "Ghar ka geyser aur bank balance ek jaise hain, jab garam paani ki zaroorat hoti hai tabhi dono response dena band kar dete hain.",
+    "posted": false
+  },
+  {
+    "id": 112,
+    "category": "Daily Life",
+    "joke": "Tailor: Bhaiya, shaadi kab hai?\nMe: Agle mahine.\nTailor: Toh kapde uske agle mahine milenge, adjust kar lena.",
+    "posted": false
+  },
+  {
+    "id": 113,
+    "category": "Daily Life",
+    "joke": "Indian street food vendor making cheese sandwich: *Grates 5 blocks of cheese* 'Bhaiya, healthy hai, fat-free cheese hai.'",
+    "posted": false
+  },
+  {
+    "id": 114,
+    "category": "Daily Life",
+    "joke": "Mobile charging status: 99% pe battery 2 ghante chalegi, par 1% pe it turns into a superhero and survives for 30 minutes.",
+    "posted": false
+  },
+  {
+    "id": 115,
+    "category": "Daily Life",
+    "joke": "Me: Aaj main time pe sounga.\nYouTube at 3:00 AM: 'How to build a swimming pool in the middle of a jungle using a spoon.'\nMe: Extremely interesting, must watch.",
+    "posted": false
+  },
+  {
+    "id": 116,
+    "category": "Daily Life",
+    "joke": "Indian moms when they can't find something: 'Agar mujhe kitchen me mil gaya na toh chappal se pitungi.' *Finds it in 2 seconds*",
+    "posted": false
+  },
+  {
+    "id": 117,
+    "category": "Daily Life",
+    "joke": "Dentist: Aap teeth clean karne ke baad brush karte ho?\nMe: Sir, brush karne ke baad hi toh clean hote hain, workflow reversed hai kya?",
+    "posted": false
+  },
+  {
+    "id": 118,
+    "category": "Daily Life",
+    "joke": "Winter morning schedule: Alarm bajega at 7:00 AM, blanket bolta hai '5 mins aur', and directly 9:30 AM pe aankh khulti hai.",
+    "posted": false
+  },
+  {
+    "id": 119,
+    "category": "Daily Life",
+    "joke": "Bhaiya to Auto driver: Bhaiya, metro station chaloge?\nAuto driver: *Stares in absolute silence, accelerates and drives away*",
+    "posted": false
+  },
+  {
+    "id": 120,
+    "category": "Daily Life",
+    "joke": "Me to My wallet: 'Bhai, is month thoda sath de de.'\nWallet: 'Main toh khud empty internal storage ka error de raha hoon.'",
+    "posted": false
+  },
+  {
+    "id": 121,
+    "category": "Daily Life",
+    "joke": "Sharma ji: Beta placements ho gayi?\nMe: Uncle, aapki beti ki shadi ho gayi?\nSharma ji: *Topic changed to weather*",
+    "posted": false
+  },
+  {
+    "id": 122,
+    "category": "Daily Life",
+    "joke": "Vegetable shopping with mom: 'Bhaiya, thoda dhaniya free me daal do, warna ghar me kalesh ho jayega.'",
+    "posted": false
+  },
+  {
+    "id": 123,
+    "category": "Daily Life",
+    "joke": "Electricity goes out for 2 seconds.\nEvery Indian neighborhood: *Everyone walks out of their balcony to check if neighbors also lost power*",
+    "posted": false
+  },
+  {
+    "id": 124,
+    "category": "Daily Life",
+    "joke": "Me: Doctor, mujhe neend nahi aati.\nDoctor: Phone side me rakh do.\nMe: Kuch aur medicine batao sir, ye toh impossible treatment hai.",
+    "posted": false
+  },
+  {
+    "id": 125,
+    "category": "Daily Life",
+    "joke": "Uber driver: Bhaiya location pe kaise aana hai?\nMe: Bhaiya road seedhi hai, bas aage aake left le lena.\nDriver: *Takes right and cancels ride*",
+    "posted": false
+  },
+  {
+    "id": 126,
+    "category": "Daily Life",
+    "joke": "Indian weddings: Jahan aadhi janta sirf paneer tikka aur gulab jamun ki line me khadi rehne aati hai, bride-groom se kisi ko matlab nahi.",
+    "posted": false
+  },
+  {
+    "id": 127,
+    "category": "Daily Life",
+    "joke": "Me looking at my old photos: 'Bhai, main tab kitna patla aur smart lagta tha.'\nAlso me back then: 'Main kitna mota aur ajeeb lagta hoon.'",
+    "posted": false
+  },
+  {
+    "id": 128,
+    "category": "Daily Life",
+    "joke": "Zomato delivery executive: Bhaiya gate pe khada hoon.\nMe running to gate like my life depends on it because food is love.",
+    "posted": false
+  },
+  {
+    "id": 129,
+    "category": "Daily Life",
+    "joke": "Password requirements: 1 uppercase, 1 lowercase, 1 number, 1 special character, 1 secret ingredient, and your first pet's blood group.",
+    "posted": false
+  },
+  {
+    "id": 130,
+    "category": "Daily Life",
+    "joke": "Ghar me sabse bada jhoot: 'Bas 5 min me pahunch raha hoon.' - When you are actually still in bed wearing pajamas.",
+    "posted": false
+  },
+  {
+    "id": 131,
+    "category": "Daily Life",
+    "joke": "When you try to sleep early:\nBrain: 'Do you remember that awkward thing you said to your class teacher in 3rd grade?'\nMe: *Jaagta hoon ab*",
+    "posted": false
+  },
+  {
+    "id": 132,
+    "category": "Daily Life",
+    "joke": "Indian households: Safai sirf Diwali me hoti hai, baaki din toh dust ko bas adjust kiya jata hai.",
+    "posted": false
+  },
+  {
+    "id": 133,
+    "category": "Daily Life",
+    "joke": "Me trying to calculate math in supermarket: 'Rs 150 ka 10%... ruko, calculator nikalne do, dimag crash ho jayega.'",
+    "posted": false
+  },
+  {
+    "id": 134,
+    "category": "Daily Life",
+    "joke": "Why do we keep the plastic cover on the new TV remote? Kyunki safety is first priority, remote bhale hi 20 saal chale.",
+    "posted": false
+  },
+  {
+    "id": 135,
+    "category": "Daily Life",
+    "joke": "Me: Aaj main bilkul fresh feel kar raha hoon.\nAlarm: *Rings for Monday morning*\nMe: My disappointment is immeasurable.",
+    "posted": false
+  },
+  {
+    "id": 136,
+    "category": "Daily Life",
+    "joke": "Indian moms to courier guy: 'Bhaiya, packet me kya hai? Pura khol ke dikhao, humne toh bas chawal mangaya tha.'",
+    "posted": false
+  },
+  {
+    "id": 137,
+    "category": "Daily Life",
+    "joke": "Water bottle refilling duty in summer: Jo bottle khali chordega, wo pure parivar ka dushman ghoshit ho jata hai.",
+    "posted": false
+  },
+  {
+    "id": 138,
+    "category": "Daily Life",
+    "joke": "Me at a clothing store: 'Bhaiya, aisi dress dikhao jo party me bhi chale aur office me bhi aur sote waqt bhi comfortable ho.'",
+    "posted": false
+  },
+  {
+    "id": 139,
+    "category": "Daily Life",
+    "joke": "Life before mobile: Log newspaper padhte the.\nLife after mobile: Log bathroom me mobile scroll karte hain jab tak pair so na jaye.",
+    "posted": false
+  },
+  {
+    "id": 140,
+    "category": "Daily Life",
+    "joke": "Desi parent logic: Agar beemar ho, toh mobile ki galti hai. Agar exam me fail hue, toh mobile ki galti hai.",
+    "posted": false
+  },
+  {
+    "id": 141,
+    "category": "Daily Life",
+    "joke": "Indian traffic inspector: Helmet kyun nahi pehna?\nMe: Sir, ghar paas me hi hai, 2 minute ki doori hai.\nInspector: Fine toh 2 second me cut ho jayega beta.",
+    "posted": false
+  },
+  {
+    "id": 142,
+    "category": "Daily Life",
+    "joke": "Me: *Sees a cute dog*\nAlso me: *Speaks in high-pitched baby voice* 'Who's a good boy?'\nDog: *Glares in judgement*",
+    "posted": false
+  },
+  {
+    "id": 143,
+    "category": "Daily Life",
+    "joke": "College canteen tea: Chai me doodh aur patti toh thik hai, par ye paani ka level ocean jaisa kyun lag raha hai?",
+    "posted": false
+  },
+  {
+    "id": 144,
+    "category": "Daily Life",
+    "joke": "Supermarket shopping: Wants to buy bread. Walks out with bread, 3 packs of chips, chocolates, a new mug, and no money left.",
+    "posted": false
+  },
+  {
+    "id": 145,
+    "category": "Daily Life",
+    "joke": "Indian household medicine cabinet: Combiflam for headache, Combiflam for leg pain, Combiflam for everything.",
+    "posted": false
+  },
+  {
+    "id": 146,
+    "category": "Daily Life",
+    "joke": "Me: Aaj main 8 ghante self-study karunga.\nMy Brain: 'Let's check if the ceiling fan is rotating at 100 RPM or 120 RPM.'",
+    "posted": false
+  },
+  {
+    "id": 147,
+    "category": "Daily Life",
+    "joke": "Tailor to candidate: 'Bhaiya, fit toh thik hai par thoda dhila lag raha hai.'\nCandidate: 'Maine weight lose kiya hai abhi.'\nTailor: 'Toh kapda loose ho gaya automatic?'",
+    "posted": false
+  },
+  {
+    "id": 148,
+    "category": "Daily Life",
+    "joke": "Indian family Whatsapp groups: 90% 'Good Morning' rose images, 9% fake news about UNESCO declaring national anthem best, 1% real family info.",
+    "posted": false
+  },
+  {
+    "id": 149,
+    "category": "Daily Life",
+    "joke": "Me trying to click 'Skip Ad' on YouTube like it's a quick-time event in an action game.",
+    "posted": false
+  },
+  {
+    "id": 150,
+    "category": "Daily Life",
+    "joke": "Desi parent compliment: 'Aaj kaam toh thik kiya hai, par daily aisa karega toh hi maane.'",
+    "posted": false
+  },
+  {
+    "id": 151,
+    "category": "Daily Life",
+    "joke": "Morning walking routine: Walks for 10 minutes, eats 4 samosas, drinks 1 cup sweet tea. Fitness goals achieved!",
+    "posted": false
+  },
+  {
+    "id": 152,
+    "category": "Daily Life",
+    "joke": "Me on social media: *Posting cool vacation pics*\nMe in reality: *Sitting on bed with messy hair eating maggi*",
+    "posted": false
+  },
+  {
+    "id": 153,
+    "category": "Daily Life",
+    "joke": "Indian train journey: The ultimate social experience where you know the entire life story of the passenger sitting next to you within 30 minutes.",
+    "posted": false
+  },
+  {
+    "id": 154,
+    "category": "Daily Life",
+    "joke": "Online class during corona: Camera off, Mic off, Pillow on, Blankets on. Best educational experience.",
+    "posted": false
+  },
+  {
+    "id": 155,
+    "category": "Daily Life",
+    "joke": "Indian tea logic: Monsoon me tea, summer me tea, winter me tea, headache me tea, breakup me tea, tea is the solution to everything.",
+    "posted": false
+  },
+  {
+    "id": 156,
+    "category": "Daily Life",
+    "joke": "Doctor: Gym jao aur walk karo.\nMe: Doctor, walk toh main kitchen tak kar hi leta hoon paneer nikalne ke liye.",
+    "posted": false
+  },
+  {
+    "id": 157,
+    "category": "Daily Life",
+    "joke": "Mom: 'Phone rakh de, aankhein lal ho gayi hain.'\nMe: 'Mom, ye screen filter ki wajah se hai, look blue filter on.'",
+    "posted": false
+  },
+  {
+    "id": 158,
+    "category": "Daily Life",
+    "joke": "Courier guy: Bhaiya signature kar do.\nMe: *Draws a random wave that looks nothing like my real signature*",
+    "posted": false
+  },
+  {
+    "id": 159,
+    "category": "Daily Life",
+    "joke": "Me looking at my bank balance at the end of the month: 'Who hacked my account and spent Rs 45 on pani puri? Oh, wait, it was me.'",
+    "posted": false
+  },
+  {
+    "id": 160,
+    "category": "Daily Life",
+    "joke": "Indian mothers cooking logic: A pinch of salt, a pinch of turmeric, and a gallon of mother's love (and occasional flying chappal warning).",
+    "posted": false
+  },
+  {
+    "id": 161,
+    "category": "Daily Life",
+    "joke": "Me trying to find the end of the cellotape: *Scratching the roll for 10 minutes in frustration*",
+    "posted": false
+  },
+  {
+    "id": 162,
+    "category": "Daily Life",
+    "joke": "Barbour: Bhaiya, facial karwa lo, glow aayega.\nMe: Bhai, is chehre pe glow sirf filter se aa sakta hai, product se nahi.",
+    "posted": false
+  },
+  {
+    "id": 163,
+    "category": "Daily Life",
+    "joke": "Uber Auto: 'Ride starting OTP?'\nMe: '1234.'\nDriver: 'Acha, mera password bhi yahi hai.'",
+    "posted": false
+  },
+  {
+    "id": 164,
+    "category": "Daily Life",
+    "joke": "Me at a restaurant: Ordering water bottle instead of regular water because hygiene is important. Also me: Eats street side golgappa with direct tap water.",
+    "posted": false
+  },
+  {
+    "id": 165,
+    "category": "Daily Life",
+    "joke": "Indian dads when they watch news: *Sitting with folded arms, shaking head, giving geopolitical advice directly to the TV screen*",
+    "posted": false
+  },
+  {
+    "id": 166,
+    "category": "Daily Life",
+    "joke": "My 5-year-old laptop when I open Chrome with 3 tabs: *Fans spinning at speed of jet engine, ready to take off*",
+    "posted": false
+  },
+  {
+    "id": 167,
+    "category": "Daily Life",
+    "joke": "Shopping with dad: 'Ye kya 2000 ki t-shirt? Humare zamane me isme poora thaan milta tha.'",
+    "posted": false
+  },
+  {
+    "id": 168,
+    "category": "Daily Life",
+    "joke": "My bed is a magical place where I suddenly remember everything I forgot to do today, including breathing.",
+    "posted": false
+  },
+  {
+    "id": 169,
+    "category": "Daily Life",
+    "joke": "Indian homes: A soap bar is used until it becomes a thin paper slice, then it is stuck onto the new soap bar. Peak efficiency!",
+    "posted": false
+  },
+  {
+    "id": 170,
+    "category": "Daily Life",
+    "joke": "Me at the dentist: *Has 5 tubes and 2 hands in mouth*\nDentist: 'Toh beta engineering kaisi chal rahi hai?'\nMe: 'Mmmph ghhff.'",
+    "posted": false
+  },
+  {
+    "id": 171,
+    "category": "Daily Life",
+    "joke": "Weekend plans: 'I will clean the house, read a book, and go for run.'\nActual weekend: *Scrolls Instagram for 14 hours in bed*",
+    "posted": false
+  },
+  {
+    "id": 172,
+    "category": "Daily Life",
+    "joke": "Indian traffic: Green means go, Yellow means speed up to clear, and Red means 5 more cars can cross quickly.",
+    "posted": false
+  },
+  {
+    "id": 173,
+    "category": "Daily Life",
+    "joke": "Me trying to show a meme to my mom: *Explaining the entire backstory and internet culture for 20 mins*\nMom: 'Acha, ye kaun hai?'",
+    "posted": false
+  },
+  {
+    "id": 174,
+    "category": "Daily Life",
+    "joke": "Going to a wedding just to check out the food menu and rate the paneer quality: A national hobby.",
+    "posted": false
+  },
+  {
+    "id": 175,
+    "category": "Daily Life",
+    "joke": "Indian mothers to their kids at 12 PM: 'Sote raho din bhar, dopahar ho gayi hai.' (Actual time: 9:00 AM).",
+    "posted": false
+  },
+  {
+    "id": 176,
+    "category": "Daily Life",
+    "joke": "Me: *Speaks English with a fancy accent once*\nMy Friends: 'Bhai, London se kab lauta?'",
+    "posted": false
+  },
+  {
+    "id": 177,
+    "category": "Daily Life",
+    "joke": "Vegetable shopping: 'Bhaiya aaloo thoda bada dena, small waale peel karne me aafat aati hai.'",
+    "posted": false
+  },
+  {
+    "id": 178,
+    "category": "Daily Life",
+    "joke": "My email inbox: 999+ unread notifications from random websites I visited once in 2018.",
+    "posted": false
+  },
+  {
+    "id": 179,
+    "category": "Daily Life",
+    "joke": "Me at the gym: *Lifts 5kg dumbbell once* *Looks in the mirror for biceps* 'Growth toh dikh rahi hai.'",
+    "posted": false
+  },
+  {
+    "id": 180,
+    "category": "Daily Life",
+    "joke": "Indian dads fixing anything: 'Ek screwdriver lana aur cellotape.' 10 mins later: The fan is fixed (temporarily with tape).",
+    "posted": false
+  },
+  {
+    "id": 181,
+    "category": "Daily Life",
+    "joke": "Zomato delivery track: 'Raju is carrying your order with care.' Me looking out of window like a waiting lover.",
+    "posted": false
+  },
+  {
+    "id": 182,
+    "category": "Daily Life",
+    "joke": "Indian student calculating marks: 'Agar steps ke marks mil gaye aur examiner khush raha toh 33 pakke hain.'",
+    "posted": false
+  },
+  {
+    "id": 183,
+    "category": "Daily Life",
+    "joke": "Me trying to wake up early: Sets alarms at 6:00, 6:05, 6:10, 6:15. *Wakes up at 8:30 and deletes all alarms*.",
+    "posted": false
+  },
+  {
+    "id": 184,
+    "category": "Daily Life",
+    "joke": "Indian street food vendor: 'Bhaiya, teekha thik hai na?' Me: *Crying, sweat dripping, tongue burning* 'Haan bhaiya, bilkul mast.'",
+    "posted": false
+  },
+  {
+    "id": 185,
+    "category": "Daily Life",
+    "joke": "My room is not dirty, it's just decorated in 'convenience-first' style. Everything is on the floor.",
+    "posted": false
+  },
+  {
+    "id": 186,
+    "category": "Daily Life",
+    "joke": "Mom: 'Aata gundh de.' Me: *Brings scientific scale to measure water to flour ratio so it doesn't become liquid soup*.",
+    "posted": false
+  },
+  {
+    "id": 187,
+    "category": "Daily Life",
+    "joke": "Indian relative: 'Beta shadi kab kar rahe ho?' Me: 'Aap shadi me kab tak aayenge, ticket book karwani hai?' Relative: *Silent*",
+    "posted": false
+  },
+  {
+    "id": 188,
+    "category": "Daily Life",
+    "joke": "Me: *Tries to cook Maggi in 2 minutes* Zomato delivery: 30 minutes. My patience: 0. Maggi cooked in 15 mins because physics exists.",
+    "posted": false
+  },
+  {
+    "id": 189,
+    "category": "Daily Life",
+    "joke": "Indian traffic rule: If a cow is standing in the middle of road, it has right of way. No horn, just wait and pray.",
+    "posted": false
+  },
+  {
+    "id": 190,
+    "category": "Daily Life",
+    "joke": "Me when I open my wardrobe: 50 t-shirts inside. 'Bhai, pehenne ke liye kuch nahi hai, shopping karni padegi.'",
+    "posted": false
+  },
+  {
+    "id": 191,
+    "category": "Daily Life",
+    "joke": "Indian moms: Can find anything in the house, but if they lose their glasses which are on their head, the house is in red alert.",
+    "posted": false
+  },
+  {
+    "id": 192,
+    "category": "Daily Life",
+    "joke": "Group trip discussion: Starts in WhatsApp, ends in archived chats. Legend says the trip is still being planned.",
+    "posted": false
+  },
+  {
+    "id": 193,
+    "category": "Daily Life",
+    "joke": "When you pay with Rs 2000 note for a Rs 10 item, the shopkeeper looks at you like you are trying to buy his shop.",
+    "posted": false
+  },
+  {
+    "id": 194,
+    "category": "Daily Life",
+    "joke": "Me at a clothing store: 'Bhaiya, discount kitna hai?' Shopkeeper: 'Sir fix rate hai.' Me: *Walks away* Shopkeeper: 'Bhaiya ruko, 10% de dunga.'",
+    "posted": false
+  },
+  {
+    "id": 195,
+    "category": "Daily Life",
+    "joke": "My bank balance statement is just a list of UPI transfers of Rs 10, Rs 20, Rs 50 for chai and samosa.",
+    "posted": false
+  },
+  {
+    "id": 196,
+    "category": "Daily Life",
+    "joke": "Indian moms during summer: 'Fan off karo, AC chal raha hai.' Also moms: 'AC band karo, bill zyaada aa raha hai.'",
+    "posted": false
+  },
+  {
+    "id": 197,
+    "category": "Daily Life",
+    "joke": "Me trying to open a plastic bag at the supermarket: *Licking my finger to get grip, failing, feeling judged by people behind*.",
+    "posted": false
+  },
+  {
+    "id": 198,
+    "category": "Daily Life",
+    "joke": "Indian dad: 'Beta, results kya aaye?' Me: 'Papa, topper ke 95 aaye hain.' Dad: 'Aur tumhare?' Me: 'Papa topper ke 95 aaye hain, context dekho.'",
+    "posted": false
+  },
+  {
+    "id": 199,
+    "category": "Daily Life",
+    "joke": "My bed when I have to wake up: Feels like a luxury 7-star resort. My bed when I want to sleep: Feels like a bag of potatoes.",
+    "posted": false
+  },
+  {
+    "id": 200,
+    "category": "Daily Life",
+    "joke": "Indian roads rule: Indicator right ka chal raha hai toh gaadi left zaroor mudegi, keep safe distance.",
+    "posted": false
+  }
+]

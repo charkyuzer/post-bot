@@ -1,0 +1,17 @@
+# Dependency directories
+node_modules/
+
+# Local configuration files (contains sensitive credentials)
+.env
+
+# SQLite databases
+*.db
+*.db-journal
+
+# Local logs
+logs/
+*.log
+
+# OS Metadata
+.DS_Store
+Thumbs.db

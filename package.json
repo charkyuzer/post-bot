@@ -1,0 +1,30 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "AutoJokeX – Autonomous Twitter (X) Joke Posting Bot",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "seed": "node scripts/importJokes.js",
+    "test": "jest --runInBand --detectOpenHandles"
+  },
+  "dependencies": {
+    "@atproto/api": "^0.20.28",
+    "@napi-rs/canvas": "^1.0.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3",
+    "sqlite3": "^5.1.7",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "supertest": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "private": true
+}
