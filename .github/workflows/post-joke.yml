@@ -2,7 +2,7 @@ name: AutoPost Bluesky Joke
 
 on:
   schedule:
-    # Runs at the start of every hour (e.g. 1:00, 2:00, etc.)
+    # Runs at the start of every hour (UTC) e.g. 1:00, 2:00, etc.
     - cron: '0 * * * *'
   # Allows manual triggering from the GitHub Actions tab
   workflow_dispatch:
@@ -20,6 +20,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          # Always fetch the latest state of the branch
+          fetch-depth: 0
+          ref: main
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -43,15 +46,18 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git status
-          git diff src/data/jokes.json
-          
+
           # Check if there are changes to commit
           if [[ -n "$(git status --porcelain src/data/jokes.json)" ]]; then
             echo "Changes detected in jokes.json. Committing back to repository..."
             git add src/data/jokes.json
             git commit -m "bot: auto-posted next joke [skip ci]"
-            git push origin HEAD:${{ github.ref_name }}
+            
+            # Pull latest remote changes with rebase to avoid rejection
+            git pull --rebase origin main
+            
+            # Now push safely
+            git push origin HEAD:main
           else
-            echo "No changes to jokes.json detected."
+            echo "No changes to jokes.json detected. Skipping commit."
           fi
