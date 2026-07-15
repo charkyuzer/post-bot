@@ -33,32 +33,32 @@ function formatPost(jokeObj) {
   // Clean tag name
   const tag = category.replace(/\s+/g, '');
 
-  // 1. Build the parts
-  const intro = `${emoji} Daily dose of humor:`;
-  const cta = `\n\nLike ❤️ | Repost 🔁 | Follow for daily laughs! ✨`;
+  // 1. Build all the parts
+  const intro = `${emoji} Joke of the hour:`;
+  const cta = `\n\n❤️ Like  🔁 Share  👤 Follow @jokerryan.bsky.social`;
   const hashtags = `\n#${tag} #jokes #funny #humor`;
 
-  // 2. Try to combine all parts
+  // 2. Try the full version first: intro + joke + cta + hashtags
   let fullPost = `${intro}\n\n${jokeObj.joke}${cta}${hashtags}`;
 
-  // 3. Fallback strategies if the full post exceeds 300 characters
+  // 3. Fallback chain if post exceeds Bluesky's 300 char limit
   if (fullPost.length > 300) {
-    // Strategy A: Remove hashtags first
+    // Drop hashtags
     fullPost = `${intro}\n\n${jokeObj.joke}${cta}`;
   }
 
   if (fullPost.length > 300) {
-    // Strategy B: Remove CTA, keep hashtags
-    fullPost = `${emoji} ${jokeObj.joke}\n\n#${tag} #jokes #funny`;
+    // Drop intro, keep cta + hashtags
+    fullPost = `${emoji} ${jokeObj.joke}${cta}`;
   }
 
   if (fullPost.length > 300) {
-    // Strategy C: Just emoji + raw joke
+    // Keep only emoji + joke
     fullPost = `${emoji} ${jokeObj.joke}`;
   }
 
   if (fullPost.length > 300) {
-    // Ultimate fallback: truncate joke text
+    // Last resort: truncate
     fullPost = jokeObj.joke.substring(0, 297) + '...';
   }
 

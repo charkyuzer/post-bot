@@ -254,15 +254,35 @@ function drawWrappedJokeText(ctx, text, boxY, boxHeight, color, defaultFontSize)
 }
 
 /**
- * Standard footer decorator.
+ * Premium 2-line footer: divider + CTA icons + handle.
+ * @param {CanvasRenderingContext2D} ctx
+ * @param {string} dividerColor  - Color for the divider line
+ * @param {string} ctaColor      - Color for "Like Share Follow" text
+ * @param {string} handleColor   - Color for "@handle" text
  */
-function drawFooter(ctx, color) {
+function drawFooter(ctx, dividerColor, ctaColor, handleColor) {
+  // Divider line
   ctx.save();
-  ctx.fillStyle = color;
-  ctx.font = '800 22px "BricolageGrotesque"';
-  ctx.textAlign = 'center';
+  ctx.strokeStyle = dividerColor || 'rgba(255,255,255,0.25)';
+  ctx.lineWidth = 1.5;
+  ctx.beginPath();
+  ctx.moveTo(120, 878);
+  ctx.lineTo(904, 878);
+  ctx.stroke();
+
+  // CTA text: left-aligned
+  ctx.font = '700 22px "BricolageGrotesque"';
+  ctx.fillStyle = ctaColor || '#ffffff';
+  ctx.textAlign = 'left';
   ctx.textBaseline = 'middle';
-  ctx.fillText('@jokerryan.bsky.social', 512, 915);
+  ctx.fillText('\u2764\ufe0f Like    \ud83d\udd01 Share    \ud83d\udc64 Follow', 130, 910);
+
+  // Handle text: right-aligned
+  ctx.font = '700 22px "BricolageGrotesque"';
+  ctx.fillStyle = handleColor || 'rgba(255,255,255,0.55)';
+  ctx.textAlign = 'right';
+  ctx.textBaseline = 'middle';
+  ctx.fillText('@jokerryan.bsky.social', 895, 910);
   ctx.restore();
 }
 
@@ -338,7 +358,7 @@ function drawDarkBoardTheme(ctx, jokeText, category, jokeId) {
   const textColor = colors[jokeId % colors.length];
 
   drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, textColor, 48);
-  drawFooter(ctx, '#64748b');
+  drawFooter(ctx, '#334155', '#fbbf24', '#94a3b8');
 }
 
 // Theme 1: Comic Orange (Vibrant Comic Book Speech theme)
@@ -408,7 +428,7 @@ function drawComicOrangeTheme(ctx, jokeText, category, jokeId) {
   const textColor = colors[jokeId % colors.length];
 
   drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, textColor, 46);
-  drawFooter(ctx, '#000000');
+  drawFooter(ctx, '#000000', '#000000', '#525252');
 }
 
 // Theme 2: Cute Pastel (Pink Dashed Box, Hearts & Face)
@@ -467,7 +487,7 @@ function drawPastelCuteTheme(ctx, jokeText, category, jokeId) {
   const textColor = colors[jokeId % colors.length];
 
   drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, textColor, 44);
-  drawFooter(ctx, '#db2777');
+  drawFooter(ctx, '#fbcfe8', '#db2777', '#9d174d');
 }
 
 // Theme 3: Cozy Night Sky (Stars & Crescent Moon)
@@ -520,7 +540,7 @@ function drawNightSkyTheme(ctx, jokeText, category, jokeId) {
   const textColor = colors[jokeId % colors.length];
 
   drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, textColor, 44);
-  drawFooter(ctx, '#94a3b8');
+  drawFooter(ctx, 'rgba(255,255,255,0.2)', '#e2e8f0', '#94a3b8');
 }
 
 // Theme 4: Sunset Silhouette (Red-Orange-Purple Gradient & Silhouette Sun)
@@ -566,7 +586,7 @@ function drawSunsetTheme(ctx, jokeText, category, jokeId) {
   const textColor = colors[jokeId % colors.length];
 
   drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, textColor, 44);
-  drawFooter(ctx, '#fbe5c8');
+  drawFooter(ctx, 'rgba(255,255,255,0.15)', '#fde68a', '#fcd9a8');
 }
 
 // Theme 5: Cyberpunk Neon (Glowing Cyan & Magenta Borders)
@@ -616,7 +636,7 @@ function drawCyberpunkTheme(ctx, jokeText, category, jokeId) {
   const textColor = colors[jokeId % colors.length];
 
   drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, textColor, 44);
-  drawFooter(ctx, '#ec4899');
+  drawFooter(ctx, '#ec4899', '#06b6d4', '#6b7280');
 }
 
 // Theme 6: Matrix Hacker (Neon Green Matrix rain theme)
@@ -664,7 +684,7 @@ function drawMatrixTheme(ctx, jokeText, category, jokeId) {
   const textColor = colors[jokeId % colors.length];
 
   drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, textColor, 44);
-  drawFooter(ctx, '#15803d');
+  drawFooter(ctx, '#16a34a', '#4ade80', '#15803d');
 }
 
 // Theme 7: Forest Nature (Emerald/Mint theme with leaf details)
@@ -705,7 +725,7 @@ function drawForestTheme(ctx, jokeText, category, jokeId) {
   const textColor = colors[jokeId % colors.length];
 
   drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, textColor, 44);
-  drawFooter(ctx, '#a7f3d0');
+  drawFooter(ctx, '#34d399', '#a7f3d0', '#6ee7b7');
 }
 
 // Theme 8: Cozy Coffee (Chocolate & Cream warm café design)
@@ -763,7 +783,7 @@ function drawCoffeeTheme(ctx, jokeText, category, jokeId) {
   const textColor = colors[jokeId % colors.length];
 
   drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, textColor, 44);
-  drawFooter(ctx, '#fed7aa');
+  drawFooter(ctx, '#f59e0b', '#fed7aa', '#fcd9a8');
 }
 
 // Theme 9: Chalkboard (Textured dark green school board)
@@ -812,7 +832,7 @@ function drawChalkboardTheme(ctx, jokeText, category, jokeId) {
   const textColor = colors[jokeId % colors.length];
 
   drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, textColor, 44);
-  drawFooter(ctx, 'rgba(255, 255, 255, 0.5)');
+  drawFooter(ctx, 'rgba(255,255,255,0.3)', 'rgba(255,255,255,0.85)', 'rgba(255,255,255,0.45)');
 }
 
 // Theme 10: Vaporwave Grid (80s Magenta/Purple Grid Theme)
@@ -877,7 +897,7 @@ function drawVaporwaveTheme(ctx, jokeText, category, jokeId) {
   const textColor = colors[jokeId % colors.length];
 
   drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, textColor, 44);
-  drawFooter(ctx, '#06b6d4');
+  drawFooter(ctx, '#ec4899', '#a5f3fc', '#6b7280');
 }
 
 // Theme 11: Minimalist Clean (Light White Theme with Elegant Borders)
@@ -919,7 +939,7 @@ function drawMinimalTheme(ctx, jokeText, category, jokeId) {
   const textColor = colors[jokeId % colors.length];
 
   drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, textColor, 44);
-  drawFooter(ctx, '#a1a1aa');
+  drawFooter(ctx, '#e4e4e7', '#18181b', '#a1a1aa');
 }
 
 // ==========================================
