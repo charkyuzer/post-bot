@@ -14,38 +14,39 @@ const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
  */
 function formatPost(jokeObj) {
   const emojiMap = {
-    programming: '💻',
-    'dad jokes': '👴',
-    office: '👔',
-    college: '🎓',
-    engineering: '⚙️',
-    technology: '🔌',
-    relationship: '❤️',
-    animals: '🐱',
-    puns: '💡',
-    random: '🤪'
+    programming: '💻🤓',
+    'dad jokes': '👴🤪',
+    office: '👔💼',
+    college: '🎓📚',
+    engineering: '⚙️🛠️',
+    technology: '🔌📡',
+    relationship: '❤️👩‍❤️‍👨',
+    animals: '🐱🦁',
+    puns: '💡🧠',
+    random: '🤪🤪',
+    'daily life': '🏡🚶‍♂️'
   };
 
   const category = (jokeObj.category || 'random').toLowerCase();
-  const emoji = emojiMap[category] || '😄';
+  const emoji = emojiMap[category] || '😄✨';
   
-  // Engaging intro lines
+  // Engaging, emoji-rich intro lines
   const intros = [
-    `${emoji} Daily Dose of Humor`,
-    `🔥 Try not to laugh...`,
-    `😂 This one got me good`,
-    `💀 I can't even...`,
-    `${emoji} Joke of the Hour`,
-    `⚡ Quick laugh for your feed`,
+    `${emoji} Daily dose of premium humor:`,
+    `🔥😂 Try not to laugh at this one:`,
+    `🤣👇 This got me laughing so hard:`,
+    `💀💀 I can't even handle this:`,
+    `${emoji} Joke of the hour for your feed:`,
+    `⚡🤪 Quick laugh to fix your mood:`,
   ];
   
-  // Call-to-action prompts  
+  // Call-to-action prompts with emojis
   const ctas = [
-    `\n\n♻️ Repost if you laughed!`,
-    `\n\n❤️ Like if this made you smile!`,
-    `\n\n😂 Tag someone who needs this!`,
-    `\n\n🔁 Share the laughs!`,
-    `\n\n💬 Drop a 😂 if you relate!`,
+    `\n\n🔁 Repost if you laughed! 😂`,
+    `\n\n❤️ Like if this made you smile! 😊`,
+    `\n\n🤣 Tag someone who relates to this! 👇`,
+    `\n\n🔁 Share the laughs with your friends! 🚀`,
+    `\n\n💬 Drop a 😂/💀 in the comments!`,
   ];
 
   const tag = category.replace(/\s+/g, '');
@@ -59,13 +60,13 @@ function formatPost(jokeObj) {
     },
     // Format 2: Emoji frame + joke + hashtags
     () => {
-      return `${emoji} ${jokeObj.joke}\n\n#${tag} #jokes #humor`;
+      return `${emoji} ${jokeObj.joke}\n\n#${tag} #jokes😂 #funny🤪 #humor💀`;
     },
     // Format 3: Dramatic pause style
     () => {
       const parts = jokeObj.joke.split('?');
       if (parts.length >= 2) {
-        return `🤔 ${parts[0]}?\n\n...\n\n😂 ${parts.slice(1).join('?').trim()}`;
+        return `🤔 ${parts[0]}?\n\n...\n\n😂 ${parts.slice(1).join('?').trim()} 🤣`;
       }
       const intro = intros[Math.floor(Math.random() * intros.length)];
       return `${intro}\n\n${jokeObj.joke}`;
@@ -73,7 +74,7 @@ function formatPost(jokeObj) {
     // Format 4: Quote style
     () => {
       const cta = ctas[Math.floor(Math.random() * ctas.length)];
-      return `"${jokeObj.joke}"\n\n— AutoJokeX Bot ${emoji}${cta}`;
+      return `"${jokeObj.joke}"\n\n— AutoJokeX ${emoji}${cta}`;
     }
   ];
 
