@@ -47,17 +47,17 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Check if there are changes to commit
           if [[ -n "$(git status --porcelain src/data/jokes.json)" ]]; then
             echo "Changes detected in jokes.json. Committing back to repository..."
             git add src/data/jokes.json
             git commit -m "bot: auto-posted next joke [skip ci]"
-            
-            # Pull latest remote changes with rebase to avoid rejection
-            git pull --rebase origin main
-            
-            # Now push safely
-            git push origin HEAD:main
+
+            # Retry push up to 3 times with rebase on conflict
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push origin HEAD:main && break
+              echo "Push attempt $i failed, retrying..."
+              sleep 5
+            done
           else
             echo "No changes to jokes.json detected. Skipping commit."
           fi

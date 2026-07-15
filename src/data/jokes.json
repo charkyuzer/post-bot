@@ -3,8 +3,7 @@
     "id": 1,
     "category": "Programming",
     "joke": "Developer: Yaar, mera code local pe bilkul mast chal raha hai!\nSenior: Toh ek kaam kar, client ko tera computer hi gift kar dete hain.",
-    "posted": true,
-    "posted_at": "2026-07-15T07:05:04.055Z"
+    "posted": false
   },
   {
     "id": 2,
