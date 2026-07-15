@@ -33,8 +33,22 @@ function formatPost(jokeObj) {
   // Clean tag name
   const tag = category.replace(/\s+/g, '');
 
-  // 1. Build all the parts
-  const intro = `${emoji} Joke of the hour:`;
+  // Unique intros rotating by joke ID
+  const intros = [
+    `${emoji} Aaj ka joke:`,
+    `${emoji} Haste raho!`,
+    `${emoji} Ye suno zara...`,
+    `${emoji} Mood fresh karo:`,
+    `${emoji} Ek dum mast joke:`,
+    `${emoji} Padhke hasna mat bhoolna:`,
+    `${emoji} Break time joke:`,
+    `${emoji} Aaj bhi ek joke:`,
+    `${emoji} Chhota sa joke:`,
+    `${emoji} Ye wala sunna chahiye:`,
+    `${emoji} Hasne ki dose:`,
+    `${emoji} Seedha dil pe:`,
+  ];
+  const intro = intros[(jokeObj.id || 0) % intros.length];
   const cta = `\n\n❤️ Like  🔁 Share  👤 Follow @jokerryan.bsky.social`;
   const hashtags = `\n#${tag} #jokes #funny #humor`;
 

@@ -2,11 +2,12 @@ name: AutoPost Bluesky Joke
 
 on:
   schedule:
-    # Runs every 30 minutes to compensate for GitHub's unreliable scheduler
     - cron: '0 * * * *'
     - cron: '30 * * * *'
-  # Allows manual triggering from the GitHub Actions tab
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['src/data/jokes.json']
 
 concurrency:
   group: post-joke
