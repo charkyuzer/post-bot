@@ -1,4 +1,4 @@
-const { createCanvas, GlobalFonts } = require('@napi-rs/canvas');
+﻿const { createCanvas, GlobalFonts } = require('@napi-rs/canvas');
 const path = require('path');
 const logger = require('./logger');
 
@@ -275,7 +275,7 @@ function drawFooter(ctx, dividerColor, ctaColor, handleColor) {
   ctx.fillStyle = ctaColor || '#ffffff';
   ctx.textAlign = 'left';
   ctx.textBaseline = 'middle';
-  ctx.fillText('\u2764\ufe0f Like    \ud83d\udd01 Share    \ud83d\udc64 Follow', 130, 910);
+  ctx.fillText('Like  |  Share  |  Follow', 130, 910);
 
   // Handle text: right-aligned
   ctx.font = '700 22px "BricolageGrotesque"';
@@ -1029,3 +1029,4 @@ async function generateJokeCard(jokeObj) {
 module.exports = {
   generateJokeCard
 };
+
