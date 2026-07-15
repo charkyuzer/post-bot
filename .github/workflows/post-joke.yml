@@ -53,18 +53,15 @@ jobs:
 
           if [[ -n "$(git status --porcelain src/data/jokes.json)" ]]; then
             echo "Changes detected in jokes.json. Committing back to repository..."
+
+            # Stash changes, pull latest, then reapply
+            git stash
+            git pull --rebase origin main
+            git stash pop
+
             git add src/data/jokes.json
             git commit -m "bot: auto-posted next joke [skip ci]"
-
-            # Retry push up to 3 times with rebase on conflict
-            for i in 1 2 3; do
-              if git pull --rebase origin main && git push origin HEAD:main; then
-                echo "Push successful on attempt $i"
-                break
-              fi
-              echo "Push attempt $i failed, retrying in 5s..."
-              sleep 5
-            done
+            git push origin HEAD:main
           else
             echo "No changes to jokes.json detected. Skipping commit."
           fi
