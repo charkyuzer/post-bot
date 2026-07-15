@@ -7,6 +7,10 @@ on:
   # Allows manual triggering from the GitHub Actions tab
   workflow_dispatch:
 
+concurrency:
+  group: post-joke
+  cancel-in-progress: false
+
 jobs:
   post-joke:
     runs-on: ubuntu-latest
@@ -54,8 +58,11 @@ jobs:
 
             # Retry push up to 3 times with rebase on conflict
             for i in 1 2 3; do
-              git pull --rebase origin main && git push origin HEAD:main && break
-              echo "Push attempt $i failed, retrying..."
+              if git pull --rebase origin main && git push origin HEAD:main; then
+                echo "Push successful on attempt $i"
+                break
+              fi
+              echo "Push attempt $i failed, retrying in 5s..."
               sleep 5
             done
           else
