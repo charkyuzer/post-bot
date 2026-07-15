@@ -2,8 +2,9 @@ name: AutoPost Bluesky Joke
 
 on:
   schedule:
-    # Runs at the start of every hour (UTC) e.g. 1:00, 2:00, etc.
+    # Runs every 30 minutes to compensate for GitHub's unreliable scheduler
     - cron: '0 * * * *'
+    - cron: '30 * * * *'
   # Allows manual triggering from the GitHub Actions tab
   workflow_dispatch:
 

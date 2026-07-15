@@ -18,7 +18,17 @@ async function runGitHubAction() {
     }
 
     const jokes = JSON.parse(fs.readFileSync(JOKES_FILE_PATH, 'utf8'));
-    
+
+    // Prevent double-posting: skip if last post was less than 45 minutes ago
+    const lastPosted = jokes.filter(j => j.posted_at).sort((a, b) => new Date(b.posted_at) - new Date(a.posted_at))[0];
+    if (lastPosted) {
+      const minutesSinceLastPost = (Date.now() - new Date(lastPosted.posted_at)) / 60000;
+      if (minutesSinceLastPost < 45) {
+        logger.info('Last post was %.1f minutes ago. Skipping to prevent double-post.', minutesSinceLastPost);
+        process.exit(0);
+      }
+    }
+
     // Find first unposted joke
     const nextJokeIndex = jokes.findIndex(j => !j.posted);
 
