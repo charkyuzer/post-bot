@@ -30,70 +30,39 @@ function formatPost(jokeObj) {
   const category = (jokeObj.category || 'random').toLowerCase();
   const emoji = emojiMap[category] || '😄✨';
   
-  // Engaging, emoji-rich intro lines
-  const intros = [
-    `${emoji} Daily dose of premium humor:`,
-    `🔥😂 Try not to laugh at this one:`,
-    `🤣👇 This got me laughing so hard:`,
-    `💀💀 I can't even handle this:`,
-    `${emoji} Joke of the hour for your feed:`,
-    `⚡🤪 Quick laugh to fix your mood:`,
-  ];
-  
-  // Call-to-action prompts with emojis
-  const ctas = [
-    `\n\n🔁 Repost if you laughed! 😂`,
-    `\n\n❤️ Like if this made you smile! 😊`,
-    `\n\n🤣 Tag someone who relates to this! 👇`,
-    `\n\n🔁 Share the laughs with your friends! 🚀`,
-    `\n\n💬 Drop a 😂/💀 in the comments!`,
-  ];
-
+  // Clean tag name
   const tag = category.replace(/\s+/g, '');
-  
-  const formats = [
-    // Format 1: Intro + joke + CTA
-    () => {
-      const intro = intros[Math.floor(Math.random() * intros.length)];
-      const cta = ctas[Math.floor(Math.random() * ctas.length)];
-      return `${intro}\n\n${jokeObj.joke}${cta}`;
-    },
-    // Format 2: Emoji frame + joke + hashtags
-    () => {
-      return `${emoji} ${jokeObj.joke}\n\n#${tag} #jokes😂 #funny🤪 #humor💀`;
-    },
-    // Format 3: Dramatic pause style
-    () => {
-      const parts = jokeObj.joke.split('?');
-      if (parts.length >= 2) {
-        return `🤔 ${parts[0]}?\n\n...\n\n😂 ${parts.slice(1).join('?').trim()} 🤣`;
-      }
-      const intro = intros[Math.floor(Math.random() * intros.length)];
-      return `${intro}\n\n${jokeObj.joke}`;
-    },
-    // Format 4: Quote style
-    () => {
-      const cta = ctas[Math.floor(Math.random() * ctas.length)];
-      return `"${jokeObj.joke}"\n\n— AutoJokeX ${emoji}${cta}`;
-    }
-  ];
 
-  // Pick one randomly
-  const randomIndex = Math.floor(Math.random() * formats.length);
-  let postText = formats[randomIndex]();
+  // 1. Build the parts
+  const intro = `${emoji} Daily dose of humor:`;
+  const cta = `\n\nLike ❤️ | Repost 🔁 | Follow for daily laughs! ✨`;
+  const hashtags = `\n#${tag} #jokes #funny #humor`;
 
-  // Bluesky has a 300 character limit (graphemes)
-  if (postText.length > 300) {
-    logger.warn('Formatted post exceeds 300 chars (%d). Falling back to raw joke.', postText.length);
-    postText = `${emoji} ${jokeObj.joke}`;
+  // 2. Try to combine all parts
+  let fullPost = `${intro}\n\n${jokeObj.joke}${cta}${hashtags}`;
+
+  // 3. Fallback strategies if the full post exceeds 300 characters
+  if (fullPost.length > 300) {
+    // Strategy A: Remove hashtags first
+    fullPost = `${intro}\n\n${jokeObj.joke}${cta}`;
   }
 
-  if (postText.length > 300) {
-    logger.warn('Raw joke still exceeds 300 chars (%d). Truncating.', postText.length);
-    postText = postText.substring(0, 297) + '...';
+  if (fullPost.length > 300) {
+    // Strategy B: Remove CTA, keep hashtags
+    fullPost = `${emoji} ${jokeObj.joke}\n\n#${tag} #jokes #funny`;
   }
 
-  return postText;
+  if (fullPost.length > 300) {
+    // Strategy C: Just emoji + raw joke
+    fullPost = `${emoji} ${jokeObj.joke}`;
+  }
+
+  if (fullPost.length > 300) {
+    // Ultimate fallback: truncate joke text
+    fullPost = jokeObj.joke.substring(0, 297) + '...';
+  }
+
+  return fullPost;
 }
 
 

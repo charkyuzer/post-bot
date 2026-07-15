@@ -271,7 +271,7 @@ function drawFooter(ctx, color) {
 // ==========================================
 
 // Theme 0: Dark Board (Deep Slate & Yellow Quote Badges)
-function drawDarkBoardTheme(ctx, jokeText, category) {
+function drawDarkBoardTheme(ctx, jokeText, category, jokeId) {
   const grad = ctx.createRadialGradient(512, 512, 100, 512, 512, 700);
   grad.addColorStop(0, '#0f172a');
   grad.addColorStop(1, '#020617');
@@ -333,12 +333,16 @@ function drawDarkBoardTheme(ctx, jokeText, category) {
   ctx.fillText('“', boxX, boxY + 22);
   ctx.fillText('”', boxX + boxWidth, boxY + boxHeight - 2);
 
-  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, '#ffffff', 48);
+  // Dynamic text color variation: White, light amber, or light cyan
+  const colors = ['#ffffff', '#fef3c7', '#e0f2fe'];
+  const textColor = colors[jokeId % colors.length];
+
+  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, textColor, 48);
   drawFooter(ctx, '#64748b');
 }
 
 // Theme 1: Comic Orange (Vibrant Comic Book Speech theme)
-function drawComicOrangeTheme(ctx, jokeText, category) {
+function drawComicOrangeTheme(ctx, jokeText, category, jokeId) {
   const grad = ctx.createLinearGradient(0, 0, 1024, 1024);
   grad.addColorStop(0, '#f97316');
   grad.addColorStop(1, '#facc15');
@@ -399,12 +403,16 @@ function drawComicOrangeTheme(ctx, jokeText, category) {
   drawLaughingEmoji(ctx, 80, 200, 26);
   drawLaughingEmoji(ctx, 944, 800, 26);
 
-  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, '#000000', 46);
+  // Dynamic text color variation: Charcoal Black, Dark Blue, or Deep Brown
+  const colors = ['#000000', '#1e293b', '#451a03'];
+  const textColor = colors[jokeId % colors.length];
+
+  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, textColor, 46);
   drawFooter(ctx, '#000000');
 }
 
 // Theme 2: Cute Pastel (Pink Dashed Box, Hearts & Face)
-function drawPastelCuteTheme(ctx, jokeText, category) {
+function drawPastelCuteTheme(ctx, jokeText, category, jokeId) {
   ctx.fillStyle = '#fefefe';
   ctx.fillRect(0, 0, 1024, 1024);
 
@@ -454,12 +462,16 @@ function drawPastelCuteTheme(ctx, jokeText, category) {
   drawHeart(ctx, boxX + 45, boxY + 35, 20, '#db2777');
   drawHeart(ctx, boxX + boxWidth - 45, boxY + boxHeight - 55, 20, '#db2777');
 
-  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, '#1e293b', 44);
+  // Dynamic text color variation: Slate, Deep Purple, or Dark Forest Green
+  const colors = ['#1e293b', '#4c1d95', '#064e3b'];
+  const textColor = colors[jokeId % colors.length];
+
+  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, textColor, 44);
   drawFooter(ctx, '#db2777');
 }
 
 // Theme 3: Cozy Night Sky (Stars & Crescent Moon)
-function drawNightSkyTheme(ctx, jokeText, category) {
+function drawNightSkyTheme(ctx, jokeText, category, jokeId) {
   const grad = ctx.createLinearGradient(0, 0, 0, 1024);
   grad.addColorStop(0, '#1e1b4b');
   grad.addColorStop(1, '#030712');
@@ -503,12 +515,16 @@ function drawNightSkyTheme(ctx, jokeText, category) {
   ctx.fillText('“', boxX + 45, boxY + 65);
   ctx.fillText('”', boxX + boxWidth - 45, boxY + boxHeight - 35);
 
-  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, '#ffffff', 44);
+  // Dynamic text color: White, soft yellow, or light mint green
+  const colors = ['#ffffff', '#fef08a', '#d1fae5'];
+  const textColor = colors[jokeId % colors.length];
+
+  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, textColor, 44);
   drawFooter(ctx, '#94a3b8');
 }
 
 // Theme 4: Sunset Silhouette (Red-Orange-Purple Gradient & Silhouette Sun)
-function drawSunsetTheme(ctx, jokeText, category) {
+function drawSunsetTheme(ctx, jokeText, category, jokeId) {
   const grad = ctx.createLinearGradient(0, 0, 0, 1024);
   grad.addColorStop(0, '#701a75'); // fuchsia-900
   grad.addColorStop(0.5, '#be123c'); // rose-700
@@ -545,12 +561,16 @@ function drawSunsetTheme(ctx, jokeText, category) {
   // Sun icon decoration
   drawStar(ctx, boxX + boxWidth - 50, boxY + 45, 4, 15, 6, '#fde047');
 
-  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, '#ffffff', 44);
+  // Dynamic text color: pure white, light sunset peach, or warm yellow
+  const colors = ['#ffffff', '#fed7aa', '#fef08a'];
+  const textColor = colors[jokeId % colors.length];
+
+  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, textColor, 44);
   drawFooter(ctx, '#fbe5c8');
 }
 
 // Theme 5: Cyberpunk Neon (Glowing Cyan & Magenta Borders)
-function drawCyberpunkTheme(ctx, jokeText, category) {
+function drawCyberpunkTheme(ctx, jokeText, category, jokeId) {
   ctx.fillStyle = '#09090b'; // zinc-950
   ctx.fillRect(0, 0, 1024, 1024);
 
@@ -591,12 +611,16 @@ function drawCyberpunkTheme(ctx, jokeText, category) {
   // Flame Emoji in corner
   drawFlameEmoji(ctx, boxX + 35, boxY + 35, 30);
 
-  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, '#06b6d4', 44);
+  // Dynamic text color variation: Cyan, Neon Pink, or Neon Green
+  const colors = ['#06b6d4', '#f43f5e', '#a3e635'];
+  const textColor = colors[jokeId % colors.length];
+
+  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, textColor, 44);
   drawFooter(ctx, '#ec4899');
 }
 
 // Theme 6: Matrix Hacker (Neon Green Matrix rain theme)
-function drawMatrixTheme(ctx, jokeText, category) {
+function drawMatrixTheme(ctx, jokeText, category, jokeId) {
   ctx.fillStyle = '#022c22'; // deep green-950
   ctx.fillRect(0, 0, 1024, 1024);
 
@@ -635,12 +659,16 @@ function drawMatrixTheme(ctx, jokeText, category) {
   ctx.fillRect(boxX + boxWidth - 20, boxY - 10, 30, 8);
   ctx.fillRect(boxX + boxWidth + 2, boxY - 10, 8, 30);
 
-  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, '#22c55e', 44);
+  // Dynamic text color variation: Neon Green, Matrix Light Green, or Emerald
+  const colors = ['#22c55e', '#4ade80', '#34d399'];
+  const textColor = colors[jokeId % colors.length];
+
+  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, textColor, 44);
   drawFooter(ctx, '#15803d');
 }
 
 // Theme 7: Forest Nature (Emerald/Mint theme with leaf details)
-function drawForestTheme(ctx, jokeText, category) {
+function drawForestTheme(ctx, jokeText, category, jokeId) {
   const grad = ctx.createLinearGradient(0, 0, 1024, 1024);
   grad.addColorStop(0, '#064e3b'); // green-900
   grad.addColorStop(1, '#022c22'); // green-950
@@ -672,12 +700,16 @@ function drawForestTheme(ctx, jokeText, category) {
   drawHeart(ctx, boxX, boxY, 16, '#34d399');
   drawHeart(ctx, boxX + boxWidth, boxY + boxHeight, 16, '#34d399');
 
-  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, '#ffffff', 44);
+  // Dynamic text color variation: Pure White, Soft Mint, or Light Yellow
+  const colors = ['#ffffff', '#a7f3d0', '#fef08a'];
+  const textColor = colors[jokeId % colors.length];
+
+  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, textColor, 44);
   drawFooter(ctx, '#a7f3d0');
 }
 
 // Theme 8: Cozy Coffee (Chocolate & Cream warm café design)
-function drawCoffeeTheme(ctx, jokeText, category) {
+function drawCoffeeTheme(ctx, jokeText, category, jokeId) {
   const grad = ctx.createLinearGradient(0, 0, 1024, 1024);
   grad.addColorStop(0, '#451a03'); // brown-900
   grad.addColorStop(1, '#1c1917'); // stone-900
@@ -726,12 +758,16 @@ function drawCoffeeTheme(ctx, jokeText, category) {
   drawStar(ctx, boxX + 45, boxY + 40, 4, 12, 5, '#f59e0b');
   drawStar(ctx, boxX + boxWidth - 45, boxY + boxHeight - 40, 4, 12, 5, '#f59e0b');
 
-  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, '#ffedd5', 44);
+  // Dynamic text color variation: Warm Cream, Peach, or Warm Gold
+  const colors = ['#ffedd5', '#fed7aa', '#fef3c7'];
+  const textColor = colors[jokeId % colors.length];
+
+  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, textColor, 44);
   drawFooter(ctx, '#fed7aa');
 }
 
 // Theme 9: Chalkboard (Textured dark green school board)
-function drawChalkboardTheme(ctx, jokeText, category) {
+function drawChalkboardTheme(ctx, jokeText, category, jokeId) {
   ctx.fillStyle = '#153d26'; // chalkboard green
   ctx.fillRect(0, 0, 1024, 1024);
 
@@ -771,12 +807,16 @@ function drawChalkboardTheme(ctx, jokeText, category) {
   ctx.fillText('“', boxX + 45, boxY + 65);
   ctx.fillText('”', boxX + boxWidth - 45, boxY + boxHeight - 35);
 
-  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, 'rgba(255, 255, 255, 0.95)', 44);
+  // Dynamic text color variation: Pure chalk white, light chalk yellow, or chalk green
+  const colors = ['rgba(255, 255, 255, 0.95)', '#fef08a', '#d1fae5'];
+  const textColor = colors[jokeId % colors.length];
+
+  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, textColor, 44);
   drawFooter(ctx, 'rgba(255, 255, 255, 0.5)');
 }
 
 // Theme 10: Vaporwave Grid (80s Magenta/Purple Grid Theme)
-function drawVaporwaveTheme(ctx, jokeText, category) {
+function drawVaporwaveTheme(ctx, jokeText, category, jokeId) {
   const grad = ctx.createLinearGradient(0, 0, 0, 1024);
   grad.addColorStop(0, '#581c87'); // purple-900
   grad.addColorStop(0.5, '#701a75'); // fuchsia-900
@@ -832,12 +872,16 @@ function drawVaporwaveTheme(ctx, jokeText, category) {
   drawRoundedRect(ctx, boxX, boxY, boxWidth, boxHeight, 20);
   ctx.stroke();
 
-  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, '#ffffff', 44);
+  // Dynamic text color variation: Pure White, Glowing Neon Cyan, or Bright Neon Pink
+  const colors = ['#ffffff', '#a5f3fc', '#fbcfe8'];
+  const textColor = colors[jokeId % colors.length];
+
+  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, textColor, 44);
   drawFooter(ctx, '#06b6d4');
 }
 
 // Theme 11: Minimalist Clean (Light White Theme with Elegant Borders)
-function drawMinimalTheme(ctx, jokeText, category) {
+function drawMinimalTheme(ctx, jokeText, category, jokeId) {
   ctx.fillStyle = '#fafafa'; // zinc-50
   ctx.fillRect(0, 0, 1024, 1024);
 
@@ -870,7 +914,11 @@ function drawMinimalTheme(ctx, jokeText, category) {
   ctx.fillText('“', 300, 520);
   ctx.fillText('”', 724, 620);
 
-  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, '#18181b', 44);
+  // Dynamic text color variation: Slate-900, Charcoal Black, or Deep Navy Blue
+  const colors = ['#18181b', '#0f172a', '#1e3a8a'];
+  const textColor = colors[jokeId % colors.length];
+
+  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, textColor, 44);
   drawFooter(ctx, '#a1a1aa');
 }
 
@@ -900,52 +948,52 @@ async function generateJokeCard(jokeObj) {
     switch (themeIndex) {
       case 0:
         logger.info('Generating card using Theme 0: Dark Board...');
-        drawDarkBoardTheme(ctx, text, category);
+        drawDarkBoardTheme(ctx, text, category, jokeId);
         break;
       case 1:
         logger.info('Generating card using Theme 1: Comic Orange...');
-        drawComicOrangeTheme(ctx, text, category);
+        drawComicOrangeTheme(ctx, text, category, jokeId);
         break;
       case 2:
         logger.info('Generating card using Theme 2: Cute Pastel...');
-        drawPastelCuteTheme(ctx, text, category);
+        drawPastelCuteTheme(ctx, text, category, jokeId);
         break;
       case 3:
         logger.info('Generating card using Theme 3: Cozy Night Sky...');
-        drawNightSkyTheme(ctx, text, category);
+        drawNightSkyTheme(ctx, text, category, jokeId);
         break;
       case 4:
         logger.info('Generating card using Theme 4: Sunset Silhouette...');
-        drawSunsetTheme(ctx, text, category);
+        drawSunsetTheme(ctx, text, category, jokeId);
         break;
       case 5:
         logger.info('Generating card using Theme 5: Cyberpunk Neon...');
-        drawCyberpunkTheme(ctx, text, category);
+        drawCyberpunkTheme(ctx, text, category, jokeId);
         break;
       case 6:
         logger.info('Generating card using Theme 6: Matrix Hacker...');
-        drawMatrixTheme(ctx, text, category);
+        drawMatrixTheme(ctx, text, category, jokeId);
         break;
       case 7:
         logger.info('Generating card using Theme 7: Forest Nature...');
-        drawForestTheme(ctx, text, category);
+        drawForestTheme(ctx, text, category, jokeId);
         break;
       case 8:
         logger.info('Generating card using Theme 8: Cozy Coffee...');
-        drawCoffeeTheme(ctx, text, category);
+        drawCoffeeTheme(ctx, text, category, jokeId);
         break;
       case 9:
         logger.info('Generating card using Theme 9: Chalkboard Class...');
-        drawChalkboardTheme(ctx, text, category);
+        drawChalkboardTheme(ctx, text, category, jokeId);
         break;
       case 10:
         logger.info('Generating card using Theme 10: Vaporwave Grid...');
-        drawVaporwaveTheme(ctx, text, category);
+        drawVaporwaveTheme(ctx, text, category, jokeId);
         break;
       case 11:
       default:
         logger.info('Generating card using Theme 11: Minimalist Clean...');
-        drawMinimalTheme(ctx, text, category);
+        drawMinimalTheme(ctx, text, category, jokeId);
         break;
     }
 
