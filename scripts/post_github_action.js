@@ -33,7 +33,7 @@ async function runGitHubAction() {
     const nextJokeIndex = jokes.findIndex(j => !j.posted);
 
     if (nextJokeIndex === -1) {
-      logger.warn('All 200 jokes have been posted! No new joke to post.');
+      logger.warn('All jokes have been posted! No new joke to post.');
       process.exit(0);
     }
 
