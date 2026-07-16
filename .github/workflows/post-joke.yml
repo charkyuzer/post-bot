@@ -1,9 +1,6 @@
 name: AutoPost Bluesky Joke
 
 on:
-  schedule:
-    - cron: '0 * * * *'
-    - cron: '30 * * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -62,7 +59,7 @@ jobs:
             git stash pop
 
             git add src/data/jokes.json
-            git commit -m "bot: auto-posted next joke [skip ci]"
+            git commit -m "bot: auto-posted next joke"
             git push origin HEAD:main
           else
             echo "No changes to jokes.json detected. Skipping commit."

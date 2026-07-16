@@ -942,6 +942,222 @@ function drawMinimalTheme(ctx, jokeText, category, jokeId) {
   drawFooter(ctx, '#e4e4e7', '#18181b', '#a1a1aa');
 }
 
+// Theme 12: Glassmorphism Dark (Frosted glass card on deep purple)
+function drawGlassmorphTheme(ctx, jokeText, category, jokeId) {
+  // Deep purple-blue background
+  const bg = ctx.createLinearGradient(0, 0, 1024, 1024);
+  bg.addColorStop(0, '#0d0221');
+  bg.addColorStop(0.5, '#1a0533');
+  bg.addColorStop(1, '#0a0a2e');
+  ctx.fillStyle = bg;
+  ctx.fillRect(0, 0, 1024, 1024);
+
+  // Glowing orbs in background
+  const orb1 = ctx.createRadialGradient(200, 200, 0, 200, 200, 300);
+  orb1.addColorStop(0, 'rgba(139, 92, 246, 0.35)');
+  orb1.addColorStop(1, 'rgba(139, 92, 246, 0)');
+  ctx.fillStyle = orb1;
+  ctx.fillRect(0, 0, 1024, 1024);
+
+  const orb2 = ctx.createRadialGradient(824, 824, 0, 824, 824, 280);
+  orb2.addColorStop(0, 'rgba(236, 72, 153, 0.3)');
+  orb2.addColorStop(1, 'rgba(236, 72, 153, 0)');
+  ctx.fillStyle = orb2;
+  ctx.fillRect(0, 0, 1024, 1024);
+
+  // Category pill header
+  ctx.fillStyle = 'rgba(139, 92, 246, 0.25)';
+  drawRoundedRect(ctx, 362, 95, 300, 52, 26);
+  ctx.fill();
+  ctx.strokeStyle = 'rgba(167, 139, 250, 0.6)';
+  ctx.lineWidth = 1.5;
+  drawRoundedRect(ctx, 362, 95, 300, 52, 26);
+  ctx.stroke();
+
+  ctx.fillStyle = '#c4b5fd';
+  ctx.font = '700 22px "BricolageGrotesque"';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.fillText('✦  ' + category.toUpperCase() + '  ✦', 512, 121);
+
+  // Frosted glass card
+  const boxX = 80;
+  const boxY = 210;
+  const boxWidth = 864;
+  const boxHeight = 620;
+
+  ctx.fillStyle = 'rgba(255, 255, 255, 0.06)';
+  drawRoundedRect(ctx, boxX, boxY, boxWidth, boxHeight, 32);
+  ctx.fill();
+
+  // Glass border with gradient effect
+  ctx.strokeStyle = 'rgba(255, 255, 255, 0.18)';
+  ctx.lineWidth = 1.5;
+  drawRoundedRect(ctx, boxX, boxY, boxWidth, boxHeight, 32);
+  ctx.stroke();
+
+  // Inner highlight line at top
+  ctx.strokeStyle = 'rgba(255, 255, 255, 0.35)';
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(boxX + 40, boxY + 1);
+  ctx.lineTo(boxX + boxWidth - 40, boxY + 1);
+  ctx.stroke();
+
+  // Decorative corner dots
+  const dotColor = 'rgba(167, 139, 250, 0.7)';
+  [[boxX + 24, boxY + 24], [boxX + boxWidth - 24, boxY + 24],
+   [boxX + 24, boxY + boxHeight - 24], [boxX + boxWidth - 24, boxY + boxHeight - 24]]
+    .forEach(([dx, dy]) => {
+      ctx.fillStyle = dotColor;
+      ctx.beginPath();
+      ctx.arc(dx, dy, 4, 0, Math.PI * 2);
+      ctx.fill();
+    });
+
+  const colors = ['#f0e6ff', '#e0d4ff', '#ffffff'];
+  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, colors[jokeId % colors.length], 44);
+  drawFooter(ctx, 'rgba(167,139,250,0.3)', '#c4b5fd', 'rgba(196,181,253,0.5)');
+}
+
+// Theme 13: Bold Newspaper (Black & White editorial style)
+function drawNewspaperTheme(ctx, jokeText, category, jokeId) {
+  ctx.fillStyle = '#f5f0e8';
+  ctx.fillRect(0, 0, 1024, 1024);
+
+  // Subtle paper texture lines
+  ctx.strokeStyle = 'rgba(0,0,0,0.03)';
+  ctx.lineWidth = 1;
+  for (let y = 0; y < 1024; y += 8) {
+    ctx.beginPath();
+    ctx.moveTo(0, y);
+    ctx.lineTo(1024, y);
+    ctx.stroke();
+  }
+
+  // Top thick black bar
+  ctx.fillStyle = '#0a0a0a';
+  ctx.fillRect(0, 0, 1024, 88);
+
+  // Newspaper name in header
+  ctx.fillStyle = '#f5f0e8';
+  ctx.font = '800 38px "BricolageGrotesque"';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.fillText('THE DAILY JOKE', 512, 44);
+
+  // Subheader bar
+  ctx.fillStyle = '#0a0a0a';
+  ctx.fillRect(60, 100, 904, 3);
+
+  ctx.fillStyle = '#0a0a0a';
+  ctx.font = '600 18px "BricolageGrotesque"';
+  ctx.textAlign = 'left';
+  ctx.textBaseline = 'middle';
+  ctx.fillText(category.toUpperCase() + ' EDITION', 70, 128);
+
+  ctx.textAlign = 'right';
+  ctx.fillText('ISSUE #' + jokeId, 954, 128);
+
+  ctx.fillRect(60, 148, 904, 2);
+
+  // Main content box
+  const boxX = 60;
+  const boxY = 175;
+  const boxWidth = 904;
+  const boxHeight = 650;
+
+  // Big opening quote mark
+  ctx.fillStyle = 'rgba(0,0,0,0.07)';
+  ctx.font = '800 320px "BricolageGrotesque"';
+  ctx.textAlign = 'left';
+  ctx.textBaseline = 'top';
+  ctx.fillText('“', 55, 160);
+
+  const colors = ['#0a0a0a', '#1a1a2e', '#1c0a00'];
+  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, colors[jokeId % colors.length], 46);
+
+  // Bottom rule
+  ctx.fillStyle = '#0a0a0a';
+  ctx.fillRect(60, 840, 904, 3);
+  ctx.fillRect(60, 848, 904, 1);
+
+  drawFooter(ctx, '#0a0a0a', '#0a0a0a', '#555555');
+}
+
+// Theme 14: Neon Sign (Dark bar aesthetic with glowing text border)
+function drawNeonSignTheme(ctx, jokeText, category, jokeId) {
+  ctx.fillStyle = '#050505';
+  ctx.fillRect(0, 0, 1024, 1024);
+
+  // Brick-like subtle pattern
+  ctx.strokeStyle = 'rgba(255,255,255,0.03)';
+  ctx.lineWidth = 1;
+  for (let y = 0; y < 1024; y += 40) {
+    ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(1024, y); ctx.stroke();
+  }
+  for (let x = 0; x < 1024; x += 80) {
+    ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, 1024); ctx.stroke();
+  }
+
+  // Pick neon color based on jokeId
+  const neonSets = [
+    { primary: '#ff2d78', glow: 'rgba(255,45,120,0.4)', secondary: '#ff9de2' },
+    { primary: '#00f5ff', glow: 'rgba(0,245,255,0.4)', secondary: '#a0f8ff' },
+    { primary: '#ffe600', glow: 'rgba(255,230,0,0.4)', secondary: '#fff5a0' },
+  ];
+  const neon = neonSets[jokeId % neonSets.length];
+
+  // Neon glow header text
+  ctx.save();
+  ctx.shadowColor = neon.primary;
+  ctx.shadowBlur = 30;
+  ctx.fillStyle = neon.primary;
+  ctx.font = '800 36px "BricolageGrotesque"';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.fillText('— ' + category.toUpperCase() + ' —', 512, 130);
+  ctx.restore();
+
+  // Neon box border with glow
+  const boxX = 80;
+  const boxY = 210;
+  const boxWidth = 864;
+  const boxHeight = 620;
+
+  ctx.save();
+  ctx.shadowColor = neon.primary;
+  ctx.shadowBlur = 20;
+  ctx.strokeStyle = neon.primary;
+  ctx.lineWidth = 3;
+  drawRoundedRect(ctx, boxX, boxY, boxWidth, boxHeight, 16);
+  ctx.stroke();
+  ctx.restore();
+
+  // Inner dim border
+  ctx.strokeStyle = 'rgba(255,255,255,0.08)';
+  ctx.lineWidth = 1;
+  drawRoundedRect(ctx, boxX + 10, boxY + 10, boxWidth - 20, boxHeight - 20, 10);
+  ctx.stroke();
+
+  // Corner neon dots
+  [[boxX, boxY], [boxX + boxWidth, boxY],
+   [boxX, boxY + boxHeight], [boxX + boxWidth, boxY + boxHeight]]
+    .forEach(([dx, dy]) => {
+      ctx.save();
+      ctx.shadowColor = neon.primary;
+      ctx.shadowBlur = 15;
+      ctx.fillStyle = neon.primary;
+      ctx.beginPath();
+      ctx.arc(dx, dy, 6, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.restore();
+    });
+
+  drawWrappedJokeText(ctx, jokeText, boxY, boxHeight, neon.secondary, 44);
+  drawFooter(ctx, neon.primary, neon.primary, 'rgba(255,255,255,0.35)');
+}
+
 // ==========================================
 // CORE EXPORT ENGINE
 // ==========================================
@@ -962,8 +1178,8 @@ async function generateJokeCard(jokeObj) {
     const category = jokeObj.category || 'JOKE';
     const text = jokeObj.joke;
 
-    // Rotate theme using joke ID modulo 12
-    const themeIndex = jokeId % 12;
+    // Rotate theme using joke ID modulo 15
+    const themeIndex = jokeId % 15;
 
     switch (themeIndex) {
       case 0:
@@ -1011,9 +1227,21 @@ async function generateJokeCard(jokeObj) {
         drawVaporwaveTheme(ctx, text, category, jokeId);
         break;
       case 11:
-      default:
         logger.info('Generating card using Theme 11: Minimalist Clean...');
         drawMinimalTheme(ctx, text, category, jokeId);
+        break;
+      case 12:
+        logger.info('Generating card using Theme 12: Glassmorphism Dark...');
+        drawGlassmorphTheme(ctx, text, category, jokeId);
+        break;
+      case 13:
+        logger.info('Generating card using Theme 13: Bold Newspaper...');
+        drawNewspaperTheme(ctx, text, category, jokeId);
+        break;
+      case 14:
+      default:
+        logger.info('Generating card using Theme 14: Neon Sign...');
+        drawNeonSignTheme(ctx, text, category, jokeId);
         break;
     }
 
