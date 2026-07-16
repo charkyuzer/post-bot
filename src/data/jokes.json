@@ -3,7 +3,8 @@
     "id": 1,
     "category": "Programming",
     "joke": "Developer: Bhai code chal gaya!\nSenior: Kaise?\nDeveloper: Ye mat pucho, warna ruk jayega.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-16T19:01:22.397Z"
   },
   {
     "id": 2,
