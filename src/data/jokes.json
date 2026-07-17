@@ -52,7 +52,8 @@
     "id": 8,
     "category": "Food",
     "joke": "Diet Monday se shuru hoti hai.\nPizza Sunday ko khatam hi nahi hota.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-17T02:01:15.245Z"
   },
   {
     "id": 9,
