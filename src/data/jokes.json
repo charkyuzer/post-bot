@@ -178,7 +178,8 @@
     "id": 26,
     "category": "Coffee",
     "joke": "Coffee ke bina meri personality loading pe rehti hai.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-17T20:02:02.029Z"
   },
   {
     "id": 27,
