@@ -94,7 +94,8 @@
     "id": 14,
     "category": "Student",
     "joke": "Result se pehle sab Bhagwan ko yaad karte hain.\nResult ke baad teachers ko.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-17T08:01:17.312Z"
   },
   {
     "id": 15,
