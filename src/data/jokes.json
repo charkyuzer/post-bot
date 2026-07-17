@@ -38,7 +38,8 @@
     "id": 6,
     "category": "AI",
     "joke": "AI se assignment likhwa liya.\nTeacher: Ab iska matlab bhi bata do.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-17T00:01:24.458Z"
   },
   {
     "id": 7,
