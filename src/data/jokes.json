@@ -59,7 +59,8 @@
     "id": 9,
     "category": "Social Media",
     "joke": "Story sirf unke liye daali thi.\nDekha sabne, reply kisi ne nahi kiya.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-17T03:01:16.489Z"
   },
   {
     "id": 10,
