@@ -255,7 +255,8 @@
     "id": 37,
     "category": "Indian Family",
     "joke": "Guest ke jaate hi ghar ki breaking news shuru ho jaati hai.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-18T07:01:13.660Z"
   },
   {
     "id": 38,
