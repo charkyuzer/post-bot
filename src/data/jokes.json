@@ -248,7 +248,8 @@
     "id": 36,
     "category": "Tech Support",
     "joke": "Tech Support: Restart kiya?\nUser: Nahi.\nTech Support: Pehle wahi kar lo.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-18T06:02:07.382Z"
   },
   {
     "id": 37,
