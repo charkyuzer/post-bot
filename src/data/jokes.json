@@ -262,7 +262,8 @@
     "id": 38,
     "category": "UPI",
     "joke": "UPI ka 'Payment Successful' dekhke hi sukoon milta hai.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-18T08:01:10.366Z"
   },
   {
     "id": 39,
