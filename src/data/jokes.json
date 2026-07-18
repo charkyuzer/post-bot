@@ -318,7 +318,8 @@
     "id": 46,
     "category": "Intern",
     "joke": "Intern ka kaam:\nCoffee lana nahi...\nSabka asli kaam karna.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-18T16:02:11.566Z"
   },
   {
     "id": 47,
