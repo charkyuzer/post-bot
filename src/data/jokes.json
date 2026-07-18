@@ -220,7 +220,8 @@
     "id": 32,
     "category": "Exam",
     "joke": "Question paper dekhte hi saare formulas strike pe chale gaye.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-18T02:01:12.748Z"
   },
   {
     "id": 33,
