@@ -479,7 +479,8 @@
     "id": 69,
     "category": "Best Friend",
     "joke": "Best friend wahi jo tumhari embarrassing photos delete na kare.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-19T15:02:02.732Z"
   },
   {
     "id": 70,
