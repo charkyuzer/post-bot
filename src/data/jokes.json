@@ -430,7 +430,8 @@
     "id": 62,
     "category": "Roommate",
     "joke": "Roommate ka charger hamesha 'hamara charger' ban jata hai.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-19T08:02:39.662Z"
   },
   {
     "id": 63,
