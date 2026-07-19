@@ -381,7 +381,8 @@
     "id": 55,
     "category": "Facebook",
     "joke": "Facebook khola tha ek notification ke liye.\nPurani memories dekhte-dekhte 1 ghanta nikal gaya.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-19T01:02:26.424Z"
   },
   {
     "id": 56,
