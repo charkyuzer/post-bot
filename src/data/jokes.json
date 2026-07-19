@@ -465,7 +465,8 @@
     "id": 67,
     "category": "Mobile Battery",
     "joke": "Battery 2% pe ho to har app unnecessary lagne lagta hai.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-19T13:02:16.624Z"
   },
   {
     "id": 68,
