@@ -493,7 +493,8 @@
     "id": 71,
     "category": "Influencer",
     "joke": "Camera on hote hi sabki personality HD ho jaati hai.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-19T17:01:12.894Z"
   },
   {
     "id": 72,
