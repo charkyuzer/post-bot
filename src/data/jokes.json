@@ -507,7 +507,8 @@
     "id": 73,
     "category": "Passwords",
     "joke": "Password itna strong rakha ki main khud login nahi kar pa raha.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-19T19:01:16.189Z"
   },
   {
     "id": 74,
