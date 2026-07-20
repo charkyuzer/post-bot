@@ -25,8 +25,10 @@ const logger = winston.createLogger({
   ],
 });
 
-// If not in production, log to console with colors and simple format
-if (process.env.NODE_ENV !== 'production') {
+// Always log to console in non-production OR in CI (GitHub Actions)
+// In production on GitHub Actions, we still need console output for logs
+const isCI = process.env.CI === 'true';
+if (process.env.NODE_ENV !== 'production' || isCI) {
   logger.add(
     new winston.transports.Console({
       format: winston.format.combine(
