@@ -115,6 +115,12 @@ async function insertJoke(joke, category) {
  * @param {string} response JSON string or error message
  */
 async function logTweet(jokeId, tweetId, success, response) {
+  // Skip logging if database is not initialized (e.g., in GitHub Actions)
+  if (!db.getRawDb()) {
+    logger.debug('Database not initialized. Skipping tweet log for joke ID %d.', jokeId);
+    return;
+  }
+
   const query = `
     INSERT INTO tweet_logs (joke_id, tweet_id, success, response)
     VALUES (?, ?, ?, ?)
