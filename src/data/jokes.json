@@ -535,7 +535,8 @@
     "id": 77,
     "category": "Customer Service",
     "joke": "'Aap hamare liye important hain.'\nHold pe 20 minute baad bhi wahi feeling nahi aati.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-20T20:01:22.790Z"
   },
   {
     "id": 78,
