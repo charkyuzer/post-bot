@@ -1,7 +1,15 @@
 const bluesky = require('../config/bluesky');
-const jokeRepository = require('../repository/jokeRepository');
 const logger = require('../utils/logger');
 const imageGenerator = require('../utils/imageGenerator');
+
+// jokeRepository uses sqlite3 (native module). In GitHub Actions, it may not
+// be available, so we load it lazily and fail gracefully.
+let jokeRepository = null;
+try {
+  jokeRepository = require('../repository/jokeRepository');
+} catch (e) {
+  logger.warn('jokeRepository could not be loaded (sqlite3 unavailable?): %s', e.message);
+}
 
 // Helper sleep function for backoff
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -126,8 +134,14 @@ async function publishPost(jokeObj) {
       
       logger.info('Successfully posted with ID %s.', postId);
       
-      // Log success to DB
-      await jokeRepository.logTweet(jokeObj.id, postId, true, JSON.stringify(response));
+      // Log success to DB (optional — skipped if sqlite3 unavailable)
+      if (jokeRepository) {
+        try {
+          await jokeRepository.logTweet(jokeObj.id, postId, true, JSON.stringify(response));
+        } catch (dbErr) {
+          logger.warn('DB log failed (non-fatal): %s', dbErr.message);
+        }
+      }
       
       return response;
     } catch (error) {
@@ -141,14 +155,20 @@ async function publishPost(jokeObj) {
         // Last attempt failed
         logger.error('All posting retries failed for joke ID %d.', jokeObj.id);
         
-        // Log failure to DB
-        await jokeRepository.logTweet(
-          jokeObj.id, 
-          null, 
-          false, 
-          JSON.stringify({ error: error.message, stack: error.stack })
-        );
-        
+        // Log failure to DB (optional — skipped if sqlite3 unavailable)
+        if (jokeRepository) {
+          try {
+            await jokeRepository.logTweet(
+              jokeObj.id,
+              null,
+              false,
+              JSON.stringify({ error: error.message, stack: error.stack })
+            );
+          } catch (dbErr) {
+            logger.warn('DB log failed (non-fatal): %s', dbErr.message);
+          }
+        }
+
         throw error;
       }
     }
