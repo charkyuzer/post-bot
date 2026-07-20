@@ -4,7 +4,6 @@ const path = require('path');
 const bluesky = require('../src/config/bluesky');
 const twitterService = require('../src/services/twitterService');
 const logger = require('../src/utils/logger');
-const db = require('../src/config/db');
 
 const JOKES_FILE_PATH = path.join(__dirname, '../src/data/jokes.json');
 
@@ -12,16 +11,10 @@ async function runGitHubAction() {
   try {
     logger.info('🚀 Starting GitHub Actions Bluesky Job...');
 
-    // Initialize database connection
-    logger.info('📊 Initializing database connection...');
-    await db.connect();
-    logger.info('✅ Database connected.');
-
     // Load jokes
     logger.info('📖 Loading jokes from %s', JOKES_FILE_PATH);
     if (!fs.existsSync(JOKES_FILE_PATH)) {
       logger.error('❌ Jokes file not found at %s', JOKES_FILE_PATH);
-      await db.close();
       process.exit(1);
     }
 
@@ -35,7 +28,6 @@ async function runGitHubAction() {
       const minutesSinceLastPost = (Date.now() - new Date(lastPosted.posted_at)) / 60000;
       if (minutesSinceLastPost < 45) {
         logger.info('⏭️  Last post was %.1f minutes ago. Skipping to prevent double-post.', minutesSinceLastPost);
-        await db.close();
         process.exit(0);
       }
     }
@@ -87,20 +79,8 @@ async function runGitHubAction() {
     logger.error('❌ Error during GitHub Action execution!');
     logger.error('Error message: %s', error.message);
     logger.error('Error stack: %s', error.stack);
-    logger.error('Error name: %s', error.name);
-    if (error.response) {
-      logger.error('Error response: %s', JSON.stringify(error.response, null, 2));
-    }
-    try {
-      await db.close();
-    } catch (dbError) {
-      logger.error('Error closing database: %s', dbError.message);
-    }
     process.exit(1);
   }
-  
-  // Successful completion - close database and exit
-  await db.close();
 }
 
 runGitHubAction();
