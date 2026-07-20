@@ -37,12 +37,17 @@ async function runGitHubAction() {
     }
 
     // Find first unposted joke
-    const nextJokeIndex = jokes.findIndex(j => !j.posted);
+    let nextJokeIndex = jokes.findIndex(j => !j.posted);
 
+    // If all jokes are posted, reset them for a new cycle
     if (nextJokeIndex === -1) {
-      logger.warn('All jokes have been posted! No new joke to post.');
-      await db.close();
-      process.exit(0);
+      logger.info('All jokes have been posted! Resetting cycle...');
+      jokes.forEach(j => {
+        j.posted = false;
+        j.posted_at = null;
+      });
+      nextJokeIndex = 0;
+      logger.info('Reset complete! Starting fresh cycle with joke ID 1.');
     }
 
     const jokeToPost = jokes[nextJokeIndex];
@@ -52,9 +57,10 @@ async function runGitHubAction() {
     await bluesky.initialize();
 
     if (bluesky.isInMockMode()) {
-      logger.error('Bluesky is running in Mock Mode! Please check BLUESKY_HANDLE and BLUESKY_APP_PASSWORD secrets/variables.');
-      await db.close();
-      process.exit(1);
+      logger.warn('⚠️  Bluesky is running in Mock Mode! Credentials not properly configured.');
+      logger.warn('BLUESKY_HANDLE: %s', process.env.BLUESKY_HANDLE || 'NOT SET');
+      logger.warn('BLUESKY_APP_PASSWORD: %s', process.env.BLUESKY_APP_PASSWORD ? '***' : 'NOT SET');
+      logger.info('Continuing in mock mode for testing purposes...');
     }
 
     // Publish the post (this will format it and generate + upload the image)
