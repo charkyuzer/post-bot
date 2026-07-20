@@ -528,7 +528,8 @@
     "id": 76,
     "category": "Police",
     "joke": "Helmet ghar pe yaad aata hai jab traffic police saamne dikhe.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-20T18:22:35.801Z"
   },
   {
     "id": 77,
