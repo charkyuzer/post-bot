@@ -4,6 +4,7 @@ const path = require('path');
 const bluesky = require('../src/config/bluesky');
 const twitterService = require('../src/services/twitterService');
 const logger = require('../src/utils/logger');
+const db = require('../src/config/db');
 
 const JOKES_FILE_PATH = path.join(__dirname, '../src/data/jokes.json');
 
@@ -11,9 +12,14 @@ async function runGitHubAction() {
   try {
     logger.info('Starting GitHub Actions Bluesky Job...');
 
+    // Initialize database connection
+    await db.connect();
+    logger.info('Database connected.');
+
     // Load jokes
     if (!fs.existsSync(JOKES_FILE_PATH)) {
       logger.error('Jokes file not found at %s', JOKES_FILE_PATH);
+      await db.close();
       process.exit(1);
     }
 
@@ -25,6 +31,7 @@ async function runGitHubAction() {
       const minutesSinceLastPost = (Date.now() - new Date(lastPosted.posted_at)) / 60000;
       if (minutesSinceLastPost < 45) {
         logger.info('Last post was %.1f minutes ago. Skipping to prevent double-post.', minutesSinceLastPost);
+        await db.close();
         process.exit(0);
       }
     }
@@ -34,6 +41,7 @@ async function runGitHubAction() {
 
     if (nextJokeIndex === -1) {
       logger.warn('All jokes have been posted! No new joke to post.');
+      await db.close();
       process.exit(0);
     }
 
@@ -45,6 +53,7 @@ async function runGitHubAction() {
 
     if (bluesky.isInMockMode()) {
       logger.error('Bluesky is running in Mock Mode! Please check BLUESKY_HANDLE and BLUESKY_APP_PASSWORD secrets/variables.');
+      await db.close();
       process.exit(1);
     }
 
@@ -63,8 +72,12 @@ async function runGitHubAction() {
 
   } catch (error) {
     logger.error('Error during GitHub Action execution: %s', error.stack);
+    await db.close();
     process.exit(1);
   }
+  
+  // Successful completion - close database and exit
+  await db.close();
 }
 
 runGitHubAction();
