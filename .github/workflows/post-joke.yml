@@ -2,6 +2,8 @@ name: AutoPost Bluesky Joke
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *'  # Har hour automatically run hoga
   push:
     branches: [main]
     paths: ['src/data/jokes.json']
