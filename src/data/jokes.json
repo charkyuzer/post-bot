@@ -619,7 +619,8 @@
     "id": 89,
     "category": "Programming",
     "joke": "Senior Coder: Ye kisne likha hai ganda code?\nJunior: Maine, 6 mahine pehle sir.\nSenior: Oh, actually structure bahut solid lag raha hai, smart logic!",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T07:57:11.592Z"
   },
   {
     "id": 90,
