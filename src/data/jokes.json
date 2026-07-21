@@ -682,7 +682,8 @@
     "id": 98,
     "category": "Programming",
     "joke": "Developer 1: Chal chai peete hain.\nDeveloper 2: Ruko yaar, bas code deploy ho raha hai.\n*Never seen Developer 2 again*",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T17:01:14.154Z"
   },
   {
     "id": 99,
