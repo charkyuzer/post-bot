@@ -724,7 +724,8 @@
     "id": 104,
     "category": "College",
     "joke": "Professors upload 400 slides and call it 'light reading.'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T23:01:17.144Z"
   },
   {
     "id": 105,
