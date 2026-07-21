@@ -640,7 +640,8 @@
     "id": 92,
     "category": "Programming",
     "joke": "Git commit messages over time:\n1. 'Initial commit'\n2. 'Added some features'\n3. 'Fixing bugs'\n4. 'Minor changes'\n5. 'Pls work'\n6. 'I hate my life'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T11:01:21.213Z"
   },
   {
     "id": 93,
