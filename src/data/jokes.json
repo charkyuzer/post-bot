@@ -682,7 +682,8 @@
     "id": 98,
     "category": "Programming",
     "joke": "I fixed one bug today. My code celebrated by introducing three new ones. Teamwork makes the dream work.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T17:06:24.966Z"
   },
   {
     "id": 99,
@@ -786,7 +787,7 @@
     "joke": "Nothing feels more luxurious than waking up naturally five minutes before the alarm.",
     "posted": false
   },
-   {
+  {
     "id": 116,
     "category": "Programming",
     "joke": "Nothing builds confidence faster than deleting one line of code and watching everything somehow start working.",
@@ -1536,7 +1537,7 @@
     "joke": "I don't trust people who say,\n'I'm full.'\nDessert hasn't even arrived.",
     "posted": false
   },
-   {
+  {
     "id": 241,
     "category": "Programming",
     "joke": "My code is like an onion.\nEvery layer makes someone cry.",
