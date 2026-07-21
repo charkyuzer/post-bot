@@ -591,7 +591,8 @@
     "id": 85,
     "category": "Programming",
     "joke": "Code likhte waqt 90% time sirf ye sochne me nikal jata hai ki is variable ka naam kya rakhu taaki doosra coder mujhe gaali na de.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T04:01:12.417Z"
   },
   {
     "id": 86,
