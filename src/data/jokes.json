@@ -577,7 +577,8 @@
     "id": 83,
     "category": "Programming",
     "joke": "CSS seekhna aasan hai, bas subah 5 baje uth ke ek button ko center karne ki koshish karo, sab normal ho jayega.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T02:01:12.551Z"
   },
   {
     "id": 84,
