@@ -570,7 +570,8 @@
     "id": 82,
     "category": "Programming",
     "joke": "Programming seekhne ke stages:\n1. Print('Hello World') - I am GOD!\n2. Syntax Error - Huh, easy fixing.\n3. Logic Error - Hmm...\n4. Seg Fault - *Starts looking for new career*",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T01:01:17.386Z"
   },
   {
     "id": 83,
