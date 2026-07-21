@@ -528,133 +528,155 @@
     "id": 76,
     "category": "Police",
     "joke": "Helmet ghar pe yaad aata hai jab traffic police saamne dikhe.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-20T18:22:35.801Z"
   },
   {
     "id": 77,
     "category": "Customer Service",
     "joke": "'Aap hamare liye important hain.'\nHold pe 20 minute baad bhi wahi feeling nahi aati.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-20T20:01:22.790Z"
   },
   {
     "id": 78,
     "category": "Online Shopping",
     "joke": "Package out for delivery dekhte hi har awaaz pe gate khol deta hoon.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-20T21:01:20.094Z"
   },
   {
     "id": 79,
     "category": "Cab",
     "joke": "Cab driver: 2 minute.\nMap: 12 minute.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-20T22:01:15.857Z"
   },
   {
     "id": 80,
     "category": "Auto",
     "joke": "Auto wale bhaiya ka meter sirf museum me hi dekha hai.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-20T23:01:16.946Z"
   },
   {
     "id": 81,
     "category": "Programming",
     "joke": "Developer: Yaar, mera code local pe bilkul mast chal raha hai!\nSenior: Toh ek kaam kar, client ko tera computer hi gift kar dete hain.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T00:01:18.810Z"
   },
   {
     "id": 82,
     "category": "Programming",
     "joke": "Programming seekhne ke stages:\n1. Print('Hello World') - I am GOD!\n2. Syntax Error - Huh, easy fixing.\n3. Logic Error - Hmm...\n4. Seg Fault - *Starts looking for new career*",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T01:01:17.386Z"
   },
   {
     "id": 83,
     "category": "Programming",
     "joke": "CSS seekhna aasan hai, bas subah 5 baje uth ke ek button ko center karne ki koshish karo, sab normal ho jayega.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T02:01:12.551Z"
   },
   {
     "id": 84,
     "category": "Programming",
     "joke": "Beta: Papa, log shaadi kyun karte hain?\nDeveloper Papa: Kyunki jab team badhti hai, tabhi toh bugs (problems) handle hote hain!",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T03:01:16.675Z"
   },
   {
     "id": 85,
     "category": "Programming",
     "joke": "Code likhte waqt 90% time sirf ye sochne me nikal jata hai ki is variable ka naam kya rakhu taaki doosra coder mujhe gaali na de.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T04:01:12.417Z"
   },
   {
     "id": 86,
     "category": "Programming",
     "joke": "Artificial Intelligence: Ek din main pure world pe control karunga.\nWindows Update: Pehle mera system restart hone de, phir sochio.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T05:01:17.877Z"
   },
   {
     "id": 87,
     "category": "Programming",
     "joke": "Database Administrator: Mujhe ek naya ghar chahiye.\nAgent: SQL format me chahiye ya NoSQL?\nDBA: SQL! Partitioning to automatic honi chahiye.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T06:01:13.905Z"
   },
   {
     "id": 88,
     "category": "Programming",
     "joke": "Aache coders wo nahi hote jo code jaldi likhte hain. Aache coders wo hote hain jo stackoverflow pe bina post kiye solution dhoond lete hain.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T07:01:14.663Z"
   },
   {
     "id": 89,
     "category": "Programming",
     "joke": "Senior Coder: Ye kisne likha hai ganda code?\nJunior: Maine, 6 mahine pehle sir.\nSenior: Oh, actually structure bahut solid lag raha hai, smart logic!",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T07:57:11.592Z"
   },
   {
     "id": 90,
     "category": "Programming",
     "joke": "Programmer's Diet:\nBreakFast: Coffee + Bugs\nLunch: Cold Coffee + More Bugs\nDinner: Code Refactoring\nSnacks: Tears and regret.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T09:01:15.669Z"
   },
   {
     "id": 91,
     "category": "Programming",
     "joke": "Python: Mujhe seekhna bahut aasan hai.\nC++: Mujhe seekh ke dikhao toh maane.\nHTML: Guyz, main bhi ek language hoon na? 🥺\nJava/C++: Tum chup raho aur tag close karo.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T10:01:14.638Z"
   },
   {
     "id": 92,
     "category": "Programming",
     "joke": "Git commit messages over time:\n1. 'Initial commit'\n2. 'Added some features'\n3. 'Fixing bugs'\n4. 'Minor changes'\n5. 'Pls work'\n6. 'I hate my life'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T11:01:21.213Z"
   },
   {
     "id": 93,
     "category": "Programming",
     "joke": "Senior: Code test kar liya?\nJunior: Haan sir, compile ho gaya, matlab chal hi jayega.\nCompiler: *Laughs in runtime exception*",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T12:01:21.002Z"
   },
   {
     "id": 94,
     "category": "Programming",
     "joke": "Baki sab thik hai par ye hardware engineers ko kya lagta hai ki software hardware ko automatically control kar lega bina drivers ke?",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T13:01:17.284Z"
   },
   {
     "id": 95,
     "category": "Programming",
     "joke": "Internet Explorer: Guys, 2026 me hum viral ho rahe hain na?\nChrome: Bro, tumhara update kab ka band ho gaya hai.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T14:01:21.618Z"
   },
   {
     "id": 96,
     "category": "Programming",
     "joke": "Ek programmer ne doosre se poocha: Tumhaari girlfriend kaisi hai?\nDoosra: Null pointer exception, access nahi kar paa raha.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T15:01:17.091Z"
   },
   {
     "id": 97,
     "category": "Programming",
     "joke": "Client: Mujhe simple app chahiye, bas WhatsApp jaisa interface ho aur Amazon jaisa checkout.\nDeveloper: Budget?\nClient: Rs 5000 + ek achi rating.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T16:01:15.344Z"
   },
   {
     "id": 98,
