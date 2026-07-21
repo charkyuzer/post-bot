@@ -598,7 +598,8 @@
     "id": 86,
     "category": "Programming",
     "joke": "Artificial Intelligence: Ek din main pure world pe control karunga.\nWindows Update: Pehle mera system restart hone de, phir sochio.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T05:01:17.877Z"
   },
   {
     "id": 87,
