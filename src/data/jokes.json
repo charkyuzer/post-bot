@@ -654,7 +654,8 @@
     "id": 94,
     "category": "Programming",
     "joke": "Baki sab thik hai par ye hardware engineers ko kya lagta hai ki software hardware ko automatically control kar lega bina drivers ke?",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T13:01:17.284Z"
   },
   {
     "id": 95,
