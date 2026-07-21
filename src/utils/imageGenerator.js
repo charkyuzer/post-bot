@@ -187,272 +187,240 @@ function wrap(ctx, text, maxW, fs) {
   return lines;
 }
 
+// ── Sentence / Paragraph Splitting ───────────────────────────
+function splitParagraphs(text) {
+  const rawParagraphs = text.split(/\r?\n+/).map((p) => p.trim()).filter(Boolean);
+  const finalParagraphs = [];
+  const abbrevs = /^(mr|mrs|dr|vs|prof|sr|jr|e\.g|i\.e|a\.m|p\.m|rs|no)$/i;
+
+  for (const para of rawParagraphs) {
+    const parts = para.split(/(?<=[.!?])\s+/);
+    let currentSentence = "";
+
+    for (let i = 0; i < parts.length; i++) {
+      const part = parts[i].trim();
+      if (!part) continue;
+
+      if (!currentSentence) {
+        currentSentence = part;
+      } else {
+        const lastWord = currentSentence.split(/\s+/).pop().replace(/[^a-zA-Z]/g, "").toLowerCase();
+        if (abbrevs.test(lastWord)) {
+          currentSentence += " " + part;
+        } else {
+          finalParagraphs.push(currentSentence);
+          currentSentence = part;
+        }
+      }
+    }
+    if (currentSentence) {
+      finalParagraphs.push(currentSentence);
+    }
+  }
+  return finalParagraphs.length > 0 ? finalParagraphs : [text];
+}
+
 // ── Punchline detection ───────────────────────────────────────
 // Words that carry comedic/emotional weight in jokes
 const IMPACT_WORDS = new Set([
-  // emotions & reactions
-  "crying",
-  "laughing",
-  "screaming",
-  "dying",
-  "dead",
-  "shocked",
-  "confused",
-  "embarrassed",
-  "terrified",
-  "furious",
-  "desperate",
-  "panic",
-  "anxiety",
-  "depressed",
-  "excited",
-  "obsessed",
-  "addicted",
-  "exhausted",
-  "stressed",
-  // strong verbs
-  "quit",
-  "fired",
-  "broke",
-  "failed",
-  "forgot",
-  "lied",
-  "cheated",
-  "ghosted",
-  "blocked",
-  "deleted",
-  "crashed",
-  "exploded",
-  "destroyed",
-  "survived",
-  "regret",
-  "blame",
-  "admit",
-  "pretend",
-  "ignore",
-  "avoid",
-  "escape",
-  // punchline nouns
-  "wifi",
-  "money",
-  "sleep",
-  "coffee",
-  "deadline",
-  "meeting",
-  "boss",
-  "salary",
-  "diet",
-  "gym",
-  "exam",
-  "grade",
-  "debt",
-  "rent",
-  "budget",
-  "interview",
-  "password",
-  "update",
-  "error",
-  "bug",
-  "feature",
-  "reboot",
-  "backup",
-  "ex",
-  "crush",
-  "date",
-  "wedding",
-  "divorce",
-  "baby",
-  "mom",
-  "dad",
-  "doctor",
-  "dentist",
-  "therapist",
-  "lawyer",
-  "accountant",
-  // intensifiers that land
-  "never",
-  "always",
-  "literally",
-  "actually",
-  "basically",
-  "technically",
-  "officially",
-  "immediately",
-  "suddenly",
-  "finally",
-  "already",
-  "still",
-  "worst",
-  "best",
-  "only",
-  "free",
-  "fake",
-  "real",
-  "wrong",
-  "right",
-  // comedy contrast words
-  "but",
-  "except",
-  "unless",
-  "until",
-  "meanwhile",
-  "suddenly",
-  "plot",
-  "twist",
-  "surprise",
-  "secret",
-  "truth",
-  "lie",
-  "reality",
-  "dream",
+  // Money & Work
+  "salary", "paisa", "rupees", "bank", "account", "balance", "zero", "crore", "lakh", "budget", "rent", "debt", "loan", "emi", "tax", "cash", "freelancer", "upi",
+  "boss", "manager", "hr", "office", "job", "fired", "resign", "resigned", "layoff", "appraisal", "promotion", "meeting", "deadline", "work", "wfh", "intern", "client", "startup",
+  // Tech & Code
+  "code", "coding", "programmer", "developer", "bug", "error", "crashed", "ai", "chatgpt", "wifi", "data", "password", "reboot", "update", "server", "database", "backup", "repo",
+  // Relationships & Dating
+  "crush", "ex", "breakup", "single", "relationship", "dating", "shaadi", "marriage", "divorce", "wife", "husband", "gf", "bf", "proposal", "love", "romantic",
+  // Education & College
+  "exam", "fail", "failed", "pass", "topper", "backlog", "degree", "cgpa", "marks", "result", "college", "hostel", "canteen", "bunk", "professor",
+  // Food & Lifestyle
+  "biryani", "pizza", "coffee", "chai", "tea", "momo", "swiggy", "zomato", "diet", "gym", "eating", "food", "drink", "daaru", "beer",
+  // Emotions & Strong Verbs/Reactions
+  "crying", "cried", "laughing", "screaming", "dying", "dead", "shocked", "confused", "embarrassed", "terrified", "furious", "panic", "anxiety", "depressed", "obsessed", "exhausted", "stressed", "blocked", "unfollow", "deleted", "scam", "fake", "troll", "screwed", "cheated", "ghosted",
+  // Social Media
+  "instagram", "whatsapp", "youtube", "facebook", "twitter", "viral", "meme", "reels", "followers", "likes", "notifications",
+  // Daily Life
+  "monday", "weekend", "sleep", "sleeping", "overthinking", "traffic", "auto", "cab", "flight", "train", "chalan", "fine", "hospital", "police"
 ]);
 
 const STOP = new Set([
-  "the",
-  "and",
-  "is",
-  "in",
-  "of",
-  "to",
-  "a",
-  "an",
-  "it",
-  "on",
-  "at",
-  "be",
-  "as",
-  "by",
-  "or",
-  "not",
-  "so",
-  "if",
-  "me",
-  "my",
-  "we",
-  "he",
-  "she",
-  "they",
-  "you",
-  "i",
-  "was",
-  "are",
-  "were",
-  "has",
-  "had",
-  "have",
-  "do",
-  "did",
-  "does",
-  "for",
-  "with",
-  "that",
-  "this",
-  "from",
-  "your",
-  "our",
-  "their",
-  "its",
-  "will",
-  "can",
-  "may",
-  "just",
-  "also",
-  "then",
-  "than",
-  "when",
-  "what",
-  "how",
-  "who",
-  "which",
-  "all",
+  // English stop words & fillers
+  "the", "and", "is", "in", "of", "to", "a", "an", "it", "on", "at", "be", "as", "by", "or", "not", "so", "if", "me", "my", "we", "he", "she", "they", "you", "i", "your", "our", "their", "its", "was", "are", "were", "has", "had", "have", "do", "did", "does", "for", "with", "that", "this", "from", "will", "can", "may", "just", "also", "then", "than", "when", "what", "how", "who", "which", "all", "said", "says", "told", "ask", "asked", "think", "thinks", "thought", "know", "knows", "knew", "like", "likes", "liked", "get", "gets", "got", "make", "makes", "made", "give", "gives", "gave", "take", "takes", "took", "see", "saw", "seen", "look", "looked", "come", "came", "go", "went", "gone", "day", "today", "time", "people", "someone", "anyone", "something", "anything", "thing", "things", "always", "never", "ever", "very", "much", "more", "most", "some", "many", "any", "even", "still", "already", "here", "there",
+  // Hinglish stop words & fillers
+  "hai", "tha", "thi", "the", "bhi", "par", "pe", "aur", "toh", "to", "ya", "se", "ko", "ke", "ka", "ki", "ne", "me", "mein", "re", "ab", "sab", "kya", "kyun", "kaise", "kahan", "kaun", "konsa", "kuch", "har", "ek", "do", "tin", "yeh", "ye", "woh", "wo", "is", "us", "jin", "un", "mera", "meri", "mere", "tera", "teri", "tere", "apna", "apni", "apne", "unka", "unki", "unke", "iske", "uske", "jiske", "waha", "yaha", "kabhi", "baad", "pehle", "lagta", "hoga", "hogi", "hoge", "sath", "baat", "bolo", "batao", "suno", "samjhe", "karo", "kare", "karna", "bohot", "bahut", "bilkul", "zyada", "kam", "saara", "saare", "waala", "waali", "wale", "bhai", "sir", "yaar"
 ]);
 
-function getPunchline(text) {
+function findHighlights(text) {
   const clauses = text
     .split(/[.!?\n]+/)
     .map((s) => s.trim())
     .filter(Boolean);
-  return clauses.length > 1 ? clauses[clauses.length - 1] : text;
-}
-
-function findHighlights(text) {
-  const punchline = getPunchline(text);
+  const punchline = clauses.length > 1 ? clauses[clauses.length - 1] : text;
   const punchWords = new Set(
-    punchline.split(/\s+/).map((w) => w.toLowerCase().replace(/[^a-z]/gi, "")),
+    punchline.split(/\s+/).map((w) => w.toLowerCase().replace(/[^a-z0-9]/gi, ""))
   );
 
-  const scored = text.split(/\s+/).map((raw) => {
-    const clean = raw.toLowerCase().replace(/[^a-z]/gi, "");
-    if (clean.length < 3 || STOP.has(clean)) return { raw, score: -1 };
+  const rawTokens = text.split(/\s+/);
+  const scored = [];
+
+  for (let i = 0; i < rawTokens.length; i++) {
+    const raw = rawTokens[i];
+    const clean = raw.toLowerCase().replace(/[^a-z0-9]/gi, "");
+
+    // Skip empty, short (< 3 chars unless number), or stop words
+    if (!clean || STOP.has(clean)) continue;
+    if (clean.length < 3 && !/^\d+$/.test(clean)) continue;
 
     let score = 0;
-    if (IMPACT_WORDS.has(clean)) score += 10; // semantic weight
-    if (punchWords.has(clean)) score += 6; // in punchline clause
-    if (score === 0) score = -1; // skip generic words
-    return { raw, score };
-  });
 
-  const seen = new Set();
+    // 1. Explicit author formatting (*word*, "word", 'word', or ALL CAPS like WTF / FREE)
+    if (/^[*'"].*[*'"]$/.test(raw) || (raw === raw.toUpperCase() && raw.length >= 3 && /[A-Z]/.test(raw))) {
+      score += 20;
+    }
+
+    // 2. Numbers / monetary amounts / percentages (e.g. 500, 10k, 100%, ₹200)
+    if (/^\d+[kK%]?$/.test(clean) || /^[$₹]\d+/.test(raw)) {
+      score += 15;
+    }
+
+    // 3. Punchline clause location (words at the end of the joke carry emotional payload)
+    if (punchWords.has(clean)) {
+      score += 8;
+    }
+
+    // 4. Substantive word length & uniqueness (longer words carry higher semantic density)
+    score += Math.min(clean.length * 1.2, 10);
+
+    // 5. Mid-sentence capitalization boost (proper nouns / key terms)
+    if (i > 0 && /^[A-Z][a-z]/.test(raw)) {
+      score += 6;
+    }
+
+    // 6. Impact dictionary bonus (if matches known impact set)
+    if (IMPACT_WORDS.has(clean)) {
+      score += 8;
+    }
+
+    scored.push({ clean, score });
+  }
+
+  // Sort candidate words by score descending
+  scored.sort((a, b) => b.score - a.score);
+
   const picks = [];
-  for (const { raw, score } of [...scored].sort((a, b) => b.score - a.score)) {
-    if (score < 0) break;
-    const clean = raw.toLowerCase().replace(/[^a-z]/gi, "");
+  const seen = new Set();
+
+  for (const { clean } of scored) {
     if (!seen.has(clean)) {
       seen.add(clean);
-      picks.push(raw);
+      picks.push(clean);
       if (picks.length === 2) break;
     }
   }
+
   return picks;
 }
 
 // ── Draw one line — mixed size/weight/color ───────────────────
 function drawLine(ctx, line, cx, baseY, baseFs, hlSet) {
   const hlFs = Math.round(baseFs * 0.95);
-  const PAD_X = 6;
-  const PAD_Y = 3;
-  const RADIUS = 5;
+  const PAD_X = 10;
+  const PAD_Y = 5;
+  const RADIUS = 8;
   const tokens = line.trim().split(/(\s+)/);
 
-  // Measure all tokens
+  function parseToken(tok) {
+    if (!tok || !tok.trim()) {
+      return { isSpace: true, raw: tok };
+    }
+    const match = tok.match(/^([^a-zA-Z0-9]*)([a-zA-Z0-9]+(?:[''-][a-zA-Z0-9]+)*)?([^a-zA-Z0-9]*)$/);
+    if (!match || !match[2]) {
+      return { isSpace: false, raw: tok, prefix: tok, core: "", suffix: "", isHL: false };
+    }
+    const prefix = match[1] || "";
+    const core = match[2];
+    const suffix = match[3] || "";
+    const isHL = hlSet.has(core.toLowerCase());
+    return { isSpace: false, raw: tok, prefix, core, suffix, isHL };
+  }
+
+  const parsed = tokens.map(parseToken);
+
+  // Measure widths
   let totalW = 0;
-  const parts = tokens.map((tok) => {
-    const clean = tok
-      .trim()
-      .toLowerCase()
-      .replace(/[^a-z]/gi, "");
-    const hl = clean.length > 0 && hlSet.has(clean);
-    const fs = hl ? hlFs : baseFs;
-    ctx.font = hl ? `800 ${fs}px "${FONT_SORA}"` : `700 ${fs}px "${FONT}"`;
-    const w = ctx.measureText(tok).width;
-    totalW += w;
-    return { tok, hl, fs, w };
+  const parts = parsed.map((item) => {
+    if (item.isSpace) {
+      ctx.font = `700 ${baseFs}px "${FONT}"`;
+      const w = ctx.measureText(item.raw).width;
+      totalW += w;
+      return { ...item, w };
+    }
+    if (item.isHL && item.core) {
+      ctx.font = `700 ${baseFs}px "${FONT}"`;
+      const preW = item.prefix ? ctx.measureText(item.prefix).width : 0;
+      const sufW = item.suffix ? ctx.measureText(item.suffix).width : 0;
+
+      ctx.font = `800 ${hlFs}px "${FONT_SORA}"`;
+      const coreW = ctx.measureText(item.core).width;
+      const pillW = coreW + PAD_X * 2;
+
+      const totalTokW = preW + pillW + sufW;
+      totalW += totalTokW;
+      return { ...item, preW, coreW, pillW, sufW, w: totalTokW };
+    } else {
+      ctx.font = `700 ${baseFs}px "${FONT}"`;
+      const w = ctx.measureText(item.raw).width;
+      totalW += w;
+      return { ...item, w };
+    }
   });
 
   let x = cx - totalW / 2;
   ctx.save();
   ctx.textBaseline = "alphabetic";
 
-  for (const { tok, hl, fs, w } of parts) {
-    if (hl && tok.trim().length > 0) {
-      // Pill background
-      const pillW = w + PAD_X * 2;
-      const pillH = fs + PAD_Y * 2;
-      const pillX = x - PAD_X;
-      const pillY = baseY - fs * 0.82 - PAD_Y;
+  for (const item of parts) {
+    if (item.isSpace) {
+      ctx.font = `700 ${baseFs}px "${FONT}"`;
+      ctx.fillStyle = WHITE;
+      ctx.fillText(item.raw, x, baseY);
+      x += item.w;
+    } else if (item.isHL && item.core) {
+      if (item.prefix) {
+        ctx.font = `700 ${baseFs}px "${FONT}"`;
+        ctx.fillStyle = WHITE;
+        ctx.shadowColor = "rgba(0, 0, 0, 0.65)";
+        ctx.shadowBlur = 10;
+        ctx.shadowOffsetY = 3;
+        ctx.fillText(item.prefix, x, baseY);
+        ctx.shadowColor = "transparent";
+        x += item.preW;
+      }
 
+      const pillH = hlFs + PAD_Y * 2;
+      const pillX = x;
+      const pillY = baseY - hlFs * 0.82 - PAD_Y;
+
+      // Draw Pill background with soft drop shadow & warm gold-amber gradient
       ctx.save();
-      ctx.fillStyle = HL_BG;
+      ctx.shadowColor = "rgba(0, 0, 0, 0.45)";
+      ctx.shadowBlur = 12;
+      ctx.shadowOffsetY = 5;
+
+      const grad = ctx.createLinearGradient(pillX, pillY, pillX + item.pillW, pillY + pillH);
+      grad.addColorStop(0, "#FFD700"); // Electric Gold
+      grad.addColorStop(1, "#FF9100"); // Rich Warm Amber
+
+      ctx.fillStyle = grad;
       ctx.beginPath();
       ctx.moveTo(pillX + RADIUS, pillY);
-      ctx.lineTo(pillX + pillW - RADIUS, pillY);
-      ctx.quadraticCurveTo(pillX + pillW, pillY, pillX + pillW, pillY + RADIUS);
-      ctx.lineTo(pillX + pillW, pillY + pillH - RADIUS);
+      ctx.lineTo(pillX + item.pillW - RADIUS, pillY);
+      ctx.quadraticCurveTo(pillX + item.pillW, pillY, pillX + item.pillW, pillY + RADIUS);
+      ctx.lineTo(pillX + item.pillW, pillY + pillH - RADIUS);
       ctx.quadraticCurveTo(
-        pillX + pillW,
+        pillX + item.pillW,
         pillY + pillH,
-        pillX + pillW - RADIUS,
-        pillY + pillH,
+        pillX + item.pillW - RADIUS,
+        pillY + pillH
       );
       ctx.lineTo(pillX + RADIUS, pillY + pillH);
       ctx.quadraticCurveTo(pillX, pillY + pillH, pillX, pillY + pillH - RADIUS);
@@ -462,18 +430,35 @@ function drawLine(ctx, line, cx, baseY, baseFs, hlSet) {
       ctx.fill();
       ctx.restore();
 
-      // Text on pill — amber Sora bold
+      // Draw core text on pill (Dark contrast, Sora bold)
       ctx.save();
       ctx.font = `800 ${hlFs}px "${FONT_SORA}"`;
-      ctx.fillStyle = HL_COLOR;
-      ctx.fillText(tok, x, baseY);
+      ctx.fillStyle = "#111111";
+      ctx.fillText(item.core, x + PAD_X, baseY);
       ctx.restore();
+
+      x += item.pillW;
+
+      if (item.suffix) {
+        ctx.font = `700 ${baseFs}px "${FONT}"`;
+        ctx.fillStyle = WHITE;
+        ctx.shadowColor = "rgba(0, 0, 0, 0.65)";
+        ctx.shadowBlur = 10;
+        ctx.shadowOffsetY = 3;
+        ctx.fillText(item.suffix, x, baseY);
+        ctx.shadowColor = "transparent";
+        x += item.sufW;
+      }
     } else {
-      ctx.font = `700 ${fs}px "${FONT}"`;
+      ctx.font = `700 ${baseFs}px "${FONT}"`;
       ctx.fillStyle = WHITE;
-      ctx.fillText(tok, x, baseY);
+      ctx.shadowColor = "rgba(0, 0, 0, 0.65)";
+      ctx.shadowBlur = 10;
+      ctx.shadowOffsetY = 3;
+      ctx.fillText(item.raw, x, baseY);
+      ctx.shadowColor = "transparent";
+      x += item.w;
     }
-    x += w;
   }
   ctx.restore();
 }
@@ -579,8 +564,19 @@ async function generateJokeCard(jokeObj) {
   const fs = getFontSize(text.length);
   const maxW = W * 0.65;
   const lh = fs * 1.25;
-  const lines = wrap(ctx, text, maxW, fs);
-  const totalH = lines.length * lh;
+  const paraGap = Math.round(fs * 0.40); // Vertical gap between sentences/paragraphs
+
+  const paragraphs = splitParagraphs(text);
+  let totalLineCount = 0;
+  const wrappedParagraphs = paragraphs.map((p) => {
+    const lines = wrap(ctx, p, maxW, fs);
+    totalLineCount += lines.length;
+    return lines;
+  });
+
+  const totalH =
+    totalLineCount * lh + Math.max(0, paragraphs.length - 1) * paraGap;
+
   const hlPhrases =
     jokeObj.highlights && jokeObj.highlights.length
       ? jokeObj.highlights.map((h) => h.toLowerCase())
@@ -594,12 +590,18 @@ async function generateJokeCard(jokeObj) {
   }
 
   // Position: visual center slightly above middle (~42% from top)
-  // baseY = top of first line's alphabetic baseline
   const blockTop = H * 0.42 - totalH / 2;
-  const baseY = blockTop + fs * 0.82; // cap-height offset
 
-  lines.forEach((line, i) => {
-    drawLine(ctx, line, W / 2, baseY + i * lh, fs, hlSet);
+  let currentY = blockTop + fs * 0.82; // cap-height offset
+
+  wrappedParagraphs.forEach((pLines, pIdx) => {
+    pLines.forEach((line) => {
+      drawLine(ctx, line, W / 2, currentY, fs, hlSet);
+      currentY += lh;
+    });
+    if (pIdx < wrappedParagraphs.length - 1) {
+      currentY += paraGap;
+    }
   });
 
   // ── 5. Footer ─────────────────────────────────────────────
