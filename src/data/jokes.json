@@ -612,7 +612,8 @@
     "id": 88,
     "category": "Programming",
     "joke": "Aache coders wo nahi hote jo code jaldi likhte hain. Aache coders wo hote hain jo stackoverflow pe bina post kiye solution dhoond lete hain.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T07:01:14.663Z"
   },
   {
     "id": 89,
