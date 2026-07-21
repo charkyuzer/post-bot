@@ -717,7 +717,8 @@
     "id": 103,
     "category": "Gaming",
     "joke": "My teammates always discover the enemy exactly one second before I discover the 'Defeat' screen.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T22:01:16.945Z"
   },
   {
     "id": 104,
