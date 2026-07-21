@@ -647,7 +647,8 @@
     "id": 93,
     "category": "Programming",
     "joke": "Senior: Code test kar liya?\nJunior: Haan sir, compile ho gaya, matlab chal hi jayega.\nCompiler: *Laughs in runtime exception*",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T12:01:21.002Z"
   },
   {
     "id": 94,
