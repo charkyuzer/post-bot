@@ -659,319 +659,1219 @@
   {
     "id": 98,
     "category": "Programming",
-    "joke": "Developer 1: Chal chai peete hain.\nDeveloper 2: Ruko yaar, bas code deploy ho raha hai.\n*Never seen Developer 2 again*",
+    "joke": "I fixed one bug today. My code celebrated by introducing three new ones. Teamwork makes the dream work.",
     "posted": false
   },
   {
     "id": 99,
-    "category": "Programming",
-    "joke": "AI will replace coders. Haan bilkul! Kyunki client ko requirements explain karna khud ek logical process hai jo unhe kabhi nahi aayega.",
+    "category": "Biryani",
+    "joke": "People say money can't buy happiness. They've clearly never opened a fresh box of biryani.",
     "posted": false
   },
   {
     "id": 100,
-    "category": "Programming",
-    "joke": "When the code runs on the first try:\nDeveloper: Mujhe thoda darr lag raha hai... isme koi chupa hua bug zaroor hai.",
+    "category": "Relationship",
+    "joke": "\"We need to talk\" is the relationship version of 'Your system is about to restart.'",
     "posted": false
   },
   {
     "id": 101,
-    "category": "Office",
-    "joke": "Boss: Aaj office late kyun aaye?\nEmployee: Sir, aapne hi toh kaha tha office ko apna ghar samjho. Toh thoda aaram se utha.",
+    "category": "AI",
+    "joke": "AI can write essays, generate art, and solve equations... but somehow my printer still refuses to cooperate.",
     "posted": false
   },
   {
     "id": 102,
     "category": "Office",
-    "joke": "HR: Aapke resume me likha hai ki aap pressure handle kar sakte hain. Ek example dijiye?\nCandidate: Sir, maine pure group project me akela kaam kiya tha.",
+    "joke": "Every meeting starts with 'Let's make this quick' and ends with everyone questioning their career choices.",
     "posted": false
   },
   {
     "id": 103,
-    "category": "Office",
-    "joke": "Monday ko office jana is like: 'Chalo, dekh hi lete hain aaj kya naya kalesh hone wala hai.'",
+    "category": "Gaming",
+    "joke": "My teammates always discover the enemy exactly one second before I discover the 'Defeat' screen.",
     "posted": false
   },
   {
     "id": 104,
-    "category": "Office",
-    "joke": "Boss: Mujhe ye report kal subah tak chahiye.\nMe: Sir, main ek insaan hoon, machine nahi.\nBoss: Acha, toh salary cash me chahiye ya machine-made bank transfer se?\nMe: Report typing started sir.",
+    "category": "College",
+    "joke": "Professors upload 400 slides and call it 'light reading.'",
     "posted": false
   },
   {
     "id": 105,
-    "category": "Office",
-    "joke": "Appraisal meeting ke baad:\nManager: Tumhara performance average raha.\nEmployee: Aur meri salary growth?\nManager: Wo toh bilkul non-existent rahi, standard format.",
+    "category": "Amazon",
+    "joke": "Amazon: 'Customers also bought this.'\nMe: Stop exposing my impulse-control issues.",
     "posted": false
   },
   {
     "id": 106,
-    "category": "Office",
-    "joke": "Office email rules:\n'As per my last email' = Tum anpadh ho kya?\n'Thanks in advance' = Tumhe ye karna hi padega, option nahi hai.",
+    "category": "Cricket",
+    "joke": "Every Indian becomes a professional cricket analyst the moment a wicket falls.",
     "posted": false
   },
   {
     "id": 107,
-    "category": "Office",
-    "joke": "WFH ke dauran:\nMeeting in progress:\nManager: Screen share karo.\nMe: *Panics and closes 50 non-work tabs of shopping and memes*",
+    "category": "Gym",
+    "joke": "The hardest exercise at the gym is pretending you know how the machines work.",
     "posted": false
   },
   {
     "id": 108,
-    "category": "Office",
-    "joke": "Boss: Teamwork se bada kuch nahi hota.\nAlso Boss: Individual bonuses for the top performer only!",
+    "category": "ChatGPT",
+    "joke": "Me: Give me a simple answer.\nChatGPT: Here's a beautifully structured 17-point explanation.",
     "posted": false
   },
   {
     "id": 109,
-    "category": "Office",
-    "joke": "Work-life balance kya hota hai? Subah office ki tension, raat ko office ki dreams. Bas yahi hai balance.",
+    "category": "Indian Parents",
+    "joke": "Indian parents can hear a snack packet opening from three rooms away.",
     "posted": false
   },
   {
     "id": 110,
-    "category": "Office",
-    "joke": "HR: What is your salary expectation?\nCandidate: I want enough to pay rent, eat 3 meals, and buy 1 cup of gourmet coffee without crying.",
+    "category": "Instagram",
+    "joke": "I opened Instagram for two minutes. Somehow it's tomorrow now.",
     "posted": false
   },
   {
     "id": 111,
-    "category": "Office",
-    "joke": "Corporate life: Jahan log Friday raat ko party karte hain aur Saturday-Sunday sirf ye sochte hain ki kal Monday hai.",
+    "category": "Coffee",
+    "joke": "Coffee doesn't solve problems. It just makes me energetic enough to create new ones.",
     "posted": false
   },
   {
     "id": 112,
-    "category": "Office",
-    "joke": "Boss: Hum ek family hain.\nEmployee: Sir, fir mujhe monthly allowance do pocket money ke roop me aur kaam mat karao.",
+    "category": "Manager",
+    "joke": "Manager: 'Do you have five minutes?'\nTranslation: 'Cancel the rest of your afternoon.'",
     "posted": false
   },
   {
     "id": 113,
-    "category": "Office",
-    "joke": "Me: Sir, main beemar hoon, aaj leave chahiye.\nManager: Acha, meeting me bol paoge?\nMe: *Coughs dramatically* Sir, type kar paunga bas.",
+    "category": "Travel",
+    "joke": "Half the vacation budget goes to food. The other half goes to airport coffee.",
     "posted": false
   },
   {
     "id": 114,
-    "category": "Office",
-    "joke": "Office me jab lunch break hota hai, tab sab log aise khush hote hain jaise unhe jail se 1 ghante ki parole mili ho.",
+    "category": "Passwords",
+    "joke": "Password requirements are getting so complicated that one day they'll ask for my childhood nickname and blood type.",
     "posted": false
   },
   {
     "id": 115,
-    "category": "Office",
-    "joke": "Boss to Intern: Beta, tumhare paas growth ke bahut options hain.\nIntern: Sir, pehle stipend badha do, growth main khud dekh lungi.",
+    "category": "Sleep",
+    "joke": "Nothing feels more luxurious than waking up naturally five minutes before the alarm.",
     "posted": false
   },
-  {
+   {
     "id": 116,
-    "category": "Office",
-    "joke": "Meeting that could have been an email: Day 485 of wondering why I am sitting in a room looking at a PowerPoint presentation on 'Strategic synergy'.",
+    "category": "Programming",
+    "joke": "Nothing builds confidence faster than deleting one line of code and watching everything somehow start working.",
     "posted": false
   },
   {
     "id": 117,
-    "category": "Office",
-    "joke": "Corporate standard line: 'Let's take this offline.' = Abhi mere paas is faltu baat ka koi jawab nahi hai.",
+    "category": "Pizza",
+    "joke": "The only love triangle I enjoy is me, pizza, and extra cheese.",
     "posted": false
   },
   {
     "id": 118,
-    "category": "Office",
-    "joke": "Desk job worker: Mera back pain badh gaya hai.\nDoctor: Gym jao.\nDesk job worker: Main gym me bhi baithne wali cycle chala sakta hoon kya?",
+    "category": "Boss",
+    "joke": "Boss: 'Take your time.'\nAlso Boss: 'Any updates?'... 37 seconds later.",
     "posted": false
   },
   {
     "id": 119,
-    "category": "Office",
-    "joke": "Manager: Is project ke complete hone pe hum party karenge.\n*Project completes in 2028*",
+    "category": "Movies",
+    "joke": "I don't need movie reviews. If the popcorn is good, it's already a 10/10.",
     "posted": false
   },
   {
     "id": 120,
-    "category": "Office",
-    "joke": "Appraisal cycle is like: HR wants you to show innovation, Manager wants you to show compliance, and you just want to show up on time.",
+    "category": "Student",
+    "joke": "My study plan is always perfect... until the WiFi starts working.",
     "posted": false
   },
   {
     "id": 121,
-    "category": "College",
-    "joke": "College Rules:\n1. Subah 8 baje ki class me koi nahi jata.\n2. Exam se ek din pehle sab padhte hain.\n3. Viva me jo confidence se jhoot bolta hai, wahi pass hota hai.",
+    "category": "UPI",
+    "joke": "That 'Payment Successful' sound heals emotional damage better than therapy.",
     "posted": false
   },
   {
     "id": 122,
-    "category": "College",
-    "joke": "Professor: Tumne copy kiya hai?\nStudent: Nahi sir, wo hum dono ke brain me wireless connection chal raha tha exam hall me.",
+    "category": "WhatsApp",
+    "joke": "Family groups have two speeds: silent for days... or 847 messages before breakfast.",
     "posted": false
   },
   {
     "id": 123,
-    "category": "College",
-    "joke": "Syllabus for the exam:\nChapter 1 to 10.\nWhat I read: Chapter 1 (page 1 only).\nWhat came in exam: Chapter 11 (Out of syllabus).",
+    "category": "YouTube",
+    "joke": "I searched for one tutorial.\nYouTube: 'Here's a documentary about penguins instead.'",
     "posted": false
   },
   {
     "id": 124,
-    "category": "College",
-    "joke": "College group projects:\n1 insaan kaam karta hai.\n2 insaan sirf dekhne aate hain.\n1 insaan bas PPT me apna naam check karta hai.\n1 insaan toh gayab hi rehta hai.",
+    "category": "Traffic",
+    "joke": "Traffic lights are just suggestion boxes for some drivers.",
     "posted": false
   },
   {
     "id": 125,
-    "category": "College",
-    "joke": "Engineering student life:\nFirst Year: Main NASA jaunga!\nSecond Year: IT company to pakki hai.\nThird Year: Kisi tarah backlog clear ho jaye.\nFinal Year: TCS ka mass recruitment kab hai?",
+    "category": "WiFi",
+    "joke": "The WiFi is always fastest when nobody actually needs it.",
     "posted": false
   },
   {
     "id": 126,
-    "category": "College",
-    "joke": "Exam Hall me dost ke ishaare:\n1 ungli = Question 1 ka answer bata de.\nSir hilana = Bhai kuch nahi aata, paper khaali chord raha hoon.",
+    "category": "Friends",
+    "joke": "Real friends don't let you do stupid things...\nThey record them first.",
     "posted": false
   },
   {
     "id": 127,
-    "category": "College",
-    "joke": "Professor: Viva me minimum passing marks mil jayenge agar sahi answer diya.\nStudent: Sir, option A ya B me se kuch ho sakta hai kya?",
+    "category": "Startup",
+    "joke": "Startup founders survive on three things: caffeine, optimism, and pretending sleep is optional.",
     "posted": false
   },
   {
     "id": 128,
-    "category": "College",
-    "joke": "College life is that magical time when you are broke, tired, stressed, and somehow having the best time of your life.",
+    "category": "Doctors",
+    "joke": "Doctor: 'Avoid stress.'\nMy bills: 'Allow us to introduce ourselves.'",
     "posted": false
   },
   {
     "id": 129,
-    "category": "College",
-    "joke": "Hostel Warden: Raat ko 10 baje ke baad koi bahar nahi dikhna chahiye.\nStudents: Hum toh vaise bhi subah 4 baje tak jaagte hain sir.",
+    "category": "PUBG",
+    "joke": "My squad's favorite strategy is landing together... and getting eliminated separately.",
     "posted": false
   },
   {
     "id": 130,
-    "category": "College",
-    "joke": "Teacher: Paper bahut easy tha.\nStudents: Haan ma'am, aapse answer sheet check karwani thi na, isliye easy laga.",
+    "category": "Diet",
+    "joke": "Every diet ends the same way:\n'I'll start again on Monday.'",
     "posted": false
   },
   {
     "id": 131,
-    "category": "College",
-    "joke": "Exam time calculation: 3 ghante ka paper, 2.5 ghante window ke bahar dekhna, aur 30 mins me speed-of-light se likhna.",
+    "category": "Teacher",
+    "joke": "Teacher: 'There are no stupid questions.'\nStudent: 'Will this be on the exam?'\nTeacher: '...Next question.'",
     "posted": false
   },
   {
     "id": 132,
-    "category": "College",
-    "joke": "College library: Ek aisi shaant jagah jahan log padhne nahi, sirf free AC aur phone scroll karne aate hain.",
+    "category": "Mobile Battery",
+    "joke": "Phone at 100%: Confidence.\nPhone at 5%: Survival mode activated.",
     "posted": false
   },
   {
     "id": 133,
-    "category": "College",
-    "joke": "Backlog students be like: Hum har semester me double fees dete hain college ko, building humare dum pe hi toh khadi hai.",
+    "category": "Best Friend",
+    "joke": "A best friend is someone who roasts you in public... then defends you in private.",
     "posted": false
   },
   {
     "id": 134,
-    "category": "College",
-    "joke": "Student: Papa college trip pe 5000 Rs mang rahe hain.\nPapa: Acha? Aur padhai ke liye jo fees di thi uske results kahan hain?",
+    "category": "Programming",
+    "joke": "99% of programming is convincing yourself the bug is impossible... until you find the missing semicolon.",
     "posted": false
   },
   {
     "id": 135,
-    "category": "College",
-    "joke": "Placement Officer: Aapki key skills kya hain?\nStudent: Main bina soye 24 ghante series dekh sakta hoon aur group assignments copy kar sakta hoon.",
+    "category": "Mom",
+    "joke": "Mom: 'There's food at home.'\nMe: 'Can we order pizza?'\nMom: 'Read my first message again.'",
     "posted": false
   },
   {
     "id": 136,
-    "category": "College",
-    "joke": "Assignments writing logic: Copy first line from Wikipedia, change the second line slightly, and copy paste the rest directly.",
+    "category": "Customer Service",
+    "joke": "Customer Support: 'Your call is important to us.'\nMy call: *Ages into a historical event.*",
     "posted": false
   },
   {
     "id": 137,
-    "category": "College",
-    "joke": "Morning lecture at 8:00 AM:\nAttendance: 5 students.\n9:00 AM when lecture is ending: 60 students show up for proxy.",
+    "category": "Valorant",
+    "joke": "I don't miss my shots.\nI just give the enemy a motivational warning.",
     "posted": false
   },
   {
     "id": 138,
-    "category": "College",
-    "joke": "College canteen ka khana is like a mystery box. Har din pasta ka taste badal jata hai, aur paneer humesha hard rehta hai.",
+    "category": "Lazy People",
+    "joke": "I'm not lazy. I'm on energy-saving mode until further notice.",
     "posted": false
   },
   {
     "id": 139,
-    "category": "College",
-    "joke": "Semester exams be like: Hum jo book padh ke gaye the wo local autowala padh raha tha, humare questions to aakash-ganga se aaye the.",
+    "category": "Bank",
+    "joke": "My bank balance and my motivation have one thing in common...\nBoth disappear before the month ends.",
     "posted": false
   },
   {
     "id": 140,
-    "category": "College",
-    "joke": "Exam rules for backbenchers: Answer sheet ke peeche 'Jai Mata Di' likhna aur pass hone ki dua karna.",
+    "category": "Online Shopping",
+    "joke": "I don't have a shopping problem.\nI have a 'Free Shipping Ends Tonight' problem.",
     "posted": false
   },
   {
     "id": 141,
-    "category": "Relationship",
-    "joke": "Boyfriend: Tumne kya kaha? Dobara bolna.\nGirlfriend: Maine kuch nahi kaha.\nBoyfriend: Acha, fir thik hai, mujhe laga meri galti ho gayi.",
+    "category": "Meetings",
+    "joke": "Every meeting has that one person who says, 'I have a quick question...' and unlocks another 30 minutes.",
     "posted": false
   },
   {
     "id": 142,
-    "category": "Relationship",
-    "joke": "Single life ke fayde: Aapko kisi ko 'Khana khaya?' baar baar nahi poochhna padta. Bas khud khao aur so jao.",
+    "category": "Hostel",
+    "joke": "Hostel roommates don't knock.\nThey just enter like they're paying your rent.",
     "posted": false
   },
   {
     "id": 143,
-    "category": "Relationship",
-    "joke": "Girlfriend: Tumhe mere naye haircut ke baare me kya lagta hai?\nBoyfriend: Bahut sundar hai.\nGirlfriend: Tumhe kaise pata? Maine toh abhi tak cut karwaya hi nahi!",
+    "category": "Tech Support",
+    "joke": "Tech Support's biggest achievement isn't fixing computers.\nIt's staying calm while asking, 'Is it plugged in?'",
     "posted": false
   },
   {
     "id": 144,
-    "category": "Relationship",
-    "joke": "A true relationship is when you can look at each other and laugh because you both know how crazy you are.",
+    "category": "Cricket",
+    "joke": "The TV remote changes hands faster than the batting order during a collapse.",
     "posted": false
   },
   {
     "id": 145,
-    "category": "Relationship",
-    "joke": "Husband: Aaj khane me kya hai?\nWife: Zeher!\nHusband: Thik hai, tum khao, main bahar se paneer tikka manga leta hoon.",
+    "category": "Marriage",
+    "joke": "Marriage is basically two people asking each other,\n'What do you want to eat?' until both give up.",
     "posted": false
   },
   {
     "id": 146,
-    "category": "Relationship",
-    "joke": "Boyfriend: Hum ghoomne chalein?\nGirlfriend: Haan, par main taiyar hone me 5 minute lungi.\n*3 hours later* ...",
+    "category": "Influencer",
+    "joke": "Influencers don't wake up.\nThey 'start their morning routine' with three cameras and perfect lighting.",
     "posted": false
   },
   {
     "id": 147,
-    "category": "Relationship",
-    "joke": "Single log Valentine's Day pe: Aaj toh Bajrang Dal join kar ke park me ghoomne ka sahi time hai.",
+    "category": "AI",
+    "joke": "People fear AI taking over.\nI'm still waiting for autocorrect to stop embarrassing me.",
     "posted": false
   },
   {
     "id": 148,
-    "category": "Relationship",
-    "joke": "Girlfriend: Agar main kho gayi toh kya karoge?\nBoyfriend: Main seedha police station jaunga aur unhe bataunga ki shanti mil gayi.",
+    "category": "Engineering",
+    "joke": "Engineering teaches you that 'temporary fix' is just another way of saying 'future problem.'",
     "posted": false
   },
   {
     "id": 149,
-    "category": "Relationship",
-    "joke": "Relationship status:\n[ ] Single\n[ ] In a relationship\n[x] Busy explaining that I am not looking for anyone right now.",
+    "category": "Dad",
+    "joke": "Dad can detect an unnecessary light left on from a distance scientists still can't explain.",
     "posted": false
   },
   {
     "id": 150,
+    "category": "Office",
+    "joke": "The fastest way to end an office conversation is to say,\n'So... who's taking notes?'",
+    "posted": false
+  },
+  {
+    "id": 151,
+    "category": "Programming",
+    "joke": "I finally fixed the bug.\nNow the app has developed a completely different personality.",
+    "posted": false
+  },
+  {
+    "id": 152,
+    "category": "Coffee",
+    "joke": "Coffee isn't an addiction.\nIt's just my operating system.",
+    "posted": false
+  },
+  {
+    "id": 153,
+    "category": "AI",
+    "joke": "AI writes better emails than me.\nI still spend 20 minutes deciding whether to end with 'Thanks' or 'Best'.",
+    "posted": false
+  },
+  {
+    "id": 154,
+    "category": "Best Friend",
+    "joke": "A best friend is someone who says,\n'This is a terrible idea.'\n...while grabbing their keys.",
+    "posted": false
+  },
+  {
+    "id": 155,
+    "category": "Office",
+    "joke": "The office printer has one life goal:\nBreak exactly five minutes before your deadline.",
+    "posted": false
+  },
+  {
+    "id": 156,
+    "category": "Gaming",
+    "joke": "I don't rage quit.\nI perform an unexpected emotional shutdown.",
+    "posted": false
+  },
+  {
+    "id": 157,
+    "category": "College",
+    "joke": "My attendance and my motivation have been avoiding each other all semester.",
+    "posted": false
+  },
+  {
+    "id": 158,
+    "category": "Food",
+    "joke": "The recipe said 'serves four.'\nChallenge accepted.",
+    "posted": false
+  },
+  {
+    "id": 159,
+    "category": "Instagram",
+    "joke": "I posted one selfie.\nInstagram immediately suggested I become an influencer.",
+    "posted": false
+  },
+  {
+    "id": 160,
+    "category": "Boss",
+    "joke": "Boss: 'We're all in the same boat.'\nPretty sure you're in first class.",
+    "posted": false
+  },
+  {
+    "id": 161,
+    "category": "Cricket",
+    "joke": "Every living room has at least one uncle who could've captained the national team.",
+    "posted": false
+  },
+  {
+    "id": 162,
+    "category": "WhatsApp",
+    "joke": "The family group has two settings:\n'Good Morning' and political debates.",
+    "posted": false
+  },
+  {
+    "id": 163,
+    "category": "Gym",
+    "joke": "I paid for a gym membership.\nMy bank account got the workout instead.",
+    "posted": false
+  },
+  {
+    "id": 164,
+    "category": "Startup",
+    "joke": "Startups move fast.\nMostly toward another funding round.",
+    "posted": false
+  },
+  {
+    "id": 165,
+    "category": "Teacher",
+    "joke": "Teacher: 'It's an open-book test.'\nMe: Great.\nQuestions: 'Explain using your own understanding.'",
+    "posted": false
+  },
+  {
+    "id": 166,
+    "category": "Pizza",
+    "joke": "Nobody has ever looked sad while holding hot pizza.\nIt's scientifically impossible.",
+    "posted": false
+  },
+  {
+    "id": 167,
+    "category": "Programming",
+    "joke": "My code has excellent security.\nNot even I can get into it anymore.",
+    "posted": false
+  },
+  {
+    "id": 168,
     "category": "Relationship",
-    "joke": "Wife: Shaadi se pehle tum mujhe kitne gift dete the, ab kyun nahi dete?\nHusband: Beta, kabhi kisi ne machli pakadne ke baad chara dala hai?",
+    "joke": "\"I'm fine.\"\nThe most expensive sentence you'll ever believe.",
+    "posted": false
+  },
+  {
+    "id": 169,
+    "category": "Amazon",
+    "joke": "Amazon knows I don't need another gadget.\nIt just doesn't care.",
+    "posted": false
+  },
+  {
+    "id": 170,
+    "category": "Traffic",
+    "joke": "Traffic jams are just group projects for cars.",
+    "posted": false
+  },
+  {
+    "id": 171,
+    "category": "YouTube",
+    "joke": "I came for one tutorial.\nI left knowing how ancient Romans made bread.",
+    "posted": false
+  },
+  {
+    "id": 172,
+    "category": "Sleep",
+    "joke": "Sleep is free.\nWhich explains why my brain refuses to let me have it.",
+    "posted": false
+  },
+  {
+    "id": 173,
+    "category": "Mobile Battery",
+    "joke": "1% battery gives you superhero-level decision-making skills.",
+    "posted": false
+  },
+  {
+    "id": 174,
+    "category": "Dad",
+    "joke": "Dad's superpower is asking,\n'Who left this light on?'\nfrom another dimension.",
+    "posted": false
+  },
+  {
+    "id": 175,
+    "category": "UPI",
+    "joke": "Nothing tests your patience like waiting for 'Payment Successful.'",
+    "posted": false
+  },
+  {
+    "id": 176,
+    "category": "Hostel",
+    "joke": "Hostel roommates treat your snacks like public property.",
+    "posted": false
+  },
+  {
+    "id": 177,
+    "category": "Movies",
+    "joke": "Movie snacks now cost enough to qualify as an investment.",
+    "posted": false
+  },
+  {
+    "id": 178,
+    "category": "Bank",
+    "joke": "Salary arrives like a celebrity.\nLeaves like a magician.",
+    "posted": false
+  },
+  {
+    "id": 179,
+    "category": "Programming",
+    "joke": "My favorite debugging technique is staring at the screen until the bug gets uncomfortable and leaves.",
+    "posted": false
+  },
+  {
+    "id": 180,
+    "category": "Lazy People",
+    "joke": "I'm not procrastinating.\nI'm giving tomorrow a chance to shine.",
+    "posted": false
+  },
+  {
+    "id": 181,
+    "category": "Programming",
+    "joke": "Programmers don't make mistakes.\nWe create undocumented features.",
+    "posted": false
+  },
+  {
+    "id": 182,
+    "category": "Biryani",
+    "joke": "Friend: 'Can I have one bite?'\nMe: 'You mean... one friendship-ending decision?'",
+    "posted": false
+  },
+  {
+    "id": 183,
+    "category": "ChatGPT",
+    "joke": "Me: Give me a short answer.\nChatGPT: Here's a beautiful novel with bullet points.",
+    "posted": false
+  },
+  {
+    "id": 184,
+    "category": "Friends",
+    "joke": "Real friends don't judge your bad decisions.\nThey ask for updates.",
+    "posted": false
+  },
+  {
+    "id": 185,
+    "category": "Corporate",
+    "joke": "Corporate life is just professionally saying,\n'I have no idea what's happening either.'",
+    "posted": false
+  },
+  {
+    "id": 186,
+    "category": "Valorant",
+    "joke": "I don't miss easy shots.\nI just give the enemy false confidence.",
+    "posted": false
+  },
+  {
+    "id": 187,
+    "category": "Engineering",
+    "joke": "Engineering teaches you one important lesson:\nGoogle usually knows more than your textbook.",
+    "posted": false
+  },
+  {
+    "id": 188,
+    "category": "Tea",
+    "joke": "Tea isn't a drink.\nIt's a software update for Indians.",
+    "posted": false
+  },
+  {
+    "id": 189,
+    "category": "Instagram",
+    "joke": "Instagram keeps asking what's on my mind.\nNice try, algorithm.",
+    "posted": false
+  },
+  {
+    "id": 190,
+    "category": "Manager",
+    "joke": "Manager: 'Any blockers?'\nMe: 'Yes... Mondays.'",
+    "posted": false
+  },
+  {
+    "id": 191,
+    "category": "Doctors",
+    "joke": "Doctor: 'Get more sleep.'\nNetflix: 'Are you sure about that?'",
+    "posted": false
+  },
+  {
+    "id": 192,
+    "category": "WiFi",
+    "joke": "The WiFi becomes strongest exactly when you decide to stop using it.",
+    "posted": false
+  },
+  {
+    "id": 193,
+    "category": "Relationship",
+    "joke": "Relationships are mostly asking,\n'Where do you want to eat?'\nand rejecting every answer.",
+    "posted": false
+  },
+  {
+    "id": 194,
+    "category": "Customer Service",
+    "joke": "Customer Support:\n'Your estimated wait time is 2 minutes.'\nCalendar: 'Liar.'",
+    "posted": false
+  },
+  {
+    "id": 195,
+    "category": "Programming",
+    "joke": "The bug disappeared as soon as I started screen sharing.\nEven it feared being judged.",
+    "posted": false
+  },
+  {
+    "id": 196,
+    "category": "Money",
+    "joke": "Money talks.\nMine usually says,\n'Goodbye.'",
+    "posted": false
+  },
+  {
+    "id": 197,
+    "category": "College",
+    "joke": "The syllabus always looks achievable...\nuntil you open Chapter One.",
+    "posted": false
+  },
+  {
+    "id": 198,
+    "category": "YouTube",
+    "joke": "One YouTube video later...\nI'm somehow learning how to survive a shark attack.",
+    "posted": false
+  },
+  {
+    "id": 199,
+    "category": "Traffic",
+    "joke": "Green light.\nOne car moves.\nThe rest spend two business days reacting.",
+    "posted": false
+  },
+  {
+    "id": 200,
+    "category": "AI",
+    "joke": "People worry about AI taking jobs.\nI'm still waiting for autocorrect to stop changing my name.",
+    "posted": false
+  },
+  {
+    "id": 201,
+    "category": "Office",
+    "joke": "The office coffee isn't strong.\nIt just lowers your standards.",
+    "posted": false
+  },
+  {
+    "id": 202,
+    "category": "Crush",
+    "joke": "My crush smiled at me.\nI'm still living off that memory.",
+    "posted": false
+  },
+  {
+    "id": 203,
+    "category": "Gym",
+    "joke": "I lifted one dumbbell.\nNow I walk around like I own the place.",
+    "posted": false
+  },
+  {
+    "id": 204,
+    "category": "Amazon",
+    "joke": "My cart has dreams.\nMy wallet has boundaries.",
+    "posted": false
+  },
+  {
+    "id": 205,
+    "category": "Programming",
+    "joke": "If coding burned calories,\nI'd accidentally become a fitness influencer.",
+    "posted": false
+  },
+  {
+    "id": 206,
+    "category": "Dad",
+    "joke": "Dad's favorite hobby is reminding everyone how expensive electricity is.",
+    "posted": false
+  },
+  {
+    "id": 207,
+    "category": "Weekend",
+    "joke": "Weekends should come with a pause button.",
+    "posted": false
+  },
+  {
+    "id": 208,
+    "category": "Gaming",
+    "joke": "I wasn't losing.\nI was collecting valuable life lessons.",
+    "posted": false
+  },
+  {
+    "id": 209,
+    "category": "Pizza",
+    "joke": "Sharing pizza is proof that love has limits.",
+    "posted": false
+  },
+  {
+    "id": 210,
+    "category": "Overthinking",
+    "joke": "I replay conversations from three years ago.\nMy brain deserves an Oscar.",
+    "posted": false
+  },
+  {
+    "id": 211,
+    "category": "Programming",
+    "joke": "My code works.\nI have no idea why.\nI'm too scared to ask.",
+    "posted": false
+  },
+  {
+    "id": 212,
+    "category": "Coffee",
+    "joke": "Coffee doesn't wake me up anymore.\nIt just reminds me I have responsibilities.",
+    "posted": false
+  },
+  {
+    "id": 213,
+    "category": "Office",
+    "joke": "My favorite office feature is the 'Leave Meeting' button.",
+    "posted": false
+  },
+  {
+    "id": 214,
+    "category": "BGMI",
+    "joke": "My squad says 'Stick together.'\nFive seconds later we're playing five different games.",
+    "posted": false
+  },
+  {
+    "id": 215,
+    "category": "Indian Parents",
+    "joke": "Indian parents can turn off every light in the house using only disappointment.",
+    "posted": false
+  },
+  {
+    "id": 216,
+    "category": "Programming",
+    "joke": "Debugging is just reading your own lies from last week.",
+    "posted": false
+  },
+  {
+    "id": 217,
+    "category": "WhatsApp",
+    "joke": "That one person who replies 'OK' after reading a 12-line message deserves jail.",
+    "posted": false
+  },
+  {
+    "id": 218,
+    "category": "Movies",
+    "joke": "Movie tickets are expensive.\nThe popcorn is just there to finish the job.",
+    "posted": false
+  },
+  {
+    "id": 219,
+    "category": "Student",
+    "joke": "I don't study under pressure.\nI create the pressure first.",
+    "posted": false
+  },
+  {
+    "id": 220,
+    "category": "Bank",
+    "joke": "Checking my bank balance before shopping is called emotional preparation.",
+    "posted": false
+  },
+  {
+    "id": 221,
+    "category": "ChatGPT",
+    "joke": "Me: Give me one sentence.\nChatGPT: Absolutely. Here's Chapter One.",
+    "posted": false
+  },
+  {
+    "id": 222,
+    "category": "Cricket",
+    "joke": "The loudest cricket expert is always the one holding the TV remote.",
+    "posted": false
+  },
+  {
+    "id": 223,
+    "category": "Relationship",
+    "joke": "\"Where are you?\" has started more investigations than the FBI.",
+    "posted": false
+  },
+  {
+    "id": 224,
+    "category": "Gym",
+    "joke": "I went to the gym today.\nMostly to refill my water bottle.",
+    "posted": false
+  },
+  {
+    "id": 225,
+    "category": "Tech Support",
+    "joke": "Tech Support deserves awards for pretending they've never heard the same problem 10,000 times.",
+    "posted": false
+  },
+  {
+    "id": 226,
+    "category": "Programming",
+    "joke": "Nothing is permanent.\nExcept that one temporary fix from 2019.",
+    "posted": false
+  },
+  {
+    "id": 227,
+    "category": "Instagram",
+    "joke": "Instagram filters have more confidence than I do.",
+    "posted": false
+  },
+  {
+    "id": 228,
+    "category": "Teacher",
+    "joke": "Teacher: 'This will only take five minutes.'\nThe clock: 'Good one.'",
+    "posted": false
+  },
+  {
+    "id": 229,
+    "category": "Weekend",
+    "joke": "Friday night feels like freedom.\nSunday night feels like betrayal.",
+    "posted": false
+  },
+  {
+    "id": 230,
+    "category": "Pizza",
+    "joke": "Pizza arrives.\nEvery diet plan leaves the chat.",
+    "posted": false
+  },
+  {
+    "id": 231,
+    "category": "AI",
+    "joke": "AI can generate a thousand ideas.\nI still can't decide what to eat.",
+    "posted": false
+  },
+  {
+    "id": 232,
+    "category": "Office",
+    "joke": "The quickest way to end a meeting is to ask,\n'Who's writing the minutes?'",
+    "posted": false
+  },
+  {
+    "id": 233,
+    "category": "Gaming",
+    "joke": "I don't lose rank.\nI donate points to the community.",
+    "posted": false
+  },
+  {
+    "id": 234,
+    "category": "Dad",
+    "joke": "Dad can smell the AC running from another floor.",
+    "posted": false
+  },
+  {
+    "id": 235,
+    "category": "Programming",
+    "joke": "If it compiled on the first try...\nI've probably deleted something important.",
+    "posted": false
+  },
+  {
+    "id": 236,
+    "category": "YouTube",
+    "joke": "One tutorial later...\nI'm somehow watching a documentary about volcanoes.",
+    "posted": false
+  },
+  {
+    "id": 237,
+    "category": "Traffic",
+    "joke": "The car behind me always believes I'm driving slower than physics allows.",
+    "posted": false
+  },
+  {
+    "id": 238,
+    "category": "Lazy People",
+    "joke": "I don't chase dreams.\nI hit snooze and let them come back tomorrow.",
+    "posted": false
+  },
+  {
+    "id": 239,
+    "category": "Customer Service",
+    "joke": "\"Your feedback is valuable to us.\"\nTranslation: 'We'll never read it.'",
+    "posted": false
+  },
+  {
+    "id": 240,
+    "category": "Food",
+    "joke": "I don't trust people who say,\n'I'm full.'\nDessert hasn't even arrived.",
+    "posted": false
+  },
+   {
+    "id": 241,
+    "category": "Programming",
+    "joke": "My code is like an onion.\nEvery layer makes someone cry.",
+    "posted": false
+  },
+  {
+    "id": 242,
+    "category": "Biryani",
+    "joke": "You can borrow my charger.\nYou can borrow my hoodie.\nYou cannot borrow my biryani.",
+    "posted": false
+  },
+  {
+    "id": 243,
+    "category": "Boss",
+    "joke": "Boss: 'No pressure.'\nDeadline: 'Allow me to introduce myself.'",
+    "posted": false
+  },
+  {
+    "id": 244,
+    "category": "Gaming",
+    "joke": "The enemy team always plays like professionals.\nMy team plays like we're meeting for the first time.",
+    "posted": false
+  },
+  {
+    "id": 245,
+    "category": "College",
+    "joke": "College teaches many things.\nFinding parking isn't one of them.",
+    "posted": false
+  },
+  {
+    "id": 246,
+    "category": "Amazon",
+    "joke": "I opened Amazon to buy one cable.\nThree hours later I almost owned an air fryer.",
+    "posted": false
+  },
+  {
+    "id": 247,
+    "category": "ChatGPT",
+    "joke": "ChatGPT never judges my questions.\nUnlike Google, which acts disappointed after the second typo.",
+    "posted": false
+  },
+  {
+    "id": 248,
+    "category": "Sleep",
+    "joke": "The best sleep happens 10 minutes before the alarm.",
+    "posted": false
+  },
+  {
+    "id": 249,
+    "category": "Relationship",
+    "joke": "Relationship status:\nWaiting for someone who replies faster than customer support.",
+    "posted": false
+  },
+  {
+    "id": 250,
+    "category": "Traffic",
+    "joke": "Traffic teaches patience.\nMostly because you have no other option.",
+    "posted": false
+  },
+  {
+    "id": 251,
+    "category": "Programming",
+    "joke": "I renamed one variable.\nThe entire application filed a complaint.",
+    "posted": false
+  },
+  {
+    "id": 252,
+    "category": "Indian Parents",
+    "joke": "Indian parents can find the TV remote faster than Google can find search results.",
+    "posted": false
+  },
+  {
+    "id": 253,
+    "category": "Instagram",
+    "joke": "Instagram: 'People you may know.'\nMe: I barely know the people I already follow.",
+    "posted": false
+  },
+  {
+    "id": 254,
+    "category": "Office",
+    "joke": "Every office has one person who's 'just asking a quick question.'\nIt's never quick.",
+    "posted": false
+  },
+  {
+    "id": 255,
+    "category": "Coffee",
+    "joke": "Coffee before work.\nCoffee during work.\nCoffee to recover from work.",
+    "posted": false
+  },
+  {
+    "id": 256,
+    "category": "AI",
+    "joke": "AI can write poetry.\nI still can't write a decent email subject.",
+    "posted": false
+  },
+  {
+    "id": 257,
+    "category": "Cricket",
+    "joke": "Half the cricket match is analysis.\nThe other half is everyone disagreeing with the analysis.",
+    "posted": false
+  },
+  {
+    "id": 258,
+    "category": "Teacher",
+    "joke": "Teacher: 'Any questions?'\nClass: *Silence*\nExam: 'Surprise!'",
+    "posted": false
+  },
+  {
+    "id": 259,
+    "category": "Programming",
+    "joke": "I fixed the production issue.\nNow development has trust issues.",
+    "posted": false
+  },
+  {
+    "id": 260,
+    "category": "UPI",
+    "joke": "UPI has made carrying cash feel like downloading music on a CD.",
+    "posted": false
+  },
+  {
+    "id": 261,
+    "category": "Friends",
+    "joke": "Friends don't let friends make bad decisions alone.",
+    "posted": false
+  },
+  {
+    "id": 262,
+    "category": "Movies",
+    "joke": "Movie trailers have become so detailed,\nI've already seen the ending.",
+    "posted": false
+  },
+  {
+    "id": 263,
+    "category": "Gym",
+    "joke": "I walked past the gym today.\nThat counts as cardio, right?",
+    "posted": false
+  },
+  {
+    "id": 264,
+    "category": "Programming",
+    "joke": "Writing code is easy.\nExplaining it six months later is the hard part.",
+    "posted": false
+  },
+  {
+    "id": 265,
+    "category": "WhatsApp",
+    "joke": "Typing...\nDeleted.\nThe greatest plot twist of modern communication.",
+    "posted": false
+  },
+  {
+    "id": 266,
+    "category": "Bank",
+    "joke": "My bank account and I are in a long-distance relationship.\nMostly because the money keeps leaving.",
+    "posted": false
+  },
+  {
+    "id": 267,
+    "category": "YouTube",
+    "joke": "YouTube recommendations know I'm procrastinating before I do.",
+    "posted": false
+  },
+  {
+    "id": 268,
+    "category": "Hostel",
+    "joke": "Hostel rule #1:\nIf you bought snacks, you bought snacks for everyone.",
+    "posted": false
+  },
+  {
+    "id": 269,
+    "category": "Programming",
+    "joke": "The bug only appears when the client is watching.\nIt's shy the rest of the time.",
+    "posted": false
+  },
+  {
+    "id": 270,
+    "category": "Lazy People",
+    "joke": "I'm not late.\nI'm just giving everyone else a head start.",
+    "posted": false
+  },
+  {
+    "id": 271,
+    "category": "Programming",
+    "joke": "My code has two modes:\nDoesn't work.\nWorks... but nobody knows why.",
+    "posted": false
+  },
+  {
+    "id": 272,
+    "category": "Pizza",
+    "joke": "The pizza arrived.\nSuddenly everyone in the house remembered they were hungry.",
+    "posted": false
+  },
+  {
+    "id": 273,
+    "category": "Office",
+    "joke": "Nothing spreads through an office faster than,\n'Free food in the break room.'",
+    "posted": false
+  },
+  {
+    "id": 274,
+    "category": "PUBG",
+    "joke": "My squad's strategy meeting lasts longer than we survive.",
+    "posted": false
+  },
+  {
+    "id": 275,
+    "category": "Engineering",
+    "joke": "Engineering is turning,\n'That should work'\ninto\n'Why does this work?'",
+    "posted": false
+  },
+  {
+    "id": 276,
+    "category": "Amazon",
+    "joke": "Amazon: 'Only 2 left in stock.'\nMe: Nice try... okay, I'll buy it.",
+    "posted": false
+  },
+  {
+    "id": 277,
+    "category": "Programming",
+    "joke": "Every programmer has a folder named 'final'.\nMine also has 'final_final' and 'final_final_v2'.",
+    "posted": false
+  },
+  {
+    "id": 278,
+    "category": "Dad",
+    "joke": "Dad's GPS has only one instruction:\n'Why didn't you take the other road?'",
+    "posted": false
+  },
+  {
+    "id": 279,
+    "category": "YouTube",
+    "joke": "I skipped one ad.\nYouTube took it personally.",
+    "posted": false
+  },
+  {
+    "id": 280,
+    "category": "Boss",
+    "joke": "Boss: 'Enjoy your weekend.'\n*Schedules a meeting for Monday 8 AM.*",
+    "posted": false
+  },
+  {
+    "id": 281,
+    "category": "Cricket",
+    "joke": "Every cricket fan becomes a selector after one bad over.",
+    "posted": false
+  },
+  {
+    "id": 282,
+    "category": "Programming",
+    "joke": "I removed one console.log.\nNow I have no idea what's happening.",
+    "posted": false
+  },
+  {
+    "id": 283,
+    "category": "Coffee",
+    "joke": "Coffee is cheaper than therapy.\nThat's all I'm saying.",
+    "posted": false
+  },
+  {
+    "id": 284,
+    "category": "Traffic",
+    "joke": "The lane next to mine always moves faster.\nUntil I switch.",
+    "posted": false
+  },
+  {
+    "id": 285,
+    "category": "Relationship",
+    "joke": "Couples don't argue about big things.\nThey argue about where to eat.",
+    "posted": false
+  },
+  {
+    "id": 286,
+    "category": "Programming",
+    "joke": "The code passed all the tests.\nProduction said, 'Not so fast.'",
+    "posted": false
+  },
+  {
+    "id": 287,
+    "category": "Instagram",
+    "joke": "Instagram says,\n'Be yourself.'\nThen rewards everyone using the same filter.",
+    "posted": false
+  },
+  {
+    "id": 288,
+    "category": "Student",
+    "joke": "I don't need more study time.\nI need fewer distractions with WiFi.",
+    "posted": false
+  },
+  {
+    "id": 289,
+    "category": "Programming",
+    "joke": "There's no greater confidence than pushing code on Friday.\nThere's also no greater regret.",
+    "posted": false
+  },
+  {
+    "id": 290,
+    "category": "Movies",
+    "joke": "Movie villains explain their entire plan.\nI'd leave halfway through the speech.",
+    "posted": false
+  },
+  {
+    "id": 291,
+    "category": "Gym",
+    "joke": "I joined the gym for six months.\nMy muscles are still reading the terms and conditions.",
+    "posted": false
+  },
+  {
+    "id": 292,
+    "category": "Programming",
+    "joke": "Code reviews are just professionally saying,\n'Interesting choice... but no.'",
+    "posted": false
+  },
+  {
+    "id": 293,
+    "category": "WhatsApp",
+    "joke": "The person who sends voice notes longer than two minutes has too much confidence.",
+    "posted": false
+  },
+  {
+    "id": 294,
+    "category": "Customer Service",
+    "joke": "Customer Support:\n'Have you tried restarting it?'\nMe: 'Have you tried believing in me?'",
+    "posted": false
+  },
+  {
+    "id": 295,
+    "category": "Programming",
+    "joke": "I wrote clean code today.\nTomorrow's me will still complain about it.",
+    "posted": false
+  },
+  {
+    "id": 296,
+    "category": "Sleep",
+    "joke": "My bed has a stronger pull than Earth's gravity.",
+    "posted": false
+  },
+  {
+    "id": 297,
+    "category": "AI",
+    "joke": "AI isn't replacing me.\nIt just finishes my homework before I panic.",
+    "posted": false
+  },
+  {
+    "id": 298,
+    "category": "Friends",
+    "joke": "The best friendships are built on sarcasm and stolen fries.",
+    "posted": false
+  },
+  {
+    "id": 299,
+    "category": "Programming",
+    "joke": "My favorite framework is whichever one I don't have to debug today.",
+    "posted": false
+  },
+  {
+    "id": 300,
+    "category": "Weekend",
+    "joke": "Weekends are like software updates.\nThey're over before you notice anything changed.",
     "posted": false
   }
 ]

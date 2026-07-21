@@ -35,25 +35,109 @@ const WHITE = "#FFFFFF";
 const HL_BG = "#F4C430";
 const HL_COLOR = "#1A1A1A";
 
-// ── Category → background ────────────────────────────────────
 const CATEGORY_BG = {
-  "daily life": "daily_life.png",
+  // Office & Corporate
+  office: "office.png",
+  corporate: "office.png",
+  boss: "office.png",
+  manager: "office.png",
+  hr: "office.png",
+  salary: "office.png",
+  meetings: "office.png",
+  "work from home": "office.png",
+  client: "office.png",
+  freelancer: "office.png",
+  intern: "office.png",
+  startup: "office.png",
+  "customer service": "office.png",
+
+  // Programming & Tech
+  programming: "programming.png",
+  ai: "programming.png",
+  chatgpt: "programming.png",
+  passwords: "programming.png",
+  wifi: "programming.png",
+  "tech support": "programming.png",
+
+  // College & Student
+  college: "college.png",
+  student: "college.png",
+  engineering: "college.png",
+  engineers: "college.png",
+  exam: "college.png",
+  hostel: "college.png",
+  teacher: "college.png",
+  roommate: "college.png",
+
+  // Family & Parents
   "indian parents": "indian_family.png",
   "indian family": "indian_family.png",
   family: "indian_family.png",
-  office: "office.png",
-  corporate: "office.png",
-  programming: "programming.png",
-  college: "college.png",
-  student: "college.png",
+  mom: "indian_family.png",
+  dad: "indian_family.png",
+
+  // Relationships & Dating
   relationships: "relationships.png",
   relationship: "relationships.png",
+  dating: "relationships.png",
+  marriage: "relationships.png",
+  crush: "relationships.png",
+  friends: "relationships.png",
+  "best friend": "relationships.png",
+
+  // Social Media & Internet
   "social media": "social_media.png",
   internet: "social_media.png",
+  instagram: "social_media.png",
+  whatsapp: "social_media.png",
+  youtube: "social_media.png",
+  facebook: "social_media.png",
+  influencer: "social_media.png",
+  movies: "social_media.png",
+  "mobile battery": "social_media.png",
+
+  // Money & Shopping
   money: "money.png",
   shopping: "money.png",
+  "online shopping": "money.png",
+  amazon: "money.png",
+  flipkart: "money.png",
+  upi: "money.png",
+  bank: "money.png",
+
+  // Food & Drinks
   food: "food.png",
+  biryani: "food.png",
+  pizza: "food.png",
+  coffee: "food.png",
+  tea: "food.png",
+  diet: "food.png",
+
+  // Gaming
   gaming: "gaming.png",
+  bgmi: "gaming.png",
+  pubg: "gaming.png",
+  gta: "gaming.png",
+  valorant: "gaming.png",
+
+  // Daily Life & Fitness
+  "daily life": "daily_life.png",
+  weekend: "daily_life.png",
+  monday: "daily_life.png",
+  sleep: "daily_life.png",
+  "lazy people": "daily_life.png",
+  overthinking: "daily_life.png",
+  adulting: "daily_life.png",
+  traffic: "daily_life.png",
+  auto: "daily_life.png",
+  cab: "daily_life.png",
+  train: "daily_life.png",
+  travel: "daily_life.png",
+  gym: "daily_life.png",
+  fitness: "daily_life.png",
+  cricket: "daily_life.png",
+  doctors: "daily_life.png",
+  police: "daily_life.png",
 };
 const FALLBACKS = Array.from({ length: 15 }, (_, i) => `bg${i}.png`);
 
