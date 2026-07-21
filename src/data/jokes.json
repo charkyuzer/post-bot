@@ -584,7 +584,8 @@
     "id": 84,
     "category": "Programming",
     "joke": "Beta: Papa, log shaadi kyun karte hain?\nDeveloper Papa: Kyunki jab team badhti hai, tabhi toh bugs (problems) handle hote hain!",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T03:01:16.675Z"
   },
   {
     "id": 85,
