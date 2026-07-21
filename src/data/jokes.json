@@ -675,7 +675,8 @@
     "id": 97,
     "category": "Programming",
     "joke": "Client: Mujhe simple app chahiye, bas WhatsApp jaisa interface ho aur Amazon jaisa checkout.\nDeveloper: Budget?\nClient: Rs 5000 + ek achi rating.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T16:01:15.344Z"
   },
   {
     "id": 98,
