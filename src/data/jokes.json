@@ -878,7 +878,8 @@
     "id": 126,
     "category": "Friends",
     "joke": "Real friends don't let you do stupid things...\nThey record them first.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T21:01:13.664Z"
   },
   {
     "id": 127,
