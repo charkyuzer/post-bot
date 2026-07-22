@@ -731,7 +731,8 @@
     "id": 105,
     "category": "Amazon",
     "joke": "Amazon: 'Customers also bought this.'\nMe: Stop exposing my impulse-control issues.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T00:01:18.872Z"
   },
   {
     "id": 106,
