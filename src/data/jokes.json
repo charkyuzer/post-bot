@@ -836,7 +836,8 @@
     "id": 120,
     "category": "Student",
     "joke": "My study plan is always perfect... until the WiFi starts working.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T15:01:17.481Z"
   },
   {
     "id": 121,
