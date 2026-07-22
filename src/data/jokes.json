@@ -759,7 +759,8 @@
     "id": 109,
     "category": "Indian Parents",
     "joke": "Indian parents can hear a snack packet opening from three rooms away.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T04:01:13.081Z"
   },
   {
     "id": 110,
