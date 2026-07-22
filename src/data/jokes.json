@@ -752,7 +752,8 @@
     "id": 108,
     "category": "ChatGPT",
     "joke": "Me: Give me a simple answer.\nChatGPT: Here's a beautifully structured 17-point explanation.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T03:01:16.863Z"
   },
   {
     "id": 109,
