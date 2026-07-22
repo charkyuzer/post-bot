@@ -738,7 +738,8 @@
     "id": 106,
     "category": "Cricket",
     "joke": "Every Indian becomes a professional cricket analyst the moment a wicket falls.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T01:01:18.559Z"
   },
   {
     "id": 107,
