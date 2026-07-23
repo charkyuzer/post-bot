@@ -913,7 +913,8 @@
     "id": 131,
     "category": "Teacher",
     "joke": "Teacher: 'There are no stupid questions.'\nStudent: 'Will this be on the exam?'\nTeacher: '...Next question.'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T02:01:12.316Z"
   },
   {
     "id": 132,
