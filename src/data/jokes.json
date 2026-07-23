@@ -1039,7 +1039,8 @@
     "id": 149,
     "category": "Dad",
     "joke": "Dad can detect an unnecessary light left on from a distance scientists still can't explain.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T20:01:14.644Z"
   },
   {
     "id": 150,
