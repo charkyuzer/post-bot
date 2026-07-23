@@ -920,7 +920,8 @@
     "id": 132,
     "category": "Mobile Battery",
     "joke": "Phone at 100%: Confidence.\nPhone at 5%: Survival mode activated.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T03:01:14.556Z"
   },
   {
     "id": 133,
