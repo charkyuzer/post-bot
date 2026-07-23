@@ -927,7 +927,8 @@
     "id": 133,
     "category": "Best Friend",
     "joke": "A best friend is someone who roasts you in public... then defends you in private.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T04:01:16.544Z"
   },
   {
     "id": 134,
