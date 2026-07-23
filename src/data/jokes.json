@@ -969,7 +969,8 @@
     "id": 139,
     "category": "Bank",
     "joke": "My bank balance and my motivation have one thing in common...\nBoth disappear before the month ends.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T10:01:14.165Z"
   },
   {
     "id": 140,
