@@ -948,7 +948,8 @@
     "id": 136,
     "category": "Customer Service",
     "joke": "Customer Support: 'Your call is important to us.'\nMy call: *Ages into a historical event.*",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T07:01:19.818Z"
   },
   {
     "id": 137,
