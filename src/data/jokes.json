@@ -962,7 +962,8 @@
     "id": 138,
     "category": "Lazy People",
     "joke": "I'm not lazy. I'm on energy-saving mode until further notice.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T09:01:18.363Z"
   },
   {
     "id": 139,
