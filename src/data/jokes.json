@@ -1018,7 +1018,8 @@
     "id": 146,
     "category": "Influencer",
     "joke": "Influencers don't wake up.\nThey 'start their morning routine' with three cameras and perfect lighting.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T17:01:19.216Z"
   },
   {
     "id": 147,
