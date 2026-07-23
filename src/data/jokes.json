@@ -990,7 +990,8 @@
     "id": 142,
     "category": "Hostel",
     "joke": "Hostel roommates don't knock.\nThey just enter like they're paying your rent.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T13:01:16.696Z"
   },
   {
     "id": 143,
