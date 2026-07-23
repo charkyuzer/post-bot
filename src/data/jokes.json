@@ -1025,7 +1025,8 @@
     "id": 147,
     "category": "AI",
     "joke": "People fear AI taking over.\nI'm still waiting for autocorrect to stop embarrassing me.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T18:01:17.447Z"
   },
   {
     "id": 148,
