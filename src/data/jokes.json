@@ -1032,7 +1032,8 @@
     "id": 148,
     "category": "Engineering",
     "joke": "Engineering teaches you that 'temporary fix' is just another way of saying 'future problem.'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T19:01:13.327Z"
   },
   {
     "id": 149,
