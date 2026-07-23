@@ -997,7 +997,8 @@
     "id": 143,
     "category": "Tech Support",
     "joke": "Tech Support's biggest achievement isn't fixing computers.\nIt's staying calm while asking, 'Is it plugged in?'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T14:01:18.711Z"
   },
   {
     "id": 144,
