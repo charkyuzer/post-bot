@@ -1053,7 +1053,8 @@
     "id": 151,
     "category": "Programming",
     "joke": "I finally fixed the bug.\nNow the app has developed a completely different personality.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T22:01:18.276Z"
   },
   {
     "id": 152,
