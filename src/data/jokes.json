@@ -1214,7 +1214,8 @@
     "id": 174,
     "category": "Dad",
     "joke": "Dad's superpower is asking,\n'Who left this light on?'\nfrom another dimension.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T21:02:10.572Z"
   },
   {
     "id": 175,
