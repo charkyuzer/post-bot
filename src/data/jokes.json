@@ -1067,7 +1067,8 @@
     "id": 153,
     "category": "AI",
     "joke": "AI writes better emails than me.\nI still spend 20 minutes deciding whether to end with 'Thanks' or 'Best'.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T00:01:17.873Z"
   },
   {
     "id": 154,
