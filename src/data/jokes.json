@@ -1095,7 +1095,8 @@
     "id": 157,
     "category": "College",
     "joke": "My attendance and my motivation have been avoiding each other all semester.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T04:01:18.656Z"
   },
   {
     "id": 158,
