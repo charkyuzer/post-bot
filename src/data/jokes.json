@@ -1207,7 +1207,8 @@
     "id": 173,
     "category": "Mobile Battery",
     "joke": "1% battery gives you superhero-level decision-making skills.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T20:01:46.944Z"
   },
   {
     "id": 174,
