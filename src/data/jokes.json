@@ -1235,7 +1235,8 @@
     "id": 177,
     "category": "Movies",
     "joke": "Movie snacks now cost enough to qualify as an investment.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T00:02:36.410Z"
   },
   {
     "id": 178,
