@@ -1375,7 +1375,8 @@
     "id": 197,
     "category": "College",
     "joke": "The syllabus always looks achievable...\nuntil you open Chapter One.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T20:02:19.624Z"
   },
   {
     "id": 198,
