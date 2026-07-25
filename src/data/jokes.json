@@ -1270,7 +1270,8 @@
     "id": 182,
     "category": "Biryani",
     "joke": "Friend: 'Can I have one bite?'\nMe: 'You mean... one friendship-ending decision?'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T05:02:16.273Z"
   },
   {
     "id": 183,
