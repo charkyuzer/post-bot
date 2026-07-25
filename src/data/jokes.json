@@ -1368,7 +1368,8 @@
     "id": 196,
     "category": "Money",
     "joke": "Money talks.\nMine usually says,\n'Goodbye.'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T19:02:26.178Z"
   },
   {
     "id": 197,
