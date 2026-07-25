@@ -1361,7 +1361,8 @@
     "id": 195,
     "category": "Programming",
     "joke": "The bug disappeared as soon as I started screen sharing.\nEven it feared being judged.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T18:02:08.343Z"
   },
   {
     "id": 196,
