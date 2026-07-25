@@ -1340,7 +1340,8 @@
     "id": 192,
     "category": "WiFi",
     "joke": "The WiFi becomes strongest exactly when you decide to stop using it.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T15:01:36.353Z"
   },
   {
     "id": 193,
