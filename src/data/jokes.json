@@ -1242,7 +1242,8 @@
     "id": 178,
     "category": "Bank",
     "joke": "Salary arrives like a celebrity.\nLeaves like a magician.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T01:02:54.311Z"
   },
   {
     "id": 179,
