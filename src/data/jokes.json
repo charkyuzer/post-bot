@@ -1305,7 +1305,8 @@
     "id": 187,
     "category": "Engineering",
     "joke": "Engineering teaches you one important lesson:\nGoogle usually knows more than your textbook.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T10:02:49.717Z"
   },
   {
     "id": 188,
