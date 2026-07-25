@@ -1284,7 +1284,8 @@
     "id": 184,
     "category": "Friends",
     "joke": "Real friends don't judge your bad decisions.\nThey ask for updates.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T07:01:15.275Z"
   },
   {
     "id": 185,
