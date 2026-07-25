@@ -1326,7 +1326,8 @@
     "id": 190,
     "category": "Manager",
     "joke": "Manager: 'Any blockers?'\nMe: 'Yes... Mondays.'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T13:01:18.336Z"
   },
   {
     "id": 191,
