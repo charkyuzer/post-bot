@@ -1277,7 +1277,8 @@
     "id": 183,
     "category": "ChatGPT",
     "joke": "Me: Give me a short answer.\nChatGPT: Here's a beautiful novel with bullet points.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T06:02:43.635Z"
   },
   {
     "id": 184,
