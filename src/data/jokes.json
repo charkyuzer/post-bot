@@ -689,703 +689,820 @@
     "id": 99,
     "category": "Biryani",
     "joke": "People say money can't buy happiness. They've clearly never opened a fresh box of biryani.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T18:01:14.335Z"
   },
   {
     "id": 100,
     "category": "Relationship",
     "joke": "\"We need to talk\" is the relationship version of 'Your system is about to restart.'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T18:51:46.038Z"
   },
   {
     "id": 101,
     "category": "AI",
     "joke": "AI can write essays, generate art, and solve equations... but somehow my printer still refuses to cooperate.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T20:01:11.209Z"
   },
   {
     "id": 102,
     "category": "Office",
     "joke": "Every meeting starts with 'Let's make this quick' and ends with everyone questioning their career choices.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T21:01:17.787Z"
   },
   {
     "id": 103,
     "category": "Gaming",
     "joke": "My teammates always discover the enemy exactly one second before I discover the 'Defeat' screen.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T22:01:16.945Z"
   },
   {
     "id": 104,
     "category": "College",
     "joke": "Professors upload 400 slides and call it 'light reading.'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-21T23:01:17.144Z"
   },
   {
     "id": 105,
     "category": "Amazon",
     "joke": "Amazon: 'Customers also bought this.'\nMe: Stop exposing my impulse-control issues.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T00:01:18.872Z"
   },
   {
     "id": 106,
     "category": "Cricket",
     "joke": "Every Indian becomes a professional cricket analyst the moment a wicket falls.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T01:01:18.559Z"
   },
   {
     "id": 107,
     "category": "Gym",
     "joke": "The hardest exercise at the gym is pretending you know how the machines work.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T02:01:18.179Z"
   },
   {
     "id": 108,
     "category": "ChatGPT",
     "joke": "Me: Give me a simple answer.\nChatGPT: Here's a beautifully structured 17-point explanation.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T03:01:16.863Z"
   },
   {
     "id": 109,
     "category": "Indian Parents",
     "joke": "Indian parents can hear a snack packet opening from three rooms away.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T04:01:13.081Z"
   },
   {
     "id": 110,
     "category": "Instagram",
     "joke": "I opened Instagram for two minutes. Somehow it's tomorrow now.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T05:01:11.687Z"
   },
   {
     "id": 111,
     "category": "Coffee",
     "joke": "Coffee doesn't solve problems. It just makes me energetic enough to create new ones.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T06:01:14.099Z"
   },
   {
     "id": 112,
     "category": "Manager",
     "joke": "Manager: 'Do you have five minutes?'\nTranslation: 'Cancel the rest of your afternoon.'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T07:01:16.207Z"
   },
   {
     "id": 113,
     "category": "Travel",
     "joke": "Half the vacation budget goes to food. The other half goes to airport coffee.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T07:57:02.867Z"
   },
   {
     "id": 114,
     "category": "Passwords",
     "joke": "Password requirements are getting so complicated that one day they'll ask for my childhood nickname and blood type.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T09:01:16.379Z"
   },
   {
     "id": 115,
     "category": "Sleep",
     "joke": "Nothing feels more luxurious than waking up naturally five minutes before the alarm.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T10:01:13.238Z"
   },
   {
     "id": 116,
     "category": "Programming",
     "joke": "Nothing builds confidence faster than deleting one line of code and watching everything somehow start working.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T11:01:17.511Z"
   },
   {
     "id": 117,
     "category": "Pizza",
     "joke": "The only love triangle I enjoy is me, pizza, and extra cheese.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T12:01:20.685Z"
   },
   {
     "id": 118,
     "category": "Boss",
     "joke": "Boss: 'Take your time.'\nAlso Boss: 'Any updates?'... 37 seconds later.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T13:01:18.907Z"
   },
   {
     "id": 119,
     "category": "Movies",
     "joke": "I don't need movie reviews. If the popcorn is good, it's already a 10/10.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T14:01:17.164Z"
   },
   {
     "id": 120,
     "category": "Student",
     "joke": "My study plan is always perfect... until the WiFi starts working.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T15:01:17.481Z"
   },
   {
     "id": 121,
     "category": "UPI",
     "joke": "That 'Payment Successful' sound heals emotional damage better than therapy.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T16:01:12.692Z"
   },
   {
     "id": 122,
     "category": "WhatsApp",
     "joke": "Family groups have two speeds: silent for days... or 847 messages before breakfast.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T17:01:18.160Z"
   },
   {
     "id": 123,
     "category": "YouTube",
     "joke": "I searched for one tutorial.\nYouTube: 'Here's a documentary about penguins instead.'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T17:58:23.143Z"
   },
   {
     "id": 124,
     "category": "Traffic",
     "joke": "Traffic lights are just suggestion boxes for some drivers.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T19:01:16.540Z"
   },
   {
     "id": 125,
     "category": "WiFi",
     "joke": "The WiFi is always fastest when nobody actually needs it.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T20:01:16.436Z"
   },
   {
     "id": 126,
     "category": "Friends",
     "joke": "Real friends don't let you do stupid things...\nThey record them first.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T21:01:13.664Z"
   },
   {
     "id": 127,
     "category": "Startup",
     "joke": "Startup founders survive on three things: caffeine, optimism, and pretending sleep is optional.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T22:01:17.537Z"
   },
   {
     "id": 128,
     "category": "Doctors",
     "joke": "Doctor: 'Avoid stress.'\nMy bills: 'Allow us to introduce ourselves.'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-22T23:01:11.762Z"
   },
   {
     "id": 129,
     "category": "PUBG",
     "joke": "My squad's favorite strategy is landing together... and getting eliminated separately.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T00:01:19.951Z"
   },
   {
     "id": 130,
     "category": "Diet",
     "joke": "Every diet ends the same way:\n'I'll start again on Monday.'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T01:01:20.064Z"
   },
   {
     "id": 131,
     "category": "Teacher",
     "joke": "Teacher: 'There are no stupid questions.'\nStudent: 'Will this be on the exam?'\nTeacher: '...Next question.'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T02:01:12.316Z"
   },
   {
     "id": 132,
     "category": "Mobile Battery",
     "joke": "Phone at 100%: Confidence.\nPhone at 5%: Survival mode activated.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T03:01:14.556Z"
   },
   {
     "id": 133,
     "category": "Best Friend",
     "joke": "A best friend is someone who roasts you in public... then defends you in private.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T04:01:16.544Z"
   },
   {
     "id": 134,
     "category": "Programming",
     "joke": "99% of programming is convincing yourself the bug is impossible... until you find the missing semicolon.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T05:01:15.538Z"
   },
   {
     "id": 135,
     "category": "Mom",
     "joke": "Mom: 'There's food at home.'\nMe: 'Can we order pizza?'\nMom: 'Read my first message again.'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T06:01:18.121Z"
   },
   {
     "id": 136,
     "category": "Customer Service",
     "joke": "Customer Support: 'Your call is important to us.'\nMy call: *Ages into a historical event.*",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T07:01:19.818Z"
   },
   {
     "id": 137,
     "category": "Valorant",
     "joke": "I don't miss my shots.\nI just give the enemy a motivational warning.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T08:01:10.000Z"
   },
   {
     "id": 138,
     "category": "Lazy People",
     "joke": "I'm not lazy. I'm on energy-saving mode until further notice.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T09:01:18.363Z"
   },
   {
     "id": 139,
     "category": "Bank",
     "joke": "My bank balance and my motivation have one thing in common...\nBoth disappear before the month ends.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T10:01:14.165Z"
   },
   {
     "id": 140,
     "category": "Online Shopping",
     "joke": "I don't have a shopping problem.\nI have a 'Free Shipping Ends Tonight' problem.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T11:01:20.764Z"
   },
   {
     "id": 141,
     "category": "Meetings",
     "joke": "Every meeting has that one person who says, 'I have a quick question...' and unlocks another 30 minutes.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T12:01:13.840Z"
   },
   {
     "id": 142,
     "category": "Hostel",
     "joke": "Hostel roommates don't knock.\nThey just enter like they're paying your rent.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T13:01:16.696Z"
   },
   {
     "id": 143,
     "category": "Tech Support",
     "joke": "Tech Support's biggest achievement isn't fixing computers.\nIt's staying calm while asking, 'Is it plugged in?'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T14:01:18.711Z"
   },
   {
     "id": 144,
     "category": "Cricket",
     "joke": "The TV remote changes hands faster than the batting order during a collapse.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T15:01:20.991Z"
   },
   {
     "id": 145,
     "category": "Marriage",
     "joke": "Marriage is basically two people asking each other,\n'What do you want to eat?' until both give up.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T16:01:55.432Z"
   },
   {
     "id": 146,
     "category": "Influencer",
     "joke": "Influencers don't wake up.\nThey 'start their morning routine' with three cameras and perfect lighting.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T17:01:19.216Z"
   },
   {
     "id": 147,
     "category": "AI",
     "joke": "People fear AI taking over.\nI'm still waiting for autocorrect to stop embarrassing me.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T18:01:17.447Z"
   },
   {
     "id": 148,
     "category": "Engineering",
     "joke": "Engineering teaches you that 'temporary fix' is just another way of saying 'future problem.'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T19:01:13.327Z"
   },
   {
     "id": 149,
     "category": "Dad",
     "joke": "Dad can detect an unnecessary light left on from a distance scientists still can't explain.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T20:01:14.644Z"
   },
   {
     "id": 150,
     "category": "Office",
     "joke": "The fastest way to end an office conversation is to say,\n'So... who's taking notes?'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T21:01:14.808Z"
   },
   {
     "id": 151,
     "category": "Programming",
     "joke": "I finally fixed the bug.\nNow the app has developed a completely different personality.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T22:01:18.276Z"
   },
   {
     "id": 152,
     "category": "Coffee",
     "joke": "Coffee isn't an addiction.\nIt's just my operating system.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-23T23:01:17.571Z"
   },
   {
     "id": 153,
     "category": "AI",
     "joke": "AI writes better emails than me.\nI still spend 20 minutes deciding whether to end with 'Thanks' or 'Best'.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T00:01:17.873Z"
   },
   {
     "id": 154,
     "category": "Best Friend",
     "joke": "A best friend is someone who says,\n'This is a terrible idea.'\n...while grabbing their keys.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T01:01:17.462Z"
   },
   {
     "id": 155,
     "category": "Office",
     "joke": "The office printer has one life goal:\nBreak exactly five minutes before your deadline.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T02:01:15.981Z"
   },
   {
     "id": 156,
     "category": "Gaming",
     "joke": "I don't rage quit.\nI perform an unexpected emotional shutdown.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T03:01:13.321Z"
   },
   {
     "id": 157,
     "category": "College",
     "joke": "My attendance and my motivation have been avoiding each other all semester.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T04:01:18.656Z"
   },
   {
     "id": 158,
     "category": "Food",
     "joke": "The recipe said 'serves four.'\nChallenge accepted.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T05:01:14.521Z"
   },
   {
     "id": 159,
     "category": "Instagram",
     "joke": "I posted one selfie.\nInstagram immediately suggested I become an influencer.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T06:01:16.029Z"
   },
   {
     "id": 160,
     "category": "Boss",
     "joke": "Boss: 'We're all in the same boat.'\nPretty sure you're in first class.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T07:01:15.512Z"
   },
   {
     "id": 161,
     "category": "Cricket",
     "joke": "Every living room has at least one uncle who could've captained the national team.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T07:57:05.127Z"
   },
   {
     "id": 162,
     "category": "WhatsApp",
     "joke": "The family group has two settings:\n'Good Morning' and political debates.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T09:01:33.586Z"
   },
   {
     "id": 163,
     "category": "Gym",
     "joke": "I paid for a gym membership.\nMy bank account got the workout instead.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T10:01:22.724Z"
   },
   {
     "id": 164,
     "category": "Startup",
     "joke": "Startups move fast.\nMostly toward another funding round.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T11:03:28.461Z"
   },
   {
     "id": 165,
     "category": "Teacher",
     "joke": "Teacher: 'It's an open-book test.'\nMe: Great.\nQuestions: 'Explain using your own understanding.'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T12:01:41.641Z"
   },
   {
     "id": 166,
     "category": "Pizza",
     "joke": "Nobody has ever looked sad while holding hot pizza.\nIt's scientifically impossible.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T13:01:19.808Z"
   },
   {
     "id": 167,
     "category": "Programming",
     "joke": "My code has excellent security.\nNot even I can get into it anymore.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T14:01:14.254Z"
   },
   {
     "id": 168,
     "category": "Relationship",
     "joke": "\"I'm fine.\"\nThe most expensive sentence you'll ever believe.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T15:01:17.914Z"
   },
   {
     "id": 169,
     "category": "Amazon",
     "joke": "Amazon knows I don't need another gadget.\nIt just doesn't care.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T16:01:19.162Z"
   },
   {
     "id": 170,
     "category": "Traffic",
     "joke": "Traffic jams are just group projects for cars.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T17:01:15.784Z"
   },
   {
     "id": 171,
     "category": "YouTube",
     "joke": "I came for one tutorial.\nI left knowing how ancient Romans made bread.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T18:01:16.816Z"
   },
   {
     "id": 172,
     "category": "Sleep",
     "joke": "Sleep is free.\nWhich explains why my brain refuses to let me have it.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T19:01:16.595Z"
   },
   {
     "id": 173,
     "category": "Mobile Battery",
     "joke": "1% battery gives you superhero-level decision-making skills.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T20:01:46.944Z"
   },
   {
     "id": 174,
     "category": "Dad",
     "joke": "Dad's superpower is asking,\n'Who left this light on?'\nfrom another dimension.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T21:02:10.572Z"
   },
   {
     "id": 175,
     "category": "UPI",
     "joke": "Nothing tests your patience like waiting for 'Payment Successful.'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T22:01:11.861Z"
   },
   {
     "id": 176,
     "category": "Hostel",
     "joke": "Hostel roommates treat your snacks like public property.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-24T23:02:31.293Z"
   },
   {
     "id": 177,
     "category": "Movies",
     "joke": "Movie snacks now cost enough to qualify as an investment.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T00:02:36.410Z"
   },
   {
     "id": 178,
     "category": "Bank",
     "joke": "Salary arrives like a celebrity.\nLeaves like a magician.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T01:02:54.311Z"
   },
   {
     "id": 179,
     "category": "Programming",
     "joke": "My favorite debugging technique is staring at the screen until the bug gets uncomfortable and leaves.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T02:01:19.287Z"
   },
   {
     "id": 180,
     "category": "Lazy People",
     "joke": "I'm not procrastinating.\nI'm giving tomorrow a chance to shine.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T03:01:14.269Z"
   },
   {
     "id": 181,
     "category": "Programming",
     "joke": "Programmers don't make mistakes.\nWe create undocumented features.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T04:02:27.304Z"
   },
   {
     "id": 182,
     "category": "Biryani",
     "joke": "Friend: 'Can I have one bite?'\nMe: 'You mean... one friendship-ending decision?'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T05:02:16.273Z"
   },
   {
     "id": 183,
     "category": "ChatGPT",
     "joke": "Me: Give me a short answer.\nChatGPT: Here's a beautiful novel with bullet points.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T06:02:43.635Z"
   },
   {
     "id": 184,
     "category": "Friends",
     "joke": "Real friends don't judge your bad decisions.\nThey ask for updates.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T07:01:15.275Z"
   },
   {
     "id": 185,
     "category": "Corporate",
     "joke": "Corporate life is just professionally saying,\n'I have no idea what's happening either.'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T08:02:05.630Z"
   },
   {
     "id": 186,
     "category": "Valorant",
     "joke": "I don't miss easy shots.\nI just give the enemy false confidence.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T09:03:53.545Z"
   },
   {
     "id": 187,
     "category": "Engineering",
     "joke": "Engineering teaches you one important lesson:\nGoogle usually knows more than your textbook.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T10:02:49.717Z"
   },
   {
     "id": 188,
     "category": "Tea",
     "joke": "Tea isn't a drink.\nIt's a software update for Indians.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T11:02:48.269Z"
   },
   {
     "id": 189,
     "category": "Instagram",
     "joke": "Instagram keeps asking what's on my mind.\nNice try, algorithm.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T11:52:32.892Z"
   },
   {
     "id": 190,
     "category": "Manager",
     "joke": "Manager: 'Any blockers?'\nMe: 'Yes... Mondays.'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T13:01:18.336Z"
   },
   {
     "id": 191,
     "category": "Doctors",
     "joke": "Doctor: 'Get more sleep.'\nNetflix: 'Are you sure about that?'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T14:01:47.933Z"
   },
   {
     "id": 192,
     "category": "WiFi",
     "joke": "The WiFi becomes strongest exactly when you decide to stop using it.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T15:01:36.353Z"
   },
   {
     "id": 193,
     "category": "Relationship",
     "joke": "Relationships are mostly asking,\n'Where do you want to eat?'\nand rejecting every answer.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T15:47:46.859Z"
   },
   {
     "id": 194,
     "category": "Customer Service",
     "joke": "Customer Support:\n'Your estimated wait time is 2 minutes.'\nCalendar: 'Liar.'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T17:02:20.432Z"
   },
   {
     "id": 195,
     "category": "Programming",
     "joke": "The bug disappeared as soon as I started screen sharing.\nEven it feared being judged.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T18:02:08.343Z"
   },
   {
     "id": 196,
     "category": "Money",
     "joke": "Money talks.\nMine usually says,\n'Goodbye.'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T19:02:26.178Z"
   },
   {
     "id": 197,
     "category": "College",
     "joke": "The syllabus always looks achievable...\nuntil you open Chapter One.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T20:02:19.624Z"
   },
   {
     "id": 198,
     "category": "YouTube",
     "joke": "One YouTube video later...\nI'm somehow learning how to survive a shark attack.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T21:01:10.634Z"
   },
   {
     "id": 199,
     "category": "Traffic",
     "joke": "Green light.\nOne car moves.\nThe rest spend two business days reacting.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T22:02:26.112Z"
   },
   {
     "id": 200,
     "category": "AI",
     "joke": "People worry about AI taking jobs.\nI'm still waiting for autocorrect to stop changing my name.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-25T23:02:14.633Z"
   },
   {
     "id": 201,
     "category": "Office",
     "joke": "The office coffee isn't strong.\nIt just lowers your standards.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-26T00:02:05.747Z"
   },
   {
     "id": 202,
     "category": "Crush",
     "joke": "My crush smiled at me.\nI'm still living off that memory.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-26T01:02:12.590Z"
   },
   {
     "id": 203,
     "category": "Gym",
     "joke": "I lifted one dumbbell.\nNow I walk around like I own the place.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-26T02:02:08.455Z"
   },
   {
     "id": 204,
     "category": "Amazon",
     "joke": "My cart has dreams.\nMy wallet has boundaries.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-26T03:01:43.473Z"
   },
   {
     "id": 205,
     "category": "Programming",
     "joke": "If coding burned calories,\nI'd accidentally become a fitness influencer.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-26T04:02:32.176Z"
   },
   {
     "id": 206,
     "category": "Dad",
     "joke": "Dad's favorite hobby is reminding everyone how expensive electricity is.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-26T05:02:11.034Z"
   },
   {
     "id": 207,
     "category": "Weekend",
     "joke": "Weekends should come with a pause button.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-26T06:01:59.881Z"
   },
   {
     "id": 208,
     "category": "Gaming",
     "joke": "I wasn't losing.\nI was collecting valuable life lessons.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-26T07:02:03.234Z"
   },
   {
     "id": 209,
     "category": "Pizza",
     "joke": "Sharing pizza is proof that love has limits.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-26T08:01:07.782Z"
   },
   {
     "id": 210,
     "category": "Overthinking",
     "joke": "I replay conversations from three years ago.\nMy brain deserves an Oscar.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-26T09:01:39.174Z"
   },
   {
     "id": 211,
     "category": "Programming",
     "joke": "My code works.\nI have no idea why.\nI'm too scared to ask.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-26T10:03:48.167Z"
   },
   {
     "id": 212,
     "category": "Coffee",
     "joke": "Coffee doesn't wake me up anymore.\nIt just reminds me I have responsibilities.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-26T11:01:14.807Z"
   },
   {
     "id": 213,
     "category": "Office",
     "joke": "My favorite office feature is the 'Leave Meeting' button.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-26T11:49:46.717Z"
   },
   {
     "id": 214,
     "category": "BGMI",
     "joke": "My squad says 'Stick together.'\nFive seconds later we're playing five different games.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-26T13:01:12.390Z"
   },
   {
     "id": 215,
     "category": "Indian Parents",
     "joke": "Indian parents can turn off every light in the house using only disappointment.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-26T14:02:36.695Z"
   },
   {
     "id": 216,
