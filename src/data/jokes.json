@@ -1410,7 +1410,8 @@
     "id": 202,
     "category": "Crush",
     "joke": "My crush smiled at me.\nI'm still living off that memory.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-26T01:02:12.590Z"
   },
   {
     "id": 203,
