@@ -28,7 +28,7 @@ try {
 // ── Constants ─────────────────────────────────────────────────
 const BG_DIR = path.join(__dirname, "../assets/backgrounds");
 const W = 1080;
-const H = 1350;
+const H = 1080;
 const SCALE = 1;
 const AMBER = "#FFB347";
 const WHITE = "#FFFFFF";

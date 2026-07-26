@@ -44,24 +44,24 @@ function formatPost(jokeObj) {
   // Clean tag name
   const tag = category.replace(/\s+/g, "");
 
-  // Unique intros rotating by joke ID
+  // Viral hooks rotating by joke ID
   const intros = [
-    `${emoji} Aaj ka joke:`,
-    `${emoji} Haste raho!`,
-    `${emoji} Ye suno zara...`,
-    `${emoji} Mood fresh karo:`,
-    `${emoji} Ek dum mast joke:`,
-    `${emoji} Padhke hasna mat bhoolna:`,
-    `${emoji} Break time joke:`,
-    `${emoji} Aaj bhi ek joke:`,
-    `${emoji} Chhota sa joke:`,
-    `${emoji} Ye wala sunna chahiye:`,
-    `${emoji} Hasne ki dose:`,
-    `${emoji} Seedha dil pe:`,
+    `${emoji} This hit way too close to home 😭`,
+    `${emoji} Why is this 100% accurate? 💀`,
+    `${emoji} I feel personally attacked by this...`,
+    `${emoji} Send this to someone who needs a laugh 🤣`,
+    `${emoji} Tell me I'm not the only one 😭`,
+    `${emoji} If you know, you know... 👀`,
+    `${emoji} Too real to not share 💯`,
+    `${emoji} Laughed way harder at this than I should have 💀`,
+    `${emoji} Unpopular opinion but this is so true...`,
+    `${emoji} Best thing you'll read today 💫`,
+    `${emoji} Who else can relate to this? 😂`,
+    `${emoji} Straight facts right here 🎯`,
   ];
   const intro = intros[(jokeObj.id || 0) % intros.length];
-  const cta = `\n\n❤️ Like  🔁 Share  👤 Follow @jokerryan.bsky.social`;
-  const hashtags = `\n#${tag} #jokes #funny #humor`;
+  const cta = `\n\n🔁 Repost if you relate! | 👤 Follow @jokerryan.bsky.social`;
+  const hashtags = `\n#${tag} #relatable #humor #jokes #funny`;
 
   // 2. Try the full version first: intro + joke + cta + hashtags
   let fullPost = `${intro}\n\n${jokeObj.joke}${cta}${hashtags}`;

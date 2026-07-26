@@ -158,7 +158,7 @@ describe('Image Generation & Posting Tests', () => {
     expect(imageGenerator.generateJokeCard).toHaveBeenCalledWith(jokeObj);
 
     // Verify uploadBlob was called with the buffer and correct mime type
-    expect(bluesky.uploadBlob).toHaveBeenCalledWith(fakeBuffer, 'image/png');
+    expect(bluesky.uploadBlob).toHaveBeenCalledWith(fakeBuffer, 'image/jpeg');
 
     // Verify post was called with text and the embed object
     expect(bluesky.post).toHaveBeenCalledWith(
