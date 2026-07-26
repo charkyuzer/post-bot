@@ -1536,7 +1536,8 @@
     "id": 220,
     "category": "Bank",
     "joke": "Checking my bank balance before shopping is called emotional preparation.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-26T19:01:10.937Z"
   },
   {
     "id": 221,
