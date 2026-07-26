@@ -1515,7 +1515,8 @@
     "id": 217,
     "category": "WhatsApp",
     "joke": "That one person who replies 'OK' after reading a 12-line message deserves jail.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-26T16:02:15.008Z"
   },
   {
     "id": 218,
