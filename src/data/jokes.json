@@ -1543,7 +1543,8 @@
     "id": 221,
     "category": "ChatGPT",
     "joke": "Me: Give me one sentence.\nChatGPT: Absolutely. Here's Chapter One.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-26T20:02:36.179Z"
   },
   {
     "id": 222,
