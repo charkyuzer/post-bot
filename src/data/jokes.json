@@ -1571,7 +1571,8 @@
     "id": 225,
     "category": "Tech Support",
     "joke": "Tech Support deserves awards for pretending they've never heard the same problem 10,000 times.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-27T00:02:15.029Z"
   },
   {
     "id": 226,
