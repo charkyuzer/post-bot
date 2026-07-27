@@ -1613,7 +1613,8 @@
     "id": 231,
     "category": "AI",
     "joke": "AI can generate a thousand ideas.\nI still can't decide what to eat.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-27T18:01:17.614Z"
   },
   {
     "id": 232,
