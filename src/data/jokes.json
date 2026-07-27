@@ -1592,7 +1592,8 @@
     "id": 228,
     "category": "Teacher",
     "joke": "Teacher: 'This will only take five minutes.'\nThe clock: 'Good one.'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-27T03:01:23.243Z"
   },
   {
     "id": 229,
