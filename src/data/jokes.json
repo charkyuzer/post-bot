@@ -1578,7 +1578,8 @@
     "id": 226,
     "category": "Programming",
     "joke": "Nothing is permanent.\nExcept that one temporary fix from 2019.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-27T01:01:54.544Z"
   },
   {
     "id": 227,
