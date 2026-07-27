@@ -1606,7 +1606,8 @@
     "id": 230,
     "category": "Pizza",
     "joke": "Pizza arrives.\nEvery diet plan leaves the chat.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-27T12:01:14.450Z"
   },
   {
     "id": 231,
