@@ -1599,7 +1599,8 @@
     "id": 229,
     "category": "Weekend",
     "joke": "Friday night feels like freedom.\nSunday night feels like betrayal.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-27T06:02:42.378Z"
   },
   {
     "id": 230,
