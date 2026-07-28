@@ -1662,7 +1662,8 @@
     "id": 238,
     "category": "Lazy People",
     "joke": "I don't chase dreams.\nI hit snooze and let them come back tomorrow.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-28T18:01:20.724Z"
   },
   {
     "id": 239,
