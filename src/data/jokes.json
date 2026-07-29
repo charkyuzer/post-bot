@@ -1718,7 +1718,8 @@
     "id": 246,
     "category": "Amazon",
     "joke": "I opened Amazon to buy one cable.\nThree hours later I almost owned an air fryer.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-29T21:15:22.189Z"
   },
   {
     "id": 247,
