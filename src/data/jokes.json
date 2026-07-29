@@ -1690,7 +1690,8 @@
     "id": 242,
     "category": "Biryani",
     "joke": "You can borrow my charger.\nYou can borrow my hoodie.\nYou cannot borrow my biryani.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-29T10:13:45.418Z"
   },
   {
     "id": 243,
