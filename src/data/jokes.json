@@ -1725,7 +1725,8 @@
     "id": 247,
     "category": "ChatGPT",
     "joke": "ChatGPT never judges my questions.\nUnlike Google, which acts disappointed after the second typo.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-30T00:01:25.178Z"
   },
   {
     "id": 248,
