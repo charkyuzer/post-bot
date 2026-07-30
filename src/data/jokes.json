@@ -1739,7 +1739,8 @@
     "id": 249,
     "category": "Relationship",
     "joke": "Relationship status:\nWaiting for someone who replies faster than customer support.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-30T08:00:40.028Z"
   },
   {
     "id": 250,
