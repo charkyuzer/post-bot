@@ -1788,7 +1788,8 @@
     "id": 256,
     "category": "AI",
     "joke": "AI can write poetry.\nI still can't write a decent email subject.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-07-31T10:04:36.723Z"
   },
   {
     "id": 257,
