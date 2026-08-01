@@ -1851,7 +1851,8 @@
     "id": 265,
     "category": "WhatsApp",
     "joke": "Typing...\nDeleted.\nThe greatest plot twist of modern communication.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-08-01T15:42:32.997Z"
   },
   {
     "id": 266,
