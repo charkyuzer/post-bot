@@ -1858,7 +1858,8 @@
     "id": 266,
     "category": "Bank",
     "joke": "My bank account and I are in a long-distance relationship.\nMostly because the money keeps leaving.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-08-01T18:02:51.599Z"
   },
   {
     "id": 267,
