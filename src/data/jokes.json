@@ -1872,7 +1872,8 @@
     "id": 268,
     "category": "Hostel",
     "joke": "Hostel rule #1:\nIf you bought snacks, you bought snacks for everyone.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-08-02T00:02:57.397Z"
   },
   {
     "id": 269,
