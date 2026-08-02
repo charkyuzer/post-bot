@@ -1879,7 +1879,8 @@
     "id": 269,
     "category": "Programming",
     "joke": "The bug only appears when the client is watching.\nIt's shy the rest of the time.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-08-02T06:08:22.984Z"
   },
   {
     "id": 270,
