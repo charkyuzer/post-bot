@@ -1893,7 +1893,8 @@
     "id": 271,
     "category": "Programming",
     "joke": "My code has two modes:\nDoesn't work.\nWorks... but nobody knows why.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-08-02T12:01:47.256Z"
   },
   {
     "id": 272,
