@@ -1942,7 +1942,8 @@
     "id": 278,
     "category": "Dad",
     "joke": "Dad's GPS has only one instruction:\n'Why didn't you take the other road?'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-08-03T18:01:30.174Z"
   },
   {
     "id": 279,
