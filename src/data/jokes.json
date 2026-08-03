@@ -1928,7 +1928,8 @@
     "id": 276,
     "category": "Amazon",
     "joke": "Amazon: 'Only 2 left in stock.'\nMe: Nice try... okay, I'll buy it.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-08-03T06:01:58.847Z"
   },
   {
     "id": 277,
