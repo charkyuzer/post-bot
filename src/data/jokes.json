@@ -1956,7 +1956,8 @@
     "id": 280,
     "category": "Boss",
     "joke": "Boss: 'Enjoy your weekend.'\n*Schedules a meeting for Monday 8 AM.*",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-08-04T00:01:19.856Z"
   },
   {
     "id": 281,
