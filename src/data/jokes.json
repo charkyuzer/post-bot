@@ -1977,7 +1977,8 @@
     "id": 283,
     "category": "Coffee",
     "joke": "Coffee is cheaper than therapy.\nThat's all I'm saying.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-08-04T12:01:19.225Z"
   },
   {
     "id": 284,
