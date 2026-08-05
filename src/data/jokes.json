@@ -2012,7 +2012,8 @@
     "id": 288,
     "category": "Student",
     "joke": "I don't need more study time.\nI need fewer distractions with WiFi.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-08-05T12:01:28.262Z"
   },
   {
     "id": 289,
