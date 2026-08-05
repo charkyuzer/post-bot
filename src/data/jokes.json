@@ -2019,7 +2019,8 @@
     "id": 289,
     "category": "Programming",
     "joke": "There's no greater confidence than pushing code on Friday.\nThere's also no greater regret.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-08-05T17:12:57.640Z"
   },
   {
     "id": 290,
