@@ -2005,7 +2005,8 @@
     "id": 287,
     "category": "Instagram",
     "joke": "Instagram says,\n'Be yourself.'\nThen rewards everyone using the same filter.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-08-05T10:05:38.676Z"
   },
   {
     "id": 288,
