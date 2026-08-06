@@ -2047,7 +2047,8 @@
     "id": 293,
     "category": "WhatsApp",
     "joke": "The person who sends voice notes longer than two minutes has too much confidence.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-08-06T06:01:34.302Z"
   },
   {
     "id": 294,
