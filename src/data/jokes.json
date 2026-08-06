@@ -2054,7 +2054,8 @@
     "id": 294,
     "category": "Customer Service",
     "joke": "Customer Support:\n'Have you tried restarting it?'\nMe: 'Have you tried believing in me?'",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-08-06T10:13:48.967Z"
   },
   {
     "id": 295,
