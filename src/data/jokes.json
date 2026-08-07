@@ -2096,6 +2096,7 @@
     "id": 300,
     "category": "Weekend",
     "joke": "Weekends are like software updates.\nThey're over before you notice anything changed.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-08-07T15:10:36.294Z"
   }
 ]
