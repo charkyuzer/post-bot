@@ -2075,7 +2075,8 @@
     "id": 297,
     "category": "AI",
     "joke": "AI isn't replacing me.\nIt just finishes my homework before I panic.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-08-07T05:53:19.868Z"
   },
   {
     "id": 298,
