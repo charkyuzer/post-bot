@@ -2082,7 +2082,8 @@
     "id": 298,
     "category": "Friends",
     "joke": "The best friendships are built on sarcasm and stolen fries.",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-08-07T09:35:48.038Z"
   },
   {
     "id": 299,
