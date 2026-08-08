@@ -17,8 +17,8 @@
     "id": 3,
     "category": "Office",
     "joke": "Office me sabse dangerous line:\n'Ek quick meeting rakhte hain.'",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-08T00:01:18.921Z"
   },
   {
     "id": 4,
