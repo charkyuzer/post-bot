@@ -66,8 +66,8 @@
     "id": 10,
     "category": "Salary",
     "joke": "Salary aati nahi...\nEMI pehle se gate pe khadi hoti hai.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-08T19:18:45.924Z"
   },
   {
     "id": 11,
