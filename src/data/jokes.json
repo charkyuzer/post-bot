@@ -73,8 +73,8 @@
     "id": 11,
     "category": "Friends",
     "joke": "Dost wahi jo tumhari beizzati pe sabse pehle hanse.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-09T00:01:19.913Z"
   },
   {
     "id": 12,
