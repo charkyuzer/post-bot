@@ -122,8 +122,8 @@
     "id": 18,
     "category": "Sleep",
     "joke": "Alarm aur meri dosti sirf snooze tak hi hai.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-09T19:49:39.435Z"
   },
   {
     "id": 19,
