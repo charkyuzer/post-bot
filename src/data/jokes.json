@@ -108,8 +108,8 @@
     "id": 16,
     "category": "Gym",
     "joke": "Gym membership li.\nAb bas uski EMI hi uth rahi hai.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-09T14:06:29.087Z"
   },
   {
     "id": 17,
