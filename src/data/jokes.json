@@ -129,8 +129,8 @@
     "id": 19,
     "category": "ChatGPT",
     "joke": "Assignment maine nahi likha.\nPrompt ne likha.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-10T00:01:22.532Z"
   },
   {
     "id": 20,
