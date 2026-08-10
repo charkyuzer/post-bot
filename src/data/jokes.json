@@ -136,8 +136,8 @@
     "id": 20,
     "category": "Shopping",
     "joke": "Cart me 20 items.\nBank account me sirf confidence.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-10T05:10:10.678Z"
   },
   {
     "id": 21,
