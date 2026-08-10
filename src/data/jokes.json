@@ -157,8 +157,8 @@
     "id": 23,
     "category": "Client",
     "joke": "Client: Bas ek chhota change hai.\nDeveloper: RIP weekend.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-10T12:01:18.044Z"
   },
   {
     "id": 24,
