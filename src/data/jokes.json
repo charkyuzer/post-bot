@@ -283,8 +283,8 @@
     "id": 41,
     "category": "Manager",
     "joke": "Manager: Bas 2 minute ka kaam hai.\nEmployee: Matlab aaj ghar late hi jana hai.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-12T20:10:53.536Z"
   },
   {
     "id": 42,
