@@ -304,8 +304,8 @@
     "id": 44,
     "category": "Monday",
     "joke": "Monday itni jaldi aa jata hai jaise uske paas Fastag laga ho.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-13T09:46:29.256Z"
   },
   {
     "id": 45,
