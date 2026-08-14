@@ -353,8 +353,8 @@
     "id": 51,
     "category": "Freelancer",
     "joke": "Freelancer Sunday ko bhi kaam karta hai.\nBas office nahi jaata.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-14T06:01:20.483Z"
   },
   {
     "id": 52,
