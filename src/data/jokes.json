@@ -346,8 +346,8 @@
     "id": 50,
     "category": "Biryani",
     "joke": "Biryani share karne wale log alag hi level ke mahaan hote hain.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-14T01:15:47.211Z"
   },
   {
     "id": 51,
