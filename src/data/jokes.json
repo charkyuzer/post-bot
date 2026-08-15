@@ -416,8 +416,8 @@
     "id": 60,
     "category": "Bank",
     "joke": "Bank balance dekhte hi shopping ka mood automatically cancel ho jata hai.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-15T18:01:17.510Z"
   },
   {
     "id": 61,
