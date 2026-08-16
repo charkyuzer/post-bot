@@ -444,8 +444,8 @@
     "id": 64,
     "category": "Amazon",
     "joke": "Amazon cart me cheezein add karna free therapy jaisa lagta hai.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-16T12:01:19.696Z"
   },
   {
     "id": 65,
