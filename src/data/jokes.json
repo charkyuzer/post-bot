@@ -451,8 +451,8 @@
     "id": 65,
     "category": "Flipkart",
     "joke": "Sale shuru hote hi lagta hai sab kuch zaroori hai.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-16T18:01:19.299Z"
   },
   {
     "id": 66,
