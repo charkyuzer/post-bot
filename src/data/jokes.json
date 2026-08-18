@@ -514,8 +514,8 @@
     "id": 74,
     "category": "Doctors",
     "joke": "Doctor: Stress mat lo.\nBill dekhte hi stress double ho gaya.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-18T18:01:17.220Z"
   },
   {
     "id": 75,
