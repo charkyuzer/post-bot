@@ -542,8 +542,8 @@
     "id": 78,
     "category": "Online Shopping",
     "joke": "Package out for delivery dekhte hi har awaaz pe gate khol deta hoon.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-19T12:01:18.009Z"
   },
   {
     "id": 79,
