@@ -563,8 +563,8 @@
     "id": 81,
     "category": "Programming",
     "joke": "Developer: Yaar, mera code local pe bilkul mast chal raha hai!\nSenior: Toh ek kaam kar, client ko tera computer hi gift kar dete hain.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-20T00:46:38.429Z"
   },
   {
     "id": 82,
