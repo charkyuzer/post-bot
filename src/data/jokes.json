@@ -556,8 +556,8 @@
     "id": 80,
     "category": "Auto",
     "joke": "Auto wale bhaiya ka meter sirf museum me hi dekha hai.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-20T00:01:20.481Z"
   },
   {
     "id": 81,
