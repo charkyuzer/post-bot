@@ -626,8 +626,8 @@
     "id": 90,
     "category": "Programming",
     "joke": "Programmer's Diet:\nBreakFast: Coffee + Bugs\nLunch: Cold Coffee + More Bugs\nDinner: Code Refactoring\nSnacks: Tears and regret.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-22T00:01:22.319Z"
   },
   {
     "id": 91,
