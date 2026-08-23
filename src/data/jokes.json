@@ -689,8 +689,8 @@
     "id": 99,
     "category": "Biryani",
     "joke": "People say money can't buy happiness. They've clearly never opened a fresh box of biryani.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-23T18:01:18.469Z"
   },
   {
     "id": 100,
