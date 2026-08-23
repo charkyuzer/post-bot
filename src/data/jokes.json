@@ -682,8 +682,8 @@
     "id": 98,
     "category": "Programming",
     "joke": "I fixed one bug today. My code celebrated by introducing three new ones. Teamwork makes the dream work.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-23T12:01:15.624Z"
   },
   {
     "id": 99,
