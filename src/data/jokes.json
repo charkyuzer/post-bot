@@ -668,8 +668,8 @@
     "id": 96,
     "category": "Programming",
     "joke": "Ek programmer ne doosre se poocha: Tumhaari girlfriend kaisi hai?\nDoosra: Null pointer exception, access nahi kar paa raha.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-23T00:51:54.530Z"
   },
   {
     "id": 97,
