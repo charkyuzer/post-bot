@@ -703,8 +703,8 @@
     "id": 101,
     "category": "AI",
     "joke": "AI can write essays, generate art, and solve equations... but somehow my printer still refuses to cooperate.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-24T00:49:50.100Z"
   },
   {
     "id": 102,
