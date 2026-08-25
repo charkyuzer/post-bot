@@ -745,8 +745,8 @@
     "id": 107,
     "category": "Gym",
     "joke": "The hardest exercise at the gym is pretending you know how the machines work.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-25T06:01:20.912Z"
   },
   {
     "id": 108,
