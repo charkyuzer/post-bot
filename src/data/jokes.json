@@ -773,8 +773,8 @@
     "id": 111,
     "category": "Coffee",
     "joke": "Coffee doesn't solve problems. It just makes me energetic enough to create new ones.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-26T00:50:31.752Z"
   },
   {
     "id": 112,
