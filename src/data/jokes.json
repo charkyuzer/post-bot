@@ -787,8 +787,8 @@
     "id": 113,
     "category": "Travel",
     "joke": "Half the vacation budget goes to food. The other half goes to airport coffee.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-26T12:01:21.988Z"
   },
   {
     "id": 114,
