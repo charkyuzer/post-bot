@@ -808,8 +808,8 @@
     "id": 116,
     "category": "Programming",
     "joke": "Nothing builds confidence faster than deleting one line of code and watching everything somehow start working.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-27T00:01:25.692Z"
   },
   {
     "id": 117,
