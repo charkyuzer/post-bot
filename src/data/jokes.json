@@ -857,8 +857,8 @@
     "id": 123,
     "category": "YouTube",
     "joke": "I searched for one tutorial.\nYouTube: 'Here's a documentary about penguins instead.'",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-28T08:16:05.681Z"
   },
   {
     "id": 124,
