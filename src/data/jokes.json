@@ -892,8 +892,8 @@
     "id": 128,
     "category": "Doctors",
     "joke": "Doctor: 'Avoid stress.'\nMy bills: 'Allow us to introduce ourselves.'",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-29T04:59:24.618Z"
   },
   {
     "id": 129,
