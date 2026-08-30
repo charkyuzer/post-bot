@@ -934,8 +934,8 @@
     "id": 134,
     "category": "Programming",
     "joke": "99% of programming is convincing yourself the bug is impossible... until you find the missing semicolon.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-30T02:47:51.791Z"
   },
   {
     "id": 135,
