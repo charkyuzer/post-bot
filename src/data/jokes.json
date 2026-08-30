@@ -976,8 +976,8 @@
     "id": 140,
     "category": "Online Shopping",
     "joke": "I don't have a shopping problem.\nI have a 'Free Shipping Ends Tonight' problem.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-08-30T20:20:53.502Z"
   },
   {
     "id": 141,
