@@ -1109,8 +1109,8 @@
     "id": 159,
     "category": "Instagram",
     "joke": "I posted one selfie.\nInstagram immediately suggested I become an influencer.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-02T12:01:21.665Z"
   },
   {
     "id": 160,
