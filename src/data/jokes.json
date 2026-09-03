@@ -1165,8 +1165,8 @@
     "id": 167,
     "category": "Programming",
     "joke": "My code has excellent security.\nNot even I can get into it anymore.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-03T12:01:20.155Z"
   },
   {
     "id": 168,
