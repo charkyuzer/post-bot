@@ -1151,8 +1151,8 @@
     "id": 165,
     "category": "Teacher",
     "joke": "Teacher: 'It's an open-book test.'\nMe: Great.\nQuestions: 'Explain using your own understanding.'",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-03T06:01:24.635Z"
   },
   {
     "id": 166,
