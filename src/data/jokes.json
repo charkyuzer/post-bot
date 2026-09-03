@@ -1158,8 +1158,8 @@
     "id": 166,
     "category": "Pizza",
     "joke": "Nobody has ever looked sad while holding hot pizza.\nIt's scientifically impossible.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-03T10:28:20.470Z"
   },
   {
     "id": 167,
