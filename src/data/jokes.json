@@ -1137,8 +1137,8 @@
     "id": 163,
     "category": "Gym",
     "joke": "I paid for a gym membership.\nMy bank account got the workout instead.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-03T00:01:19.787Z"
   },
   {
     "id": 164,
