@@ -1179,8 +1179,8 @@
     "id": 169,
     "category": "Amazon",
     "joke": "Amazon knows I don't need another gadget.\nIt just doesn't care.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-03T18:01:17.790Z"
   },
   {
     "id": 170,
