@@ -1221,8 +1221,8 @@
     "id": 175,
     "category": "UPI",
     "joke": "Nothing tests your patience like waiting for 'Payment Successful.'",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-04T12:01:15.563Z"
   },
   {
     "id": 176,
