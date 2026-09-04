@@ -1228,8 +1228,8 @@
     "id": 176,
     "category": "Hostel",
     "joke": "Hostel roommates treat your snacks like public property.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-04T15:31:51.484Z"
   },
   {
     "id": 177,
