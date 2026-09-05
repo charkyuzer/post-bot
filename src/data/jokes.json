@@ -1249,8 +1249,8 @@
     "id": 179,
     "category": "Programming",
     "joke": "My favorite debugging technique is staring at the screen until the bug gets uncomfortable and leaves.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-05T00:01:20.991Z"
   },
   {
     "id": 180,
