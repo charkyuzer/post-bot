@@ -1333,8 +1333,8 @@
     "id": 191,
     "category": "Doctors",
     "joke": "Doctor: 'Get more sleep.'\nNetflix: 'Are you sure about that?'",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-06T12:01:16.249Z"
   },
   {
     "id": 192,
