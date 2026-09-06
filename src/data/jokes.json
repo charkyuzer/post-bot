@@ -1312,8 +1312,8 @@
     "id": 188,
     "category": "Tea",
     "joke": "Tea isn't a drink.\nIt's a software update for Indians.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-06T02:12:22.346Z"
   },
   {
     "id": 189,
