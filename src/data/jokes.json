@@ -1354,8 +1354,8 @@
     "id": 194,
     "category": "Customer Service",
     "joke": "Customer Support:\n'Your estimated wait time is 2 minutes.'\nCalendar: 'Liar.'",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-06T19:49:45.133Z"
   },
   {
     "id": 195,
