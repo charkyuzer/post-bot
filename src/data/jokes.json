@@ -1403,8 +1403,8 @@
     "id": 201,
     "category": "Office",
     "joke": "The office coffee isn't strong.\nIt just lowers your standards.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-07T18:01:24.188Z"
   },
   {
     "id": 202,
