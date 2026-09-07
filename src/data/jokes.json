@@ -1389,8 +1389,8 @@
     "id": 199,
     "category": "Traffic",
     "joke": "Green light.\nOne car moves.\nThe rest spend two business days reacting.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-07T12:01:29.802Z"
   },
   {
     "id": 200,
