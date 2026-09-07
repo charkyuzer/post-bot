@@ -1396,8 +1396,8 @@
     "id": 200,
     "category": "AI",
     "joke": "People worry about AI taking jobs.\nI'm still waiting for autocorrect to stop changing my name.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-07T16:57:43.914Z"
   },
   {
     "id": 201,
