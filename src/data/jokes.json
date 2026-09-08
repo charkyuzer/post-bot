@@ -1459,8 +1459,8 @@
     "id": 209,
     "category": "Pizza",
     "joke": "Sharing pizza is proof that love has limits.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-08T18:01:24.963Z"
   },
   {
     "id": 210,
