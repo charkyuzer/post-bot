@@ -1417,8 +1417,8 @@
     "id": 203,
     "category": "Gym",
     "joke": "I lifted one dumbbell.\nNow I walk around like I own the place.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-08T00:01:27.202Z"
   },
   {
     "id": 204,
