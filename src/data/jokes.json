@@ -1508,8 +1508,8 @@
     "id": 216,
     "category": "Programming",
     "joke": "Debugging is just reading your own lies from last week.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-09T15:40:31.580Z"
   },
   {
     "id": 217,
