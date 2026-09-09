@@ -1480,8 +1480,8 @@
     "id": 212,
     "category": "Coffee",
     "joke": "Coffee doesn't wake me up anymore.\nIt just reminds me I have responsibilities.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-09T02:24:14.768Z"
   },
   {
     "id": 213,
