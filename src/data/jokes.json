@@ -1522,8 +1522,8 @@
     "id": 218,
     "category": "Movies",
     "joke": "Movie tickets are expensive.\nThe popcorn is just there to finish the job.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-09T20:14:59.416Z"
   },
   {
     "id": 219,
