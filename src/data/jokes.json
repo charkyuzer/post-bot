@@ -1564,8 +1564,8 @@
     "id": 224,
     "category": "Gym",
     "joke": "I went to the gym today.\nMostly to refill my water bottle.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-10T15:36:34.774Z"
   },
   {
     "id": 225,
