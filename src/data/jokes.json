@@ -1529,8 +1529,8 @@
     "id": 219,
     "category": "Student",
     "joke": "I don't study under pressure.\nI create the pressure first.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-10T00:01:27.065Z"
   },
   {
     "id": 220,
