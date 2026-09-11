@@ -1634,8 +1634,8 @@
     "id": 234,
     "category": "Dad",
     "joke": "Dad can smell the AC running from another floor.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-11T20:16:18.473Z"
   },
   {
     "id": 235,
