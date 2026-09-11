@@ -1620,8 +1620,8 @@
     "id": 232,
     "category": "Office",
     "joke": "The quickest way to end a meeting is to ask,\n'Who's writing the minutes?'",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-11T15:37:46.668Z"
   },
   {
     "id": 233,
