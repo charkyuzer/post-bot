@@ -1655,8 +1655,8 @@
     "id": 237,
     "category": "Traffic",
     "joke": "The car behind me always believes I'm driving slower than physics allows.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-12T06:01:23.420Z"
   },
   {
     "id": 238,
