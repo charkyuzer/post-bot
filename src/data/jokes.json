@@ -1669,8 +1669,8 @@
     "id": 239,
     "category": "Customer Service",
     "joke": "\"Your feedback is valuable to us.\"\nTranslation: 'We'll never read it.'",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-12T12:01:21.015Z"
   },
   {
     "id": 240,
