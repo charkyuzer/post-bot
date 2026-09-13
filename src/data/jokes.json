@@ -1697,8 +1697,8 @@
     "id": 243,
     "category": "Boss",
     "joke": "Boss: 'No pressure.'\nDeadline: 'Allow me to introduce myself.'",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-13T00:01:20.338Z"
   },
   {
     "id": 244,
