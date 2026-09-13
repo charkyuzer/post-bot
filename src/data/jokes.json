@@ -1746,8 +1746,8 @@
     "id": 250,
     "category": "Traffic",
     "joke": "Traffic teaches patience.\nMostly because you have no other option.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-13T20:03:25.058Z"
   },
   {
     "id": 251,
