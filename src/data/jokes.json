@@ -1711,8 +1711,8 @@
     "id": 245,
     "category": "College",
     "joke": "College teaches many things.\nFinding parking isn't one of them.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-13T06:01:25.872Z"
   },
   {
     "id": 246,
