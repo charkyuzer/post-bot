@@ -1732,8 +1732,8 @@
     "id": 248,
     "category": "Sleep",
     "joke": "The best sleep happens 10 minutes before the alarm.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-13T15:23:36.835Z"
   },
   {
     "id": 249,
