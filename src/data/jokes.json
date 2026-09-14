@@ -1781,8 +1781,8 @@
     "id": 255,
     "category": "Coffee",
     "joke": "Coffee before work.\nCoffee during work.\nCoffee to recover from work.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-14T17:20:06.754Z"
   },
   {
     "id": 256,
