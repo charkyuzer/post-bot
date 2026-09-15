@@ -1809,8 +1809,8 @@
     "id": 259,
     "category": "Programming",
     "joke": "I fixed the production issue.\nNow development has trust issues.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-15T06:01:20.433Z"
   },
   {
     "id": 260,
