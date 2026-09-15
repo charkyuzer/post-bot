@@ -1802,8 +1802,8 @@
     "id": 258,
     "category": "Teacher",
     "joke": "Teacher: 'Any questions?'\nClass: *Silence*\nExam: 'Surprise!'",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-15T02:44:41.232Z"
   },
   {
     "id": 259,
