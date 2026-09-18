@@ -1998,8 +1998,8 @@
     "id": 286,
     "category": "Programming",
     "joke": "The code passed all the tests.\nProduction said, 'Not so fast.'",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-18T15:33:02.392Z"
   },
   {
     "id": 287,
