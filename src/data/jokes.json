@@ -1970,8 +1970,8 @@
     "id": 282,
     "category": "Programming",
     "joke": "I removed one console.log.\nNow I have no idea what's happening.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-18T02:30:31.588Z"
   },
   {
     "id": 283,
