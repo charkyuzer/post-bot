@@ -24,8 +24,8 @@
     "id": 4,
     "category": "College",
     "joke": "Semester ki padhai hamesha kal se shuru hoti hai.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-20T20:04:03.002Z"
   },
   {
     "id": 5,
