@@ -2089,8 +2089,8 @@
     "id": 299,
     "category": "Programming",
     "joke": "My favorite framework is whichever one I don't have to debug today.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-20T06:01:15.190Z"
   },
   {
     "id": 300,
