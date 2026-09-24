@@ -192,8 +192,8 @@
     "id": 28,
     "category": "Traffic",
     "joke": "Google Maps: 10 minute.\nTraffic: Dekhte hain.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-24T02:29:44.149Z"
   },
   {
     "id": 29,
