@@ -227,8 +227,8 @@
     "id": 33,
     "category": "Pizza",
     "joke": "Pizza share karna aur password share karna dono mushkil hai.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-24T18:01:18.071Z"
   },
   {
     "id": 34,
