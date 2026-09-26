@@ -290,8 +290,8 @@
     "id": 42,
     "category": "Hostel",
     "joke": "Hostel ka khana aur attendance...\nDono se sabka emotional damage juda hota hai.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-26T20:27:11.241Z"
   },
   {
     "id": 43,
