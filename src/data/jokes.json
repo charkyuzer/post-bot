@@ -297,8 +297,8 @@
     "id": 43,
     "category": "Tea",
     "joke": "Chai peene ke baad lagta hai life sorted hai.\nBill dekhte hi reality aa jaati hai.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-09-27T02:51:10.750Z"
   },
   {
     "id": 44,
