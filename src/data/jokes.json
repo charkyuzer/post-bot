@@ -549,8 +549,8 @@
     "id": 79,
     "category": "Cab",
     "joke": "Cab driver: 2 minute.\nMap: 12 minute.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-10-07T03:34:50.653Z"
   },
   {
     "id": 80,
