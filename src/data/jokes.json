@@ -605,8 +605,8 @@
     "id": 87,
     "category": "Programming",
     "joke": "Database Administrator: Mujhe ek naya ghar chahiye.\nAgent: SQL format me chahiye ya NoSQL?\nDBA: SQL! Partitioning to automatic honi chahiye.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-10-09T22:04:22.572Z"
   },
   {
     "id": 88,
