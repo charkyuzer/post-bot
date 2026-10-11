@@ -661,8 +661,8 @@
     "id": 95,
     "category": "Programming",
     "joke": "Internet Explorer: Guys, 2026 me hum viral ho rahe hain na?\nChrome: Bro, tumhara update kab ka band ho gaya hai.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-10-11T21:18:47.660Z"
   },
   {
     "id": 96,
