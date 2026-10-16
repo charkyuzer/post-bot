@@ -780,8 +780,8 @@
     "id": 112,
     "category": "Manager",
     "joke": "Manager: 'Do you have five minutes?'\nTranslation: 'Cancel the rest of your afternoon.'",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-10-16T20:20:33.715Z"
   },
   {
     "id": 113,
