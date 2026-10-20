@@ -871,8 +871,8 @@
     "id": 125,
     "category": "WiFi",
     "joke": "The WiFi is always fastest when nobody actually needs it.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-10-20T10:44:14.423Z"
   },
   {
     "id": 126,
