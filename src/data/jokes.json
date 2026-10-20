@@ -864,8 +864,8 @@
     "id": 124,
     "category": "Traffic",
     "joke": "Traffic lights are just suggestion boxes for some drivers.",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-10-20T02:50:19.417Z"
   },
   {
     "id": 125,
