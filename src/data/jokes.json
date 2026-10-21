@@ -906,8 +906,8 @@
     "id": 130,
     "category": "Diet",
     "joke": "Every diet ends the same way:\n'I'll start again on Monday.'",
-    "posted": false,
-    "posted_at": null
+    "posted": true,
+    "posted_at": "2026-10-21T16:22:54.041Z"
   },
   {
     "id": 131,
